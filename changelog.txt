@@ -6,6 +6,7 @@ General:
 
 BFX:
 + Updated "Baffle" text effect
++ New "aurora" animated background
 
 bIcons:
 + 

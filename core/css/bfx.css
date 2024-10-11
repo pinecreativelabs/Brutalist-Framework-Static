@@ -292,6 +292,19 @@ span.glitch { -webkit-animation: glitch2 1.25s infinite; animation: glitch2 1.25
 /* ANIMATED BACKGROUNDS 
  * =============================
  */
+.aurora {
+	background: #181818;
+	animation: aurora-borealis 15s linear infinite;
+	background-size: 200% 200%;
+	background-image: radial-gradient(transparent 0, transparent 20%), radial-gradient(at 62% 9%, #7FFF00 0px, transparent 50%), radial-gradient(at 69% 60%, #FF00FF 0px, transparent 50%), radial-gradient(at 74% 60%, #00E3E7 0px, transparent 50%), radial-gradient(at 24% 89%, #00FFFF 0px, transparent 50%), radial-gradient(at 38% 69%, #062043 0px, transparent 50%), radial-gradient(at 51% 77%, #07113F 0px, transparent 50%), radial-gradient(at 63% 75%, #000000 0px, transparent 50%), radial-gradient(at 78% 92%, #7FFF00 0px, transparent 50%);
+}
+@keyframes aurora-borealis {
+  0% {background-position: center, 50% 50%, 30% 100%, 100% 10%, 21% 23%, 0% 80%;}
+  33.333% {background-position: center, 10% 75%, 40% 80%, 60% 20%, 43% 23%, 16% 30%;}
+  66.666% {background-position: center, 25% 45%, 80% 50%, 10% 10%, 66% 5%, 30% 0%;}
+  100% {background-position: center, 50% 50%, 30% 100%, 100% 10%, 21% 23%, 0% 72%;}
+}
+ 
 .dotgrid,.dotgrid-throb {
 	background: radial-gradient(#333 8%, transparent 8%), #fff;
 	background-position: 0 0, 25px 25px; background-size:25px 25px;
