@@ -1,0 +1,29 @@
+Brutalist Framework Changelog
+
+Version 2.5
+General:
++ Update to core structure
+
+BFX:
++ Updated "Baffle" text effect
+
+bIcons:
++ 
+
+BUFF:
++ 
+
+BUIX:
++ 
+
+BUTCH:
++ 
+
+Flavors:
++ 
+
+FUX:
++ 
+
+Rebar:
++ 
