@@ -8,23 +8,16 @@ BFX:
 + Updated "Baffle" text effect
 + New "aurora" animated background
 
-bIcons:
-+ 
+bIcons: no changes
 
-BUFF:
-+ 
+BUFF: no changes
 
-BUIX:
-+ 
+BUIX: no changes
 
-BUTCH:
-+ 
+BUTCH: no changes
 
-Flavors:
-+ 
+Flavors: no changes
 
-FUX:
-+ 
+FUX: no changes
 
-Rebar:
-+ 
+Rebar: no changes
