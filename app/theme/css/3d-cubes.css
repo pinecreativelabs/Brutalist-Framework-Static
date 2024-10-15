@@ -1,6 +1,25 @@
 /* CUBESEA */
+:root {
+	--unit: 10vw;
+	--half: 5vw;
+	--neg-half: -5vw;
+	/*--gray-1: #E0E0E0;*/
+	--gray-1: url('images/concrete_tile001.jpg');
+	/*--gray-2: #D0D0D0;*/
+	--gray-2: url('images/concrete_tile002.jpg');
+	/*--gray-3: #BEBEBE;*/
+	--gray-3: url('images/concrete_tile003.jpg');
+	/*--gray-4: #A8A8A8;*/
+	--gray-4: url('images/concrete_tile004.jpg');
+	/*--gray-5: #888888;*/
+	--gray-5: url('images/concrete_tile005.jpg');
+	/*--gray-6: #707070;*/
+	--gray-6: url('images/concrete_tile006.jpg');
+	--duration: 20s;
+}
+*,*:before,*:after {box-sizing: border-box;}
 .grid-mask {transform-style: preserve-3d;
-	height: 90vh; z-index: 1; perspective: 1000px;
+	height: 100vh; z-index: 1; perspective: 1000px;
 	overflow: hidden; display: flex;
 	align-items: center; justify-content: center;
 }
