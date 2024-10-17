@@ -112,17 +112,17 @@
 					<div class="spacer-tall"id="bfx-tab"></div>
 					<div class="padded link-block">
 						<h3 class="courier bold"><i class="bi bi-sparkle"></i> BFX</h3>
-						<p class="flow-text lucida">Brutal Effects<br />Extender<br />
-						<span class="smaller tahoma">CSS and javascript-based effects.</span></p>
-						<a href="bfx.html" class="courier lbbtn">Start.Brutalizing &raquo;</a>
+						<p class="flow-text lucida">Brutal Effects<br />
+						<span class="smaller tahoma">Element animations &amp; other effects.</span></p>
+						<a href="bfx.html" class="courier lbbtn">Animate &raquo;</a>
 					</div>
 						
 					<div class="spacer-tall" id="fux-tab"></div>
 					<div class="padded link-block">
 						<h3 class="courier bold"><i class="bi bi-grid"></i> FUX</h3>
 						<p class="flow-text lucida">Form User eXperience<br />
-						<span class="smaller tahoma">User input components.</span></p>
-						<a href="fux.html" class="courier lbbtn">Create Layouts &raquo;</a>
+						<span class="smaller tahoma">User input &amp; form components.</span></p>
+						<a href="fux.html" class="courier lbbtn">Formulate &raquo;</a>
 					</div>
 						
 					<div class="spacer-tall" id="rebar-tab"></div>
@@ -136,15 +136,15 @@
 					<div class="spacer-tall" id="f-tab"></div>
 					<div class="padded link-block">
 						<h3 class="courier bold"><i class="bi bi-cone"></i> Flavors</h3>
-						<p class="flow-text lucida">Color Classes<br />Library<br />
-						<span class="smaller tahoma">Gradient backgrounds and general color classes.</span></p>
+						<p class="flow-text lucida">Color Classes Library<br />
+						<span class="smaller tahoma">Gradient backgrounds &amp; general color classes.</span></p>
 						<a href="flavors.html" class="courier lbbtn">Taste &raquo;</a>
 					</div>
 						
 					<div class="spacer-tall" id="bicons-tab"></div>
 					<div class="padded link-block">
 						<h3 class="courier bold"><i class="bi bi-flag"></i> bIcons</h3>
-						<p class="flow-text lucida">Brutal<br />Icons<br />
+						<p class="flow-text lucida">Brutal Icons<br />
 						<span class="smaller tahoma">Native UTF-8 symbols in the form of icon classes.</span></p>
 						<a href="bicons.html" class="courier lbbtn">Symbolize &raquo;</a>
 					</div>
@@ -152,9 +152,9 @@
 					<div class="spacer-tall" id="buff-tab"></div>
 					<div class="padded link-block">
 						<h3 class="courier bold"><i class="bi bi-fill"></i> BUFF</h3>
-						<p class="flow-text lucida">Blend Utility<br />for Filters<br />
+						<p class="flow-text lucida">Blend Utility for Filters<br />
 						<span class="smaller tahoma">CSS blends and preset filters.</span></p>
-						<a href="buff.html" class="courier lbbtn">Extend &raquo;</a>
+						<a href="buff.html" class="courier lbbtn">Buff Up &raquo;</a>
 					</div>
 					<div class="spacer-tall"></div><div class="spacer-tall"></div>
 				</div>
@@ -180,7 +180,7 @@
 					<!-- TAB 1 -->
 					<input type="radio" name="tabs" id="tab1" checked="checked">
 					<label for="tab1" class="red-b brdr-s-t platinum"><span class="red-text heavy">Setup</span></label>
-					<div class="tab red-b b-s-t hometab1 lemon-t" style="background: url('theme/default/files/images/stepping-stone-falls.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; padding: 3.5em;" >
+					<div class="tab red-b b-s-t hometab1 lemon-t" style="background: url('app/files/images/stepping-stone-falls.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; padding: 3.5em;" >
 						<div class="red-b brdr-s-k white-t padded" style="background: rgba(0,0,0,0.9);">
 							<h3 class="flow-text">Components</h3>
 							<p>There are three main components to BF:</p>
@@ -216,27 +216,36 @@
 								<li>/core/css/brutalist.min.css <span class="lemon-t">- OR -</span> /core/css/dev/core.css</li>
 							</ul>
 							<p style="margin-bottom: 1em;">The <em>brutalist.min.css</em> file is a minified CSS file that contains all core components found in <em>/core/css/dev</em> directory.</p>
-							<p>As of version 2.4 and up, you will need the following javascript files:</p>
-							<ul class="lime-t triangle">
-								<li>/core/js/jab.js</li>
-								<li>/core/js/jquery.3.js</li>
-								<li>/core/js/brutalist.js</li>
-								<li>/core/js/start.brutalizing.js</li>
-							</ul>
-							<p class="indent" style="margin-bottom: 0.5em;">The <em>brutalist.js</em> javascript file contains all functionality that is dependent on jQuery. Some variables can be customized in the <em>start.brutalizing.js</em> initialization script.</p>
-							<p class="indent" style="margin-bottom: 0.5em;">The <em>jab.js</em> file is for all pure vanilla javascript functions. JAB (javascript application base) contains functions that are NOT dependent on jQuery.</p>
-							<p class="indent">If you are using jQuery, BF includes all 3 versions of jQuery in the <em>/core/js</em> directory:</p>
-							<ul class="mint-t triangle">
-								<li>/core/js/jquery.1.js</li>
-								<li>/core/js/jquery.2.js</li>
-								<li class="lime-t">/core/js/jquery.3.js</li>
-							</ul>
-							<p>It's advised to use jQuery 3, as versions 1 and 2 are no longer supported. Certain core BF elements don't work with jQuery 1 and 2.</p>
+							
 						</div>
 					</div>
 					<!-- TAB 2 -->
 					<input type="radio" name="tabs" id="tab2">
-					<label for="tab2" class="red-b b-s-t platinum"><span class="red-t heavy">Changelog</span></label>
+					<label for="tab2" class="red-b b-s-t platinum"><span class="red-t heavy">CSS</span></label>
+					<div class="tab red-b b-s-t monochrome">
+						<h3 class="flow-text">Core Style Sheets</h3>
+						<p>All CSS files are found in the <span class="terminal">core/css/</span> directory, which can be used individually. However, the only CSS file you'll need is:<br /><br />
+						<span class="flow-text bold red-t"><em>core/css/construct.css</em></span><br /><br />This will import all the necessary CSS files, including Blueprint Grid.</p>
+					</div>
+					
+					<!-- TAB 3 -->
+					<input type="radio" name="tabs" id="tab3">
+					<label for="tab3" class="red-b b-s-t platinum"><span class="red-t heavy">JAB</span></label>
+					<div class="tab red-b b-s-t monochrome">
+						<h3 class="flow-text">Javascript Application Base (<em>JAB</em>)</h3>
+						<p>All javascript files are found in the <span class="terminal"><em>core/jab/</em></span> directory. Some are vanilla javascript, while others are jQuery plugins. Certain BFX, BUIX, and FUX elements require javascript files.</p>
+						<p class="indent">If you are using jQuery, BF includes all 3 versions of jQuery in the <span class="terminal"><em>core/jab/</em></span> directory:</p>
+						<ul class="grey-t triangle">
+							<li>core/jab/jquery.1.js</li>
+							<li>core/jab/jquery.2.js</li>
+							<li class="black-t">core/jab/jquery.3.js</li>
+						</ul>
+						<p>It's advised to use jQuery 3, as versions 1 and 2 are no longer supported. Certain core BF elements don't work with jQuery 1 and 2.</p>
+					</div>
+					
+					<!-- TAB 4 -->
+					<input type="radio" name="tabs" id="tab4">
+					<label for="tab4" class="red-b b-s-t platinum"><span class="red-t heavy">Changelog</span></label>
 					<div class="tab red-b b-s-t glassmorph">
 						<h4 class="courier red-t white-t-s bold">What's New in 2.4?</h4>
 						<p><b>General:</b><br />
@@ -264,9 +273,9 @@
 						<p>&nbsp;</p>
 					</div>
 					
-					<!-- TAB 3 -->
-					<input type="radio" name="tabs" id="tab3">
-					<label for="tab3" class="red-b b-s-t platinum"><span class="red-t heavy">BONUS</span></label>
+					<!-- TAB 5 -->
+					<input type="radio" name="tabs" id="tab5">
+					<label for="tab5" class="red-b b-s-t platinum"><span class="red-t heavy">BONUS</span></label>
 					<div class="tab red-b b-s-t monochrome">
 						<p class="flow-text">The following <em>bonus</em> templates are included:</p>
 						<ul class="none">
@@ -302,7 +311,7 @@
 	
 </div>
 
-<!-- Sticky Download Box -->
+<!-- Sticky Box -->
 <div class="sticky-cta fixed-b-r layer-h red jagged2 center" style="padding: 8px 10px 8px 8px; max-width: 180px;">
 	<nav class="simple heavy" style="margin-bottom: 4px;">
 		<ul class="lucida flow-text">

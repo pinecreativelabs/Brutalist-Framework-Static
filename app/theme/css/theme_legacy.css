@@ -1,19 +1,18 @@
 /* Default Theme Style
 ===================================================*/ 
 header { padding: 1em 0 1em 0; }
-.coming-soon { background-image: url('../files/images/concrete-room.jpg');
+.coming-soon { background-image: url('images/concrete-room.jpg');
 	background-position: center center; background-size: cover; background-attachment: fixed; 
 }
 .homepage { background-color: #000;
 	background-position: right; background-repeat: repeat-y;
-	background-image: url('../files/images/brutal-tiles.jpg'); background-attachment: fixed;
+	background-image: url('images/brutal-tiles.jpg'); background-attachment: fixed;
 	background-size: 30% auto;
 }
 .home-head { border-right: 5px solid #ff0000; padding: 0; border-top: 4px solid #ff0000;}
-.darkangel { background-image: url('../files/images/blox.png'); background-attachment: fixed; background-size: 25% auto; 
+.darkangel { background-image: url('images/blox.png'); background-attachment: fixed; background-size: 25% auto; 
 	background-position: left top; background-repeat: no-repeat;
 }
-/*.home-head:hover { background-image: url('../files/images/kitty/bfx-kat.jpg'); cursor: default;}*/
 .glitchybox { width: 220px; max-width: 220px; height: 220px; display: inline-block; position: absolute; left: 3em; top: 8em; }
 .sliced-corner { -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
   clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
@@ -35,15 +34,6 @@ header { padding: 1em 0 1em 0; }
 	font-size: 1.5em; line-height: 140%; font-weight: 600; color: #fff; text-shadow: 2px 2px #000;
 }
 .link-block a.lbbtn:hover { display: block; width: 100%; text-align: center; text-decoration: none;text-shadow: 2px 2px #fff; color: #000;}
-.link-block.rebar { background-image: url('../files/images/gelora/rebar.jpg');}
-.link-block.bicons { background-image: url('../files/images/kitty/anarchistkat-sq.jpg');}
-.link-block.bfx { background-image: url('../files/images/kitty/bfx-kat.jpg');}
-.link-block.buix { background-image: url('../files/images/gelora/backup-sq.jpg');}
-.link-block.butch { background-image: url('../files/images/gelora/brutal-mood-4.jpg');}
-.link-block.flavors { background-image: url('../files/images/gelora/crazy-grin.jpg');}
-.link-block.bell { background-image: url('../files/images/gelora/brutal-mood-1.jpg');}
-.link-block.grids { background-image: url('../files/images/gelora/fenced.jpg');}
-.link-block.boils { background-image: url('../files/images/gelora/grainy-meditation.jpg');}
 
 .home-head h1 { display: inline-block; font-size: 2em; }
 .home-head .stackswitch { max-width: 250px;}
@@ -54,8 +44,6 @@ header { padding: 1em 0 1em 0; }
 	background-repeat: no-repeat; background-size: cover; background-position: center center; 
 	font-size: 1.5em; line-height: 140%; 
 }
-.about-btn { background-image: url('../files/images/liminal-blood.jpg'); }
-.pr-btn { background-image: url('../files/images/edgespace.jpg'); }
 .git-btn { width: 150px; height: 150px; background: #000; color: #fff; padding-top: 2.5em; border-radius: 50%; -webkit-border-radius: 50%; display: inline-block; line-height: 140%; font-size: 1.5em;  }
 
 .bpmodal { background-image: url('../files/images/gelora/grainy-meditation.jpg'); background-size: cover; background-position: center top; background-repeat: no-repeat; }
@@ -69,11 +57,7 @@ header { padding: 1em 0 1em 0; }
 	background-repeat: no-repeat; background-size: cover; background-position: center center; 
 	padding-top: 1.8em; padding-bottom: 1.8em;
 }
-.demo-cover-1 { background-image: url('../files/images/apocalypse-architecture.jpg'); }
 .about-section .tabs input[type="radio"]:checked + label { background: #fff !important; } /* Force white background on active tabs on home page */
-
-.d1, .d2, .d3, .d4 { background: url('../files/images/brutalist001.jpg');}
-
 .menu i::before { width: 1.2em; text-align: center; }
 .menu ul li ul li > a:hover, .menu li > a:hover { text-decoration: none; border-bottom: 2px solid #333;}
 @media only screen and (min-width: 769px) and (max-width: 1600px){
@@ -150,7 +134,7 @@ font-size: calc(14px + (24 - 14) * ((100vw - 300px) / (1920 - 300))) !important;
     cursor: pointer;
 }
 #wheelnav-radialWheel-title-5 > tspan {
-    font-family: 'Bookman Old Style', Bookman, 'URW Bookman L', 'Palatino Linotype', serif;
+    font-family: 'Bookman Old Style', 'Bookman', 'URW Bookman L', 'Palatino Linotype', serif;
 }
 .wheelnav-radialWheel-title-basic-5 > tspan { font-size: 17px;}
 .wheelnav-radialWheel-title-hover-5 > tspan { font-size: 23px;}
