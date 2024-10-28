@@ -28,3 +28,4 @@ Static HTML-only version of BF. This version of Brutalist Framework uses CSS3, j
 ### ReBAR
 [**Responsive Breakpoint Assistance Reference**] Utility class library for enhancing responsive behavior across multiple devices.
 
+Documentation is self-contained in this package. Consult each HTML page for examples and details.
