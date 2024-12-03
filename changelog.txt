@@ -1,18 +1,15 @@
 Brutalist Framework Changelog
 
-Version 2.5
-General:
-+ Update to core structure
+Version 2.5.1
 
-BFX:
-+ Updated "Baffle" text effect
-+ New "aurora" animated background
+BFX: no changes
 
 bIcons: no changes
 
 BUFF: no changes
 
-BUIX: no changes
+BUIX: 
++ Added new vanilla js "B-Tabs" 
 
 BUTCH: no changes
 

@@ -1,5 +1,5 @@
 /*************************************************
-BUIX 3.1 - Base User Interface Experience
+BUIX 2.5.1 - Base User Interface Experience
 **************************************************/
 @import url('variables.css');
 @font-face {
@@ -455,6 +455,104 @@ ul.tree-list ul { padding: 0 0 0 1.2em; margin: 0; list-style-type: none; }
 @media (max-width: 45em) {
   .tabs .tab, .tabs label { order: initial; }
   .tabs label {width: 100%; margin-right: 0; margin-top: 0.2rem;}
+}
+
+/* B-TABS */
+.b-tabs {
+	list-style: none; margin: 0 0 1.75rem 0; padding: 0; 
+}
+.tabs__nav {font-size: 1.15rem;}
+.tabs__nav_link {
+	cursor: pointer; text-decoration: none; font-weight: 400; padding: 0.75rem;
+	border: 1px solid var(--other); color: var(--secondary);
+}
+.tab-content {
+	display: block; transition: opacity 0.2s; color: var(--secondary);
+	border: 1px solid var(--other);
+}
+/* B-TABS: horizontal */
+.b-tabs.style__horizontal .tab-content,
+.b-tabs.style__vertical .tab-content {
+	height: 0; opacity: 0;
+	overflow: hidden; visibility: hidden;
+}
+.b-tabs.style__horizontal .tab-content.is__active,
+.b-tabs.style__vertical .tab-content.is__active,
+.tab-content.is__active {
+	opacity: 1; height: auto; flex-grow: 1;
+	visibility: visible; padding: 1rem;
+}
+.b-tabs.style__horizontal .tabs__nav {
+	position: relative;
+	z-index: 2; display: flex;
+	margin-bottom: -1px;
+}
+.b-tabs.style__horizontal .tabs__nav .tabs__nav_link {
+	display: block; border-bottom: 0;
+	margin: 0 3px; background: var(--primary);
+}
+.b-tabs.style__horizontal .tabs__nav .tabs__nav_link.is__active {
+	background: var(--auxiliary); color: var(--accent);
+}
+.b-tabs.style__horizontal .tab-content.is__active {
+	background: var(--primary); position: relative; z-index: 1;
+}
+.b-tabs.style__horizontal .tab-content .tabs__nav_link {display: none;}
+/* B-TABS: vertical */
+.b-tabs.style__vertical {display: flex; width: 100%;}
+.b-tabs.style__vertical .tabs__nav {flex: 0 0 auto;}
+.b-tabs.style__vertical .tabs__nav .tabs__nav_link {
+	border: 1px solid var(--other);
+	border-right: 0; margin: 0;
+	padding: 0.75rem; background: var(--primary);
+	display: block; transition: all 0.5s ease;
+}
+.b-tabs.style__vertical .tabs__nav .tabs__nav_link.is__active {
+	font-weight: bold; background: var(--auxiliary); color: var(--accent);
+}
+.b-tabs.style__vertical .tab-content {flex-grow: 1; width: 0;}
+.b-tabs.style__vertical .tab-content .tabs__nav_link {display: none;}
+.b-tabs.style__vertical .tab-content.is__active {
+	border: 1px solid var(--other);
+	background: var(--primary); padding: 18px;
+	position: relative; 
+	z-index: 1; width: auto; flex-basis: auto;
+}
+/* B-TABS: accordion */
+.b-tabs.style__accordion, .b-tabs.is__responsive {display: block;}
+.b-tabs.style__accordion .tabs__nav,.b-tabs.is__responsive .tabs__nav {
+	display: none;
+}
+.b-tabs.style__accordion .tabs__nav_link,
+.b-tabs.is__responsive .tabs__nav_link,
+.b-tabs.style__accordion .tab-content .tabs__nav_link,
+.b-tabs.is__responsive .tab-content .tabs__nav_link {
+	display: block; padding: 0.75rem; 
+}
+.b-tabs.style__accordion .tabs__nav_link.is__active,
+.b-tabs.is__responsive .tabs__nav_link.is__active {
+	font-weight: 700; margin-bottom: 0;
+	background: var(--auxiliary); color: var(--accent);
+}
+.b-tabs.style__accordion .tab-content,
+.b-tabs.is__responsive .tab-content {
+	border: 1px solid var(--other);
+	padding: 0; margin: 0;
+	background: var(--primary); display: block;
+	height: auto; flex: none;
+	opacity: 1; visibility: visible;
+	overflow: auto; width: auto;
+}
+.b-tabs.style__accordion .tab_content_wrapper,
+.b-tabs.is__responsive .tab_content_wrapper {
+	height: 0; overflow: hidden;
+	transform: scaleY(0);
+	transition: transform 0.2s;
+	transform-origin: top left;
+}
+.b-tabs.style__accordion .tab-content.is__active .tab_content_wrapper,
+.b-tabs.is__responsive .tab-content.is__active .tab_content_wrapper {
+	height: auto; transform: scaleY(1); padding: 1rem;
 }
 
 
