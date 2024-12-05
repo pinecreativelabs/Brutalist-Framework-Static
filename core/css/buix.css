@@ -511,11 +511,11 @@ ul.tree-list ul { padding: 0 0 0 1.2em; margin: 0; list-style-type: none; }
 	font-weight: bold; background: var(--auxiliary); color: var(--accent);
 }
 .b-tabs.style__vertical .tab-content {flex-grow: 1; width: 0;}
-.b-tabs.style__vertical .tab-content .tabs__nav_link {display: none;}
+.b-tabs.style__vertical .tab-content .tabs__nav_link{display: none;}
 .b-tabs.style__vertical .tab-content.is__active {
 	border: 1px solid var(--other);
 	background: var(--primary); position: relative;
-	z-index: 1; width: auto; flex-basis: auto;
+	z-index: 1; width: 100%; flex-basis: 100%;
 }
 /* B-TABS: accordion */
 .b-tabs.style__accordion, .b-tabs.is__responsive {display: block;}
