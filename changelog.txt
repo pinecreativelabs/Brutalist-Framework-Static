@@ -1,5 +1,4 @@
 Brutalist Framework Changelog
-
 Version 2.5.1
 
 BFX: no changes
