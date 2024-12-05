@@ -13,7 +13,8 @@ BUIX:
 
 BUTCH: no changes
 
-Flavors: no changes
+Flavors: 
++ 7 new mesh gradients: chosen, dreamscape, polyamory, purgatory, purify, sunscape, & warm-winter
 
 FUX: no changes
 
