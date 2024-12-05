@@ -13,6 +13,7 @@ BUIX:
 
 BUTCH:
 + Introduction of "Flex-Text"
++ Added "layer-t" (topmost) class to layering
 
 Flavors: 
 + 7 new mesh gradients: chosen, dreamscape, polyamory, purgatory, purify, sunscape, & warm-winter
