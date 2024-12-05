@@ -176,7 +176,7 @@ dl dd:before {float: left; width: 1em; content: '\2771';}
 .gap50{ -webkit-column-gap: 50px; -moz-column-gap: 50px; column-gap: 50px; }
 .gap60{ -webkit-column-gap: 60px; -moz-column-gap: 60px; column-gap: 60px; }
 
-/* FLUID TEXT */
+/* FLUID & FLEX TEXT */
 .fluid-text {font-size: calc(12px + (32 - 12) * ((100vw - 300px) / (1920 - 300))); line-height: 100%;}
 h1.fluid-text, .fluid-text-h1 {font-size: calc(28px + (128 - 28) * ((100vw - 300px) / (1920 - 300)));} 
 h2.fluid-text, .fluid-text-h2 {font-size: calc(22px + (96 - 22) * ((100vw - 300px) / (1920 - 300)));}
@@ -184,6 +184,11 @@ h3.fluid-text, .fluid-text-h3 {font-size: calc(18px + (76 - 18) * ((100vw - 300p
 h4.fluid-text, .fluid-text-h4 {font-size: calc(16px + (64 - 16) * ((100vw - 300px) / (1920 - 300)));}
 h5.fluid-text, .fluid-text-h5 {font-size: calc(14px + (54 - 14) * ((100vw - 300px) / (1920 - 300)));}
 h6.fluid-text, .fluid-text-h6 {font-size: calc(14px + (44 - 14) * ((100vw - 300px) / (1920 - 300)));}
+
+.flex-text {
+	font-size: calc(14px + (48 - 14) * ((100vw - 300px) / (1920 - 300)));
+	font-size: clamp(var(--minflextext), var(--prefflextext), var(--maxflextext));
+}
 
 /* FLOW TEXT */
 @media only screen and (min-width: 361px) {.flow-text {font-size: 1.2rem;}}
@@ -314,6 +319,7 @@ h6.fluid-text, .fluid-text-h6 {font-size: calc(14px + (44 - 14) * ((100vw - 300p
 .layer-l, .stack-l, .stack-low {z-index: var(--low) !important;}
 .layer-m, .stack-m, .stack-middle {z-index: var(--mid) !important;}
 .layer-h, .stack-h, .stack-high {z-index: var(--high) !important;}
+.layer-t, .stack-t, .stack-top {z-index: var(--topmost) !important;}
 .sticky, .glued {position: -webkit-sticky; position: sticky; top: 0px;}
 .fixed,.fixed-t-l,.fixed-t-r,.fixed-b-l,.fixed-b-r{position: fixed;}
 .fixed-t-l {top: 0; left: 0;}

@@ -1,5 +1,4 @@
 /* Core Global Variables */
-
 :root {
 	/* Font Sizes */
 	--fontsize: 16px;
@@ -9,6 +8,11 @@
 	--heading4: 1.75rem; /* 28px */
 	--heading5: 1.5rem;  /* 24px */
 	--heading6: 1.25rem; /* 20px; */
+	
+	/* Flex-Text */
+	--minflextext: 1.5rem;  /* minimum text size */
+	--prefflextext: 4vw;    /* preferred text size */
+	--maxflextext: 4.5rem;  /* maximum text size */
 	
 	/* Global Color Scheme */
 	--primary: #fff;
@@ -79,5 +83,5 @@
 	--low: 3;
 	--mid: 5;
 	--high: 7;
-	
+	--topmost: 89;
 }

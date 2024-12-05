@@ -11,7 +11,8 @@ BUFF: no changes
 BUIX: 
 + Added new vanilla js "B-Tabs" 
 
-BUTCH: no changes
+BUTCH:
++ Introduction of "Flex-Text"
 
 Flavors: 
 + 7 new mesh gradients: chosen, dreamscape, polyamory, purgatory, purify, sunscape, & warm-winter

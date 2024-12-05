@@ -170,11 +170,13 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		<p class="break-all"><strong>.break-all</strong> <small>[lines may break between any two letters]</small></p>
 		<p class="break"><strong>.break</strong> <small>[word wrap allows unbreakable words to be broken]</small></p>
 		<p class="guard-text"><strong>.guard</strong> <small>[prevents text from being selectable]</small></p>
-		<h4 class="white-t flow-text charcoal courier">Responsive Text</h4>
-		<p class="flow-text"><span class="charcoal"><strong>.flow-text</strong></span> Flow-text makes your text responsive! The font size uses media queries, so it scales depending on the screen width.</p>
+		<p class="spacer"></p>
+		
+		<h4 class="white-t flow-text charcoal courier"><strong>.flow-text</strong> <small>(responsive text)</small></h4>
+		<p class="flow-text">Flow-text makes your text responsive! The font size uses media queries, so it scales depending on the screen width.</p>
 		<p>This is a paragraph <em>without</em> flow-text applied.</p>
-		<h4 class="white-t flow-text charcoal courier">Fluid Text</h4>
-		<p><em><strong>Fluid-text</strong></em> is similar to <em>flow-text</em> in that the size scales in relation to the screen size. However, it does NOT make use of media queries. Rather, it uses a calculated scale range to determine the font size. Done in pure CSS!<br /><br /></p>
+		<h4 class="white-t flow-text charcoal courier"><strong>.fluid-text</strong></h4>
+		<p><em>Fluid-text</em> is similar to <em>flow-text</em> in that the size scales in relation to the screen size. However, it does NOT make use of media queries. Rather, it uses a calculated scale range to determine the font size. Done in pure CSS!<br /><br /></p>
 		<p class="fluid-text bold">.fluid-text</p>
 		<p class="fluid-text-h1">.fluid-text-h1</p>
 		<p class="fluid-text-h2">.fluid-text-h2</p>
@@ -182,7 +184,11 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		<p class="fluid-text-h4">.fluid-text-h4</p>
 		<p class="fluid-text-h5">.fluid-text-h5</p>
 		<p class="fluid-text">.fluid-text-h6</p>
+		<h4 class="white-t flow-text charcoal courier"><strong>.flex-text</strong></h4>
+		<p><em>Flex-text</em> uses variables to define a minimum, preferred, and maximum font size, which will scale in proportion to the screen size.</p>
+		<p class="flex-text">.flex-text</p>
 		<p class="spacer"></p>
+		
 		<p class="white-t flow-text charcoal courier">Address</p>
 		<address>Address Line 1<br />Address Line 2<br />Address Line 3</address>
 		<p>&nbsp;</p>
@@ -385,7 +391,7 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 				<strong>.fifth</strong> <small>[20% width]</small><br /><strong>.sidebar</strong> <small>[25% width]</small><br /> <strong>.main</strong> <small>[75% width]</small>
 				</p>
 				<p style="margin-top: 1em;" class="padded blueprint"><span class="flow-text monolisk"><i class="bi bi-grid"></i>Blueprint Grid</span><br />
-				If a more robust layout grid is needed, take a look at our <a href="grids.php" class="lemonlink"><strong>multi-method layout grid system</strong></a>.</p>
+				If a more robust layout grid is needed, take a look at our <a href="grids.html" class="lemonlink"><strong>multi-method layout grid system</strong></a>.</p>
 			</div>
 		</div>
 		<p class="spacer"></p>
@@ -434,7 +440,8 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			<strong>.layer-b</strong> <small>[lowest z-index using <em>--base</em> variable]</small><br />
 			<strong>.layer-l</strong> <small>[low z-index using <em>--low</em> variable]</small><br />
 			<strong>.layer-m</strong> <small>[middle z-index using <em>--mid</em> variable]</small><br />
-			<strong>.layer-h</strong> <small>[high z-index using <em>--high</em> variable]</small></p>
+			<strong>.layer-h</strong> <small>[high z-index using <em>--high</em> variable]</small><br />
+			<strong>.layer-t</strong> <small>[topmost z-index using <em>--topmost</em> variable]</small></p>
 		</div></div>
 		<p class="spacer"></p>
 		<div class="clear-block jagged"><p class="checkerboard padding"></p></div>
