@@ -3,6 +3,7 @@ Version 2.5.1
 
 BFX:
 + New "aurora" animated background
++ New "Turbulence" SVG filter effect
 
 bIcons: no changes
 
