@@ -149,6 +149,7 @@
 .bi-dice::before{content:"\1F3B2";}
 .bi-door::before{content:"\1F6AA";}
 .bi-dress::before{content:"\1F457";}
+.bi-fireworks::before{content:"\1F386";}
 .bi-flashlight::before{content:"\1F526";}
 .bi-fork-knife::before,.bi-cutlery::before{content:"\1F374";}
 .bi-fountain::before{content:"\26F2";}
@@ -191,6 +192,7 @@
 .bi-skull::before{content:"\1F480";}
 .bi-soap::before{content:"\1F9FC";}
 .bi-socks::before{content:"\1F9E6";}
+.bi-sparkler::before{content:"\1F387";}
 .bi-spoon::before{content:"\1F944";}
 .bi-tag::before{content:"\1F516";}
 .bi-target::before{content:"\1F3AF";}
@@ -212,6 +214,7 @@
 .bi-vhs::before{content:"\1F4FC";}
 .bi-violin::before{content:"\1F3BB";}
 .bi-wrench::before{content:"\1F527";}
+.bi-yarn::before{content:"\1F9F6";}
 
 /* Places */
 .bi-castle::before{content:"\1F3F0";}
@@ -268,20 +271,24 @@
 
 /* Misc Symbols */
 .bi-amp::before{content:"\26A1";}
+.bi-anger::before{content:"\1F4A2";}
 .bi-angle::before{content:"\2220";}
 .bi-alternate::before{content:"\26D5";}
 .bi-atomic::before{content:"\269B";}
 .bi-audio::before{content:"\1F3A7";}
 .bi-awareness::before{content:"\1F397";}
 .bi-balance::before,.bi-justice::before{content:"\2696";}
+.bi-bars::before{content:"\1F4F6";}
 .bi-heart-black::before{content:"\1F5A4";}
 .bi-bowtie::before{content:"\22C8";}
 .bi-celsius::before{content:"\2103";}
 .bi-farenheit::before{content:"\2109";}
+.bi-card::before{content:"\1F006";}
 .bi-comet::before{content:"\1F320";}
 .bi-core::before,.bi-fisheye::before{content:"\25C9";}
 .bi-core-block::before{content:"\25A3";}
 .bi-deploy::before,.bi-trident::before{content:"\1F531";}
+.bi-diameter::before{content:"\2300";}
 .bi-divorce::before{content:"\26AE";}
 .bi-dna::before{content:"\1F9EC";}
 .bi-evil-eye::before,.bi-nazar-amulet::before{content:"\1F9FF";}
@@ -475,6 +482,9 @@
 .bi-video::before{content:"\1F3A6";}
 .bi-user::before{content:"\1F464";}
 .bi-group::before{content:"\1F465";}
+.bi-input-letters::before{content:"\1F524";}
+.bi-input-numbers::before{content:"\1F522";}
+.bi-input-symbols::before{content:"\1F523";}
 
 /* directional ui */
 .bi-download::before{content:"\1F4E5";}

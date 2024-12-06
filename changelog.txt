@@ -5,7 +5,8 @@ BFX:
 + New "aurora" animated background
 + New "Turbulence" SVG filter effect
 
-bIcons: no changes
+bIcons:
++ 10 new icons: anger, bars, card, diameter, input-letters, input-numbers, input-symbols, fireworks, sparkler, yarn
 
 BUFF: no changes
 

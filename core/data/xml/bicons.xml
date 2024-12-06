@@ -285,6 +285,7 @@
 	<bicon alt="" cat="objects">dice</bicon>
 	<bicon alt="" cat="objects">door</bicon>
 	<bicon alt="" cat="objects">dress</bicon>
+	<bicon alt="firework" cat="objects">fireworks</bicon>
 	<bicon alt="" cat="objects">flashlight</bicon>
 	<bicon alt="cutlery" cat="objects">fork-knife</bicon>
 	<bicon alt="" cat="objects">fountain</bicon>
@@ -327,6 +328,7 @@
 	<bicon alt="" cat="objects">skull</bicon>
 	<bicon alt="" cat="objects">soap</bicon>
 	<bicon alt="" cat="objects">socks</bicon>
+	<bicon alt="" cat="objects">sparkler</bicon>
 	<bicon alt="" cat="objects">spoon</bicon>
 	<bicon alt="" cat="objects">tag</bicon>
 	<bicon alt="" cat="objects">target</bicon>
@@ -348,20 +350,25 @@
 	<bicon alt="" cat="objects">vhs</bicon>
 	<bicon alt="" cat="objects">violin</bicon>
 	<bicon alt="" cat="objects">wrench</bicon>
+	<bicon alt="" cat="objects">yarn</bicon>
 	
 	<!-- Other, Symbols -->
 	<bicon alt="" cat="other">amp</bicon>
 	<bicon alt="" cat="other">alternate</bicon>
+	<bicon alt="" cat="other">anger</bicon>
 	<bicon alt="" cat="other">angle</bicon>
 	<bicon alt="headphones" cat="other">audio</bicon>
 	<bicon alt="ribbon" cat="other">awareness</bicon>
 	<bicon alt="" cat="other">mining</bicon>
 	<bicon alt="justice" cat="other">balance</bicon>
+	<bicon alt="" cat="other">bars</bicon>
 	<bicon alt="" cat="other">bowtie</bicon>
+	<bicon alt="" cat="other">card</bicon>
 	<bicon alt="" cat="other">comet</bicon>
 	<bicon alt="fisheye" cat="other">core</bicon>
 	<bicon alt="" cat="other">core-block</bicon>
 	<bicon alt="trident" cat="other">deploy</bicon>
+	<bicon alt="" cat="other">diameter</bicon>
 	<bicon alt="" cat="other">dna</bicon>
 	<bicon alt="nazar" cat="other">evil-eye</bicon>
 	<bicon alt="" cat="other">finish-line</bicon>
@@ -610,6 +617,9 @@
 	<bicon alt="" cat="ui">help-o</bicon>
 	<bicon alt="network" cat="ui">hub</bicon>
 	<bicon alt="" cat="ui">image</bicon>
+	<bicon alt="" cat="ui">input-letters</bicon>
+	<bicon alt="" cat="ui">input-numbers</bicon>
+	<bicon alt="" cat="ui">input-symbols</bicon>
 	<bicon alt="" cat="ui">lock</bicon>
 	<bicon alt="bell" cat="ui">notify</bicon>
 	<bicon alt="" cat="ui">package</bicon>
