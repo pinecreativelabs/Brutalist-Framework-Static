@@ -8,8 +8,6 @@ BFX:
 bIcons:
 + 10 new icons: anger, bars, card, diameter, input-letters, input-numbers, input-symbols, fireworks, sparkler, yarn
 
-BUFF: no changes
-
 BUIX: 
 + Added new vanilla js "B-Tabs" 
 
@@ -19,7 +17,3 @@ BUTCH:
 
 Flavors: 
 + 7 new mesh gradients: chosen, dreamscape, polyamory, purgatory, purify, sunscape, & warm-winter
-
-FUX: no changes
-
-Rebar: no changes
