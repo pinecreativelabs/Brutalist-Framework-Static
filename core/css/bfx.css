@@ -71,6 +71,11 @@ https://freefrontend.com/css-animation-examples/
 .hrumble {cursor: -webkit-grabbing; cursor: grabbing;}
 .mdrumble {cursor: crosshair;}
 
+/* TURBULENCE */
+.turbulence.mild, .turbulence-h.mild:hover { filter: url(#turbulence-mild);}
+.turbulence, .turbulence-h:hover { filter: url(#turbulence);}
+.turbulence.severe, .turbulence-h.severe:hover { filter: url(#turbulence-severe);}
+
 /* GLITCH EFFECT */
 .glitch {
 	-webkit-animation: glitch1 2.5s infinite;

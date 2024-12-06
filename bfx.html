@@ -98,7 +98,7 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 				<li><a href="#anims">Animations</a></li>
 				<li><a href="#rotatetext">Rotate Text</a></li>
 				<li><a href="#animbg">Animated Backgrounds</a></li>
-				<li><a href="#rumbler">Rumbler</a></li>
+				<li><a href="#chaos">Chaotic FX</a></li>
 			</ul>
 		</nav>
 		
@@ -464,8 +464,11 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		<p class="spacer"></p>
 		<div class="clear-block jagged"><p class="checkerboard padding"></p></div>
 		
-		<!-- RUMBLER -->
-		<h3 class="fluid-text monolisk" id="rumbler">Rumbler</h3>
+		<!-- CHAOTIC FX -->
+		<h3 class="fluid-text monolisk" id="chaos">CHAOTIC FX</h3>
+		<p class="bitstream flow-text">Some effects for creating chaos!</p>
+		<p class="spacer"></p>
+		<h4 class="fluid-text monolisk smoke-t charcoal padded"><span class="rumble">Rumbler</span></h4>
 		<div class="flex"><div class="half padded">
 			<p class="rumble flow-text hottie padded rounded b-d-k mauve-b center throb bold allcaps">Let's get ready to rumble!</p>
 			<p class="requiresbox" style="margin-top: 1em;"><span class="flow-text">REQUIRES:</span><br /><em>core/jab/jquery.3.js<br />core/jab/plugins/rumbler.js</em></p>
@@ -483,6 +486,35 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			<p class="hrumble padded plum peach-t" style="margin-top: 1em;"><span class="bigger bold">.hrumble</span><br />Rumble upon hover</p>
 			<p class="mdrumble padded slimeball" style="margin-top: 1em;"><span class="bigger bold">.mdrumble</span><br />Rumble on mousedown</p>
 			<p class="caffeinated padded coffee vanilla-t" style="margin-top: 1em;"><span class="bigger bold">.caffeinated</span><br />Aggressive rumble on hover</p>
+		</div></div>
+		<p class="spacer"></p>
+		
+		<h4 class="fluid-text monolisk smoke-t charcoal padded"><span class="turbulence extreme">Turbulence</span></h4>
+		
+		<div class="flex bitstream"><div class="half padded">
+			<p>Put an element through a trying tribulation of turbulence ranging from mild to severe. The effect applies an SVG filter which distorts any element.</p>
+			<p class="requiresbox" style="margin: 1em 0 1em 0;"><span class="flow-text">REQUIRES:</span><br /><em>core/jab/bfx/turbulent.js</em></p>
+			<p>See class names in the examples below.</p>
+		</div><div class="padded half">
+			<p class="flow-text"><strong>Turbulence Upon Hover!</strong></p>
+			<p>You can also apply the effect upon hover, simply by appending an <em><strong>-h</strong></em> to the end of the <em>.turbulence</em> class. In the example below, we apply severe turbulence upon hover:<br /><br />
+			<img src="app/files/images/brutal-building.jpg" class="large-thumb severe turbulence-h"/><br />
+			<strong>.severe.turbulence-h</strong></p>
+		</div><div class="padded third">
+			<div class="disabled padded b-b-k mild turbulence">
+				<h4 class="flow-text">.mild.turbulence</h4>
+				<p>Subtle turbulence.<br />Survivable.<br /><img src="app/files/images/brutal-building.jpg" class="xlarge-thumb" /></p>
+			</div>
+		</div><div class="padded third">
+			<div class="disabled padded b-b-k turbulence">
+				<h4 class="flow-text">.turbulence</h4>
+				<p>Standard turbulence.<br /><em>Might</em> be fatal.<br /><img src="app/files/images/brutal-building.jpg" class="xlarge-thumb" /></p>
+			</div>
+		</div><div class="padded third">
+			<div class="disabled padded b-b-k severe turbulence">
+				<h4 class="flow-text">.severe.turbulence</h4>
+				<p>Severe turbulence!<br />Unsurvivable.<br /><img src="app/files/images/brutal-building.jpg" class="xlarge-thumb" /></p>
+			</div>
 		</div></div>
 		<p class="spacer"></p>
 		<p class="spacer"></p>
@@ -513,6 +545,6 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 <script src="core/jab/plugins/rotate-text.js" type="text/javascript"></script>
 <script src="core/jab/plugins/rumbler.js" type="text/javascript"></script>
 <script src="core/jab/plugins/tumbletext.js" type="text/javascript"></script>
-
+<script src="core/jab/bfx/turbulent.js" type="text/javascript"></script>
 </body>
 </html>
