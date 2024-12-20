@@ -54,6 +54,24 @@
 	-webkit-clip-path: polygon(50% 0%, 0 100%, 100% 100%);
 	clip-path: polygon(50% 0%, 0 100%, 100% 100%);
 }
+.shape.triangle-flip{
+	-webkit-shape-outside: polygon(100% 0%, 50% 100%, 0% 0%);
+	shape-outside: polygon(100% 0%, 50% 100%, 0% 0%);
+	-webkit-clip-path: polygon(100% 0%, 50% 100%, 0% 0%);
+	clip-path: polygon(100% 0%, 50% 100%, 0% 0%);
+}
+.shape.triangle.point-left{
+	-webkit-shape-outside: polygon(100% 0%, 100% 100%, 0% 50%);
+	shape-outside: polygon(100% 0%, 100% 100%, 0% 50%);
+	-webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 50%);
+	clip-path: polygon(100% 0%, 100% 100%, 0% 50%);
+}
+.shape.triangle.point-right{
+	-webkit-shape-outside: polygon(100% 50%, 0% 100%, 0% 0%);
+	shape-outside: polygon(100% 50%, 0% 100%, 0% 0%);
+	-webkit-clip-path: polygon(100% 50%, 0% 100%, 0% 0%);
+	clip-path: polygon(100% 50%, 0% 100%, 0% 0%);
+}
 .shape.triangle.decline{
 	-webkit-shape-outside: polygon(0 0, 100% 100%, 0 100%);
 	shape-outside: polygon(0 0, 100% 100%, 0 100%);
@@ -66,6 +84,19 @@
 	-webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);
 	clip-path: polygon(100% 0, 100% 100%, 0 100%);
 }
+.shape.triangle.decline-flip{
+	-webkit-shape-outside: polygon(100% 0%, 100% 100%, 0% 0%);
+	shape-outside: polygon(100% 0%, 100% 100%, 0% 0%);
+	-webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 0%);
+	clip-path: polygon(100% 0%, 100% 100%, 0% 0%);
+}
+.shape.triangle.incline-flip{
+	-webkit-shape-outside: polygon(100% 0%, 0% 100%, 0% 0%);
+	shape-outside: polygon(100% 0%, 0% 100%, 0% 0%);
+	-webkit-clip-path: polygon(100% 0%, 0% 100%, 0% 0%);
+	clip-path: polygon(100% 0%, 0% 100%, 0% 0%);
+}
+
 .shape.pentagon{
 	-webkit-shape-outside: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 	shape-outside: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
