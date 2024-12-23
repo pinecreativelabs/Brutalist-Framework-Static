@@ -3,7 +3,7 @@ https://codepen.io/noahblon/pen/pjvPPN
 */
 
 .mold-shape {display:block; }
-.mold-shape>.shape{width: 100%; height: 100%;}
+.mold-shape>.shape{width: 100%; height: 100%; }
 .mold-shape>.shape>.shape-left, .mold-shape>.shape>.shape-right{height: 100%; width: 50%; display:inline-block;}
 .mold-shape>.shape>.shape-left{float:left;}
 .mold-shape>.shape>.shape-right{float:right;}
@@ -108,12 +108,25 @@ https://codepen.io/noahblon/pen/pjvPPN
 	clip-path: polygon(100% 0%, 0% 100%, 0% 0%);
 }
 /* PENTAGONS */
-.shape.pentagon{
+.shape.pentagon, .mold-shape.pentagon, .mold-shape.pentagon>.shape{
 	-webkit-shape-outside: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 	shape-outside: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 	-webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 	clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 }
+.shape.pentagon.outside-l, .mold-shape.pentagon>.shape>.shape-left{
+	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 0% 38%, 50% 100%, 100% 100%, 0% 100%);
+	shape-outside: polygon(0% 0%, 100% 0%, 0% 38%, 50% 100%, 100% 100%, 0% 100%);
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 38%, 50% 100%, 100% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 100% 0%, 0% 38%, 50% 100%, 100% 100%, 0% 100%);
+}
+.shape.pentagon.outside-r, .mold-shape.pentagon>.shape>.shape-right{
+	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 100%, 100% 38%);
+	shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 100%, 100% 38%);
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 100%, 100% 38%);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 100%, 100% 38%);
+}
+
 /* HEXAGONS  */
 .shape.hexagon, .mold-shape.hexagon, .mold-shape.hexagon>.shape{
 	-webkit-shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -121,31 +134,98 @@ https://codepen.io/noahblon/pen/pjvPPN
 	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
-.shape.hexagon.outside-right, .mold-shape.hexagon>.shape>.shape-right{
+.shape.hexagon.outside-r, .mold-shape.hexagon>.shape>.shape-right{
 	-webkit-shape-outside:polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 75%, 100% 25%);
 	shape-outside:polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 75%, 100% 25%);
 	-webkit-clip-path:polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 75%, 100% 25%);
 	clip-path:polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 75%, 100% 25%);
 }
-.shape.hexagon.outside-left, .mold-shape.hexagon>.shape>.shape-left{
+.shape.hexagon.outside-l, .mold-shape.hexagon>.shape>.shape-left{
 	-webkit-shape-outside:polygon(0% 0%, 100% 0%, 0% 25%, 0% 75%, 100% 100%, 0% 100%);
 	shape-outside:polygon(0% 0%, 100% 0%, 0% 25%, 0% 75%, 100% 100%, 0% 100%);
 	-webkit-clip-path:polygon(0% 0%, 100% 0%, 0% 25%, 0% 75%, 100% 100%, 0% 100%);
 	clip-path:polygon(0% 0%, 100% 0%, 0% 25%, 0% 75%, 100% 100%, 0% 100%);
 }
+
 /* HEPTAGONS */
-.shape.heptagon{
+.shape.heptagon, .mold-shape.heptagon, .mold-shape.heptagon>.shape{
 	-webkit-shape-outside: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 	shape-outside: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 	-webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 	clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 }
+.shape.heptagon.outside-r, .mold-shape.heptagon>.shape>.shape-right{
+	-webkit-shape-outside: polygon(100% 0%, 100% 100%, 0% 100%, 50% 100%, 100% 60%, 80% 20%, 0% 0%);
+	shape-outside: polygon(100% 0%, 100% 100%, 0% 100%, 50% 100%, 100% 60%, 80% 20%, 0% 0%);
+	-webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 50% 100%, 100% 60%, 80% 20%, 0% 0%);
+	clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 50% 100%, 100% 60%, 80% 20%, 0% 0%);
+}
+.shape.heptagon.outside-l, .mold-shape.heptagon>.shape>.shape-left{
+	-webkit-shape-outside: polygon(100% 0%, 20% 20%, 0% 60%, 50% 100%, 100% 100%, 0% 100%, 0% 0%);
+	shape-outside: polygon(100% 0%, 20% 20%, 0% 60%, 50% 100%, 100% 100%, 0% 100%, 0% 0%);
+	-webkit-clip-path: polygon(100% 0%, 20% 20%, 0% 60%, 50% 100%, 100% 100%, 0% 100%, 0% 0%);
+	clip-path: polygon(100% 0%, 20% 20%, 0% 60%, 50% 100%, 100% 100%, 0% 100%, 0% 0%);
+}
+
 /* OCTAGONS */
-.shape.octagon{
+.shape.octagon, .mold-shape.octagon, .mold-shape.octagon>.shape{
 	-webkit-shape-outside: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-	shape-outside: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-	-webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+	shape-outside: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 70% 100%, 0% 70%, 0% 30%);
+	-webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 70% 100%, 0% 70%, 0% 30%);
 	clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.shape.octagon.outside-l, .mold-shape.octagon>.shape>.shape-left{
+	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 0% 30%, 0% 70%, 100% 100%, 0% 100%);
+	shape-outside: polygon(0% 0%, 100% 0%, 0% 30%, 0% 70%, 100% 100%, 0% 100%);
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 30%, 0% 70%, 100% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 100% 0%, 0% 30%, 0% 70%, 100% 100%, 0% 100%);
+}
+.shape.octagon.outside-r, .mold-shape.octagon>.shape>.shape-right{
+	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 70%, 100% 30%);
+	shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 70%, 100% 30%);
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 70%, 100% 30%);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 70%, 100% 30%);
+}
+.mold-shape.octagon>.shape>.shape-left, .mold-shape.octagon>.shape>.shape-right{width: 30%;}
+
+/* NONAGONS */
+.shape.nonagon, .mold-shape.nonagon, .mold-shape.nonagon>.shape{
+	-webkit-shape-outside: clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+	shape-outside: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+	-webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+	clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+.shape.nonagon.outside-l, .mold-shape.nonagon>.shape>.shape-left{
+	-webkit-shape-outside: polygon(100% 0%, 34% 12%, 0% 43%, 12% 78%, 50% 100%, 100% 100%, 0% 100%, 0% 0%);
+	shape-outside: polygon(100% 0%, 34% 12%, 0% 43%, 12% 78%, 50% 100%, 100% 100%, 0% 100%, 0% 0%);
+	-webkit-clip-path: polygon(100% 0%, 34% 12%, 0% 43%, 12% 78%, 50% 100%, 100% 100%, 0% 100%, 0% 0%);
+	clip-path: polygon(100% 0%, 34% 12%, 0% 43%, 12% 78%, 50% 100%, 100% 100%, 0% 100%, 0% 0%);
+}
+.shape.nonagon.outside-r, .mold-shape.nonagon>.shape>.shape-right{
+	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 100%, 88% 78%, 100% 43%, 66% 12%);
+	shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 100%, 88% 78%, 100% 43%, 66% 12%);
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 100%, 88% 78%, 100% 43%, 66% 12%);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 100%, 88% 78%, 100% 43%, 66% 12%);
+}
+
+/* RHOMBUS */
+.shape.rhombus.outside-l, .mold-shape.rhombus>.shape>.shape-left{
+	-webkit-shape-outside: polygon(100% 0%, 0% 50%, 100% 100%, 0% 100%, 0% 0%);
+	shape-outside: polygon(100% 0%, 0% 50%, 100% 100%, 0% 100%, 0% 0%);
+	-webkit-clip-path: polygon(100% 0%, 0% 50%, 100% 100%, 0% 100%, 0% 0%);
+	clip-path: polygon(100% 0%, 0% 50%, 100% 100%, 0% 100%, 0% 0%);
+}
+.shape.rhombus, .mold-shape.rhombus, .mold-shape.rhombus>.shape{
+	-webkit-shape-outside: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	shape-outside: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.shape.rhombus.outside-r, .mold-shape.rhombus>.shape>.shape-right{
+	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 50%);
+	shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 50%);
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 50%);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 50%);
 }
 /* MISC SHAPES */
 .shape.star{
@@ -184,12 +264,6 @@ https://codepen.io/noahblon/pen/pjvPPN
 	-webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
-.shape.rhombus{
-	-webkit-shape-outside: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-	shape-outside: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-	-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
 .shape.home{
 	-webkit-shape-outside: polygon(50% 0%, 100% 40%, 90% 40%, 90% 100%, 10% 100%, 9% 40%, 0 40%);
 	shape-outside: polygon(50% 0%, 100% 40%, 90% 40%, 90% 100%, 10% 100%, 9% 40%, 0 40%);
@@ -222,6 +296,12 @@ https://codepen.io/noahblon/pen/pjvPPN
 	-webkit-clip-path: polygon(0% 0%, 100% 0%, 60% 50%, 100% 100%, 0% 100%, 40% 50%);
 	clip-path: polygon(0% 0%, 100% 0%, 60% 50%, 100% 100%, 0% 100%, 40% 50%);	
 }
+.shape.bowtie{
+	-webkit-shape-outside: polygon(50% 40%, 100% 0%, 100% 100%, 50% 60%, 0% 100%, 0% 0%);
+	shape-outside: polygon(50% 40%, 100% 0%, 100% 100%, 50% 60%, 0% 100%, 0% 0%);
+	-webkit-clip-path: polygon(50% 40%, 100% 0%, 100% 100%, 50% 60%, 0% 100%, 0% 0%);
+	clip-path: polygon(50% 40%, 100% 0%, 100% 100%, 50% 60%, 0% 100%, 0% 0%);
+}
 .shape.message{
 	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
 	shape-outside: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
@@ -240,6 +320,14 @@ https://codepen.io/noahblon/pen/pjvPPN
 	-webkit-clip-path: polygon(33% 0%, 66% 0%, 66% 33%, 100% 33%, 100% 66%, 66% 66%, 66% 100%, 33% 100%, 33% 66%, 0% 66%, 0% 33%, 33% 33%);
 	clip-path: polygon(33% 0%, 66% 0%, 66% 33%, 100% 33%, 100% 66%, 66% 66%, 66% 100%, 33% 100%, 33% 66%, 0% 66%, 0% 33%, 33% 33%);
 }
+.shape.cross{
+	-webkit-shape-outside: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+	shape-outside: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+	-webkit-clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+	clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
+
+/* Natural */
 .shape.cliff-right{
 	-webkit-shape-outside: polygon(100% 0, 100% 100%, 0 100%, 27% 88%, 57% 57%, 81% 13%);
 	shape-outside: polygon(100% 0, 100% 100%, 0 100%, 27% 88%, 57% 57%, 81% 13%);
@@ -251,4 +339,16 @@ https://codepen.io/noahblon/pen/pjvPPN
 	shape-outside: polygon(73% 88%, 100% 100%, 0 100%, 0 0, 19% 13%, 43% 57%);
 	-webkit-clip-path: polygon(73% 88%, 100% 100%, 0 100%, 0 0, 19% 13%, 43% 57%);
 	clip-path: polygon(73% 88%, 100% 100%, 0 100%, 0 0, 19% 13%, 43% 57%);
+}
+.shape.cave-right {
+	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 90%, 80% 75%, 90% 50%, 80% 25%, 50% 10%);
+	shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 90%, 80% 75%, 90% 50%, 80% 25%, 50% 10%);
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 90%, 80% 75%, 90% 50%, 80% 25%, 50% 10%);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 90%, 80% 75%, 90% 50%, 80% 25%, 50% 10%);
+}
+.shape.cave-left {
+	-webkit-shape-outside: polygon(100% 0%, 50% 10%, 25% 25%, 10% 50%, 25% 75%, 50% 90%, 100% 100%, 0% 100%, 0% 0%);
+	shape-outside: polygon(100% 0%, 50% 10%, 25% 25%, 10% 50%, 25% 75%, 50% 90%, 100% 100%, 0% 100%, 0% 0%);
+	-webkit-clip-path: polygon(100% 0%, 50% 10%, 25% 25%, 10% 50%, 25% 75%, 50% 90%, 100% 100%, 0% 100%, 0% 0%);
+	clip-path: polygon(100% 0%, 50% 10%, 25% 25%, 10% 50%, 25% 75%, 50% 90%, 100% 100%, 0% 100%, 0% 0%);
 }
