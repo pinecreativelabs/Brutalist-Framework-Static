@@ -26,6 +26,10 @@
 .polygrid>.shape>.shape-left{float:left;}
 .polygrid>.shape>.shape-right{float:right;}
 
+.polygrid.triangle.packed, .polygrid.octagon.packed.halves{ 
+	justify-content: center; -moz-justify-content: center; -webkit-justify-content: center;
+}
+
 /* TRIANGLE GRID */
 .polygrid.triangle.gaps{gap:1.25rem;}
 .polygrid.packed.sixths.triangle {padding: 0 8.25vh 0 8.25vh;}
@@ -38,9 +42,6 @@
 .polygrid.packed.fourths.triangle>.shape{margin-left: -12.5vh; }
 .polygrid.packed.thirds.triangle>.shape{margin-left: -16.5vh;}
 .polygrid.packed.halves.triangle>.shape{margin-left: -25vh;}
-.polygrid.triangle.packed { 
-	justify-content: center; -moz-justify-content: center; -webkit-justify-content: center;
-}
 .polygrid.triangle>.shape{
 	-webkit-shape-outside: polygon(50% 0%, 0 100%, 100% 100%);
 	shape-outside: polygon(50% 0%, 0 100%, 100% 100%);
@@ -161,6 +162,26 @@
 
 /* OCTAGON GRID */
 .polygrid.octagon.gaps{gap:1.25rem;}
+.polygrid.packed.sixths.octagon {padding: 5vh 5vh 0 5vh;}
+.polygrid.packed.fifths.octagon {padding: 6vh 0 0 6vh;}
+.polygrid.packed.fourths.octagon{padding: 7.5vh 7.5vh 0 7.5vh;}
+.polygrid.packed.thirds.octagon{padding: 9.9vh 9.9vh 0 9.9vh;}
+.polygrid.packed.halves.octagon{padding: 15vh 15vh 0 15vh;}
+.polygrid.packed.sixths.octagon>.shape:nth-child(odd){margin-top: -5vh;}
+.polygrid.packed.fifths.octagon>.shape:nth-child(odd){margin-top: -6vh;}
+.polygrid.packed.fourths.octagon>.shape:nth-child(odd) {margin-top: -7.5vh; }
+.polygrid.packed.thirds.octagon>.shape:nth-child(odd){margin-top: -9.9vh;}
+.polygrid.packed.halves.octagon>.shape:nth-child(odd){margin-top: -15vh;}
+.polygrid.packed.sixths.octagon>.shape:nth-child(even){margin-top: 6.67vh;}
+.polygrid.packed.fifths.octagon>.shape:nth-child(even){margin-top: 8vh;}
+.polygrid.packed.fourths.octagon>.shape:nth-child(even){margin-top: 10vh;}
+.polygrid.packed.thirds.octagon>.shape:nth-child(even){margin-top: 13.2vh;}
+.polygrid.packed.halves.octagon>.shape:nth-child(even){margin-top: 20vh;}
+.polygrid.packed.sixths.octagon>.shape{margin-left: -5vh;}
+.polygrid.packed.fifths.octagon>.shape{margin-left: -6vh;}
+.polygrid.packed.fourths.octagon>.shape{margin-left: -7.5vh; }
+.polygrid.packed.thirds.octagon>.shape{margin-left: -9.9vh;}
+.polygrid.packed.halves.octagon>.shape{margin-left: -15vh;}
 .polygrid.octagon>.shape{
 	-webkit-shape-outside: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 	shape-outside: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 70% 100%, 0% 70%, 0% 30%);
