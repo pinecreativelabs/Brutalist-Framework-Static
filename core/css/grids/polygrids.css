@@ -5,14 +5,14 @@
 .polygrid, .polygrid::before, .polygrid::after, .polygrid>li::before, .polygrid>li::after {
 	box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
 }
-.polygrid {
+/*.polygrid {
 	list-style: none; display: flex; display: -ms-flex;
 	-ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap;
 	justify-content: center; -moz-justify-content: center; -webkit-justify-content: center;
 	align-items: center; -webkit-align-items: center;
 	max-width: 1200px; margin: 0 auto; padding: 0;
 	transform: translateY(34.375px);
-}
+}*/
 .polygrid>li {
 	flex: 0 1 250px;
 	max-width: 250px; height: 137.5px;
