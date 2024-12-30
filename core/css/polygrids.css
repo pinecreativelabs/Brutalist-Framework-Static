@@ -26,8 +26,32 @@
 .polygrid>.shape>.shape-left{float:left;}
 .polygrid>.shape>.shape-right{float:right;}
 
-.polygrid.triangle.packed, .polygrid.octagon.packed.halves{ 
+.polygrid.triangle.packed, .polygrid.octagon.packed.halves, .polygrid.hourglass.packed.halves{ 
 	justify-content: center; -moz-justify-content: center; -webkit-justify-content: center;
+}
+
+/* CIRCLE GRID */
+.polygrid.circle.gaps{gap:1.25rem;}
+.polygrid.circle{
+	-webkit-border-radius: 0; border-radius: 0;
+	-webkit-shape-outside: none; shape-outside: none;
+	-webkit-clip-path: none; clip-path: none;
+}
+.polygrid.circle>.shape {
+	-webkit-shape-outside: circle(50%); shape-outside: circle(50%);
+	-webkit-clip-path: circle(50%); clip-path: circle(50%);
+}
+.polygrid.circle>.shape>.shape-right{
+	-webkit-shape-outside: polygon(0% 0%,0% 6.72%,26.19% 8.72%,44.38% 12.82%,60.21% 18.89%,72.87% 26.60%,81.66% 35.56%,86.09% 45.29%,85.96% 55.27%,81.28% 64.97%,72.25% 73.87%,59.40% 81.50%,43.41% 87.47%,25.11% 91.45%,0% 93.21%,0% 100%,21.12% 100%,41.12% 100%,61.12% 100%,81.12% 100%,100% 100%,100% 89.44%,100% 79.44%,100% 69.44%,100% 59.44%,100% 49.44%,100% 39.44%,100% 29.44%,100% 19.44%,100% 9.44%,100% 0%,78.88% 0%,58.88% 0%,38.88% 0%);
+	shape-outside: polygon(0% 0%,0% 6.72%,26.19% 8.72%,44.38% 12.82%,60.21% 18.89%,72.87% 26.60%,81.66% 35.56%,86.09% 45.29%,85.96% 55.27%,81.28% 64.97%,72.25% 73.87%,59.40% 81.50%,43.41% 87.47%,25.11% 91.45%,0% 93.21%,0% 100%,21.12% 100%,41.12% 100%,61.12% 100%,81.12% 100%,100% 100%,100% 89.44%,100% 79.44%,100% 69.44%,100% 59.44%,100% 49.44%,100% 39.44%,100% 29.44%,100% 19.44%,100% 9.44%,100% 0%,78.88% 0%,58.88% 0%,38.88% 0%);
+	-webkit-clip-path: polygon(0% 0%,0% 6.72%,26.19% 8.72%,44.38% 12.82%,60.21% 18.89%,72.87% 26.60%,81.66% 35.56%,86.09% 45.29%,85.96% 55.27%,81.28% 64.97%,72.25% 73.87%,59.40% 81.50%,43.41% 87.47%,25.11% 91.45%,0% 93.21%,0% 100%,21.12% 100%,41.12% 100%,61.12% 100%,81.12% 100%,100% 100%,100% 89.44%,100% 79.44%,100% 69.44%,100% 59.44%,100% 49.44%,100% 39.44%,100% 29.44%,100% 19.44%,100% 9.44%,100% 0%,78.88% 0%,58.88% 0%,38.88% 0%);
+	clip-path: polygon(0% 0%,0% 6.72%,26.19% 8.72%,44.38% 12.82%,60.21% 18.89%,72.87% 26.60%,81.66% 35.56%,86.09% 45.29%,85.96% 55.27%,81.28% 64.97%,72.25% 73.87%,59.40% 81.50%,43.41% 87.47%,25.11% 91.45%,0% 93.21%,0% 100%,21.12% 100%,41.12% 100%,61.12% 100%,81.12% 100%,100% 100%,100% 89.44%,100% 79.44%,100% 69.44%,100% 59.44%,100% 49.44%,100% 39.44%,100% 29.44%,100% 19.44%,100% 9.44%,100% 0%,78.88% 0%,58.88% 0%,38.88% 0%);
+}
+.polygrid.circle>.shape>.shape-left{ 
+	-webkit-shape-outside: polygon(13.40% 50%,15.68% 40.09%,22.46% 30.70%,33.37% 22.35%,47.80% 15.46%,64.99% 10.39%,84.05% 7.43%,100% 6.72%,100% 0%,69.44% 0%,49.44% 0%,29.44% 0%,0% 0%,0% 15.28%,0% 25.28%,0% 35.28%,0% 45.28%,0% 55.28%,0% 65.28%,0% 75.28%,0% 85.28%,0% 100%,30.56% 100%,50.56% 100%,70.56% 100%,100% 100%,100% 93.28%,82.95% 92.46%,63.97% 89.38%,46.91% 84.20%,32.66% 77.22%,21.97% 68.79%);
+	shape-outside: polygon(13.40% 50%,15.68% 40.09%,22.46% 30.70%,33.37% 22.35%,47.80% 15.46%,64.99% 10.39%,84.05% 7.43%,100% 6.72%,100% 0%,69.44% 0%,49.44% 0%,29.44% 0%,0% 0%,0% 15.28%,0% 25.28%,0% 35.28%,0% 45.28%,0% 55.28%,0% 65.28%,0% 75.28%,0% 85.28%,0% 100%,30.56% 100%,50.56% 100%,70.56% 100%,100% 100%,100% 93.28%,82.95% 92.46%,63.97% 89.38%,46.91% 84.20%,32.66% 77.22%,21.97% 68.79%);
+	-webkit-clip-path: polygon(13.40% 50%,15.68% 40.09%,22.46% 30.70%,33.37% 22.35%,47.80% 15.46%,64.99% 10.39%,84.05% 7.43%,100% 6.72%,100% 0%,69.44% 0%,49.44% 0%,29.44% 0%,0% 0%,0% 15.28%,0% 25.28%,0% 35.28%,0% 45.28%,0% 55.28%,0% 65.28%,0% 75.28%,0% 85.28%,0% 100%,30.56% 100%,50.56% 100%,70.56% 100%,100% 100%,100% 93.28%,82.95% 92.46%,63.97% 89.38%,46.91% 84.20%,32.66% 77.22%,21.97% 68.79%);
+	-webkit-clip-path: polygon(13.40% 50%,15.68% 40.09%,22.46% 30.70%,33.37% 22.35%,47.80% 15.46%,64.99% 10.39%,84.05% 7.43%,100% 6.72%,100% 0%,69.44% 0%,49.44% 0%,29.44% 0%,0% 0%,0% 15.28%,0% 25.28%,0% 35.28%,0% 45.28%,0% 55.28%,0% 65.28%,0% 75.28%,0% 85.28%,0% 100%,30.56% 100%,50.56% 100%,70.56% 100%,100% 100%,100% 93.28%,82.95% 92.46%,63.97% 89.38%,46.91% 84.20%,32.66% 77.22%,21.97% 68.79%);
 }
 
 /* TRIANGLE GRID */
@@ -90,11 +114,6 @@
 .polygrid.packed.fourths.rhombus>.shape:nth-child(odd) {margin-top: -12.5vh; }
 .polygrid.packed.thirds.rhombus>.shape:nth-child(odd){margin-top: -16.5vh;}
 .polygrid.packed.halves.rhombus>.shape:nth-child(odd){margin-top: -25vh;}
-.polygrid.packed.sixths.rhombus>.shape:nth-child(even){margin-top: 0;}
-.polygrid.packed.fifths.rhombus>.shape:nth-child(even){margin-top: 0;}
-.polygrid.packed.fourths.rhombus>.shape:nth-child(even){margin-top: 0;}
-.polygrid.packed.thirds.rhombus>.shape:nth-child(even){margin-top: 0;}
-.polygrid.packed.halves.rhombus>.shape:nth-child(even){margin-top: 0;}
 .polygrid.packed.sixths.rhombus>.shape{margin-left: -8.25vh;}
 .polygrid.packed.fifths.rhombus>.shape{margin-left: -10vh;}
 .polygrid.packed.fourths.rhombus>.shape{margin-left: -12.5vh; }
@@ -223,3 +242,39 @@
 	clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 66%, 100% 66%, 100% 33%, 0% 33%, 0% 0%);
 }
 .polygrid.plus>.shape>.shape-right, .polygrid.plus>.shape>.shape-left{width: 33%;}
+
+/* HOURGLASS GRID */
+.polygrid.packed.sixths.hourglass {padding: 8.25vh 0 0 6.6vh;}
+.polygrid.packed.fifths.hourglass {padding: 10vh 0 0 8vh;}
+.polygrid.packed.fourths.hourglass{padding: 12.5vh 0 0 10vh;}
+.polygrid.packed.thirds.hourglass{padding: 16.5vh 26.4vh 0 13.2vh;}
+.polygrid.packed.halves.hourglass{padding: 25vh 40vh 0 20vh;}
+.polygrid.packed.sixths.hourglass>.shape:nth-child(odd){margin-top: -8.25vh;}
+.polygrid.packed.fifths.hourglass>.shape:nth-child(odd){margin-top: -10vh;}
+.polygrid.packed.fourths.hourglass>.shape:nth-child(odd) {margin-top: -12.5vh; }
+.polygrid.packed.thirds.hourglass>.shape:nth-child(odd){margin-top: -16.5vh;}
+.polygrid.packed.halves.hourglass>.shape:nth-child(odd){margin-top: -25vh;}
+.polygrid.packed.sixths.hourglass>.shape{margin-left: -6.6vh;}
+.polygrid.packed.fifths.hourglass>.shape{margin-left: -8vh;}
+.polygrid.packed.fourths.hourglass>.shape{margin-left: -10vh; }
+.polygrid.packed.thirds.hourglass>.shape{margin-left: -13.2vh;}
+.polygrid.packed.halves.hourglass>.shape{margin-left: -20vh;}
+.polygrid.hourglass>.shape{
+	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 60% 50%, 100% 100%, 0% 100%, 40% 50%);
+	shape-outside: polygon(0% 0%, 100% 0%, 60% 50%, 100% 100%, 0% 100%, 40% 50%);
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 60% 50%, 100% 100%, 0% 100%, 40% 50%);
+	clip-path: polygon(0% 0%, 100% 0%, 60% 50%, 100% 100%, 0% 100%, 40% 50%);
+}
+.polygrid.hourglass>.shape>.shape-left{
+	-webkit-shape-outside: polygon(100% 50%, 0% 100%, 0% 0%);
+	shape-outside: polygon(100% 50%, 0% 100%, 0% 0%);
+	-webkit-clip-path: polygon(100% 50%, 0% 100%, 0% 0%);
+	clip-path: polygon(100% 50%, 0% 100%, 0% 0%);
+}
+.polygrid.hourglass>.shape>.shape-right{
+	-webkit-shape-outside: polygon(100% 0%, 100% 100%, 0% 50%);
+	shape-outside: polygon(100% 0%, 100% 100%, 0% 50%);
+	-webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 50%);
+	clip-path: polygon(100% 0%, 100% 100%, 0% 50%);
+}
+.polygrid.hourglass>.shape>.shape-left,.polygrid.hourglass>.shape>.shape-right{width: 40%;}
