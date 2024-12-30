@@ -15,6 +15,7 @@
 	/*display:inline-block; float:left;*/ background: #32fb44;
 }
 .polygrid.padded>.shape>* {padding: 2rem;}
+.polygrid.padded.circle>.shape>*{padding: 0;}
 .polygrid.sixths>.shape{width: 16.5vh; height: 16.5vh;}
 .polygrid.fifths>.shape{width: 20vh; height: 20vh;}
 .polygrid.fourths>.shape{width: 25vh; height: 25vh;}
