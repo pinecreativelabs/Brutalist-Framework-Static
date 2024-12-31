@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<title>MOLDS: Shapes</title>
+	<meta name="description" content="MOLDS shapes demo." />
+
+	<!-- Favicons -->
+	<link rel="icon" href="core/files/favicon-16.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="core/files/favicon-96.png" type="image/png" />
+	<link rel="apple-touch-icon" href="core/files/favicon-180.png" type="image/png" />
+	
+	<!-- CORE CSS  -->
+	<link href="core/css/construct.css" type="text/css" rel="stylesheet" media="all"/>
+	<link href="core/css/polygrids.css" type="text/css" rel="stylesheet" media="all"/>
+	<style>
+		.shape.large, .mold-shape.large {width: 360px; height: 360px;}
+		.shape.medium, .mold-shape.medium {width: 256px; height: 256px;}
+		.shape.small, .mold-shape.small {width: 128px; height: 128px;}
+		@media (max-width: 960px) {
+			.shape.large, .mold-shape.large {width: 256px; height: 256px;}
+			.shape.medium, .mold-shape.medium {width: 128px; height: 128px;}
+			.shape.small, .mold-shape.small {width: 64px; height: 64px;}
+		}
+	</style>
+</head>
+<body>
+<style title="s1"></style>
+<!--
+<svg height="200" viewBox="0 0 1138.1 1138.9">
+<path d="M 272.2181 258.1255 L 988.93 718.8395 H 943.734 L 971.445 746.5675 C 1029.729 805.0315 1029.729 899.4705 971.445 957.7915 C 942.303 986.9515 904.203 1001.6005 865.961 1001.6005 C 827.718 1001.6005 789.475 986.9515 760.333 957.7915 L 718.266 915.6975 V 989.5305 C 718.266 1072.0405 651.454 1138.8705 569.018 1138.8705 C 486.581 1138.8705 419.769 1072.0205 419.769 989.5305 V 915.8415 L 377.845 957.7915 C 348.703 986.9515 310.4608 1001.6005 272.2181 1001.6005 C 233.9755 1001.6005 195.8761 986.9515 166.734 957.7915 C 108.45 899.4705 108.45 805.0315 166.734 746.5675 L 194.4446 718.8395 H 149.2487 C 66.792 718.8395 -0 651.8425 -0 569.4975 C -0 487.1525 66.812 420.1555 149.2487 420.1555 H 223.0345 L 166.734 363.8195 C 108.45 305.4985 108.45 210.9165 166.734 152.5955 C 225.0182 94.275 319.5409 94.275 377.825 152.5955 L 419.749 194.5665 V 149.3415 C 419.749 66.8335 486.704 0 568.997 0 C 651.291 0 718.246 66.8539 718.246 149.3415 V 194.7095 L 760.313 152.6165 C 818.597 94.2954 913.12 94.2954 971.404 152.6165 C 1029.688 210.9365 1029.688 305.5185 971.404 363.8395 L 915.103 420.1755 H 988.889 C 1071.346 420.1755 1138.138 487.0295 1138.138 569.5175 C 1138.138 652.0055 1071.326 718.8595 988.889 718.8595 L 272.2181 258.1255 Z" />
+<path fill="#751113" d="M6.7,50C6.7,26.1,26.1,6.7,50,6.7V0H0v100h50v-6.7C26.1,93.3,6.7,73.9,6.7,50z"/>
+</svg>-->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 100" enable-background="new 0 0 50 100" xml:space="preserve">
+<path fill="#751113" d="M6.7,50C6.7,26.1,26.1,6.7,50,6.7V0H0v100h50v-6.7C26.1,93.3,6.7,73.9,6.7,50z"/>
+</svg>
+<div class="clipped" style="background-color: orange; width:222px;height:222px"></div>
+
+<script>
+let path = document.querySelector('path');
+let pathLength = Math.floor(path.getTotalLength());
+let steps = 10;
+let scaled = Math.floor(pathLength / steps);
+let bbox = path.getBBox();
+let points = Object.keys([...new Array(scaled)]).map(num => {
+  let point = path.getPointAtLength(num * steps);
+  let x = (point.x / bbox.width * 100).toFixed(2);
+  let y = (point.y / bbox.height * 100).toFixed(2);
+  return `${x}% ${y}%`;
+}).join(',');
+document.querySelector('style[title="s1"]').innerHTML = `.clipped
+{clip-path: polygon(${points});}`;
+</script>
+
+<footer class="padded center courier disabled">
+	<p><a href="https://www.brutalistframework.com" target="_blank">Brutalist Framework</a> &copy; 2024</p>
+</footer>
+<script src="core/jab/polygrid.js"></script>
+</body>
+</html>
