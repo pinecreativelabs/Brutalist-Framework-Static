@@ -477,70 +477,47 @@
 	<h3 class="courier fluid-text"><strong>CUSTOM SHAPE-INSIDE EXAMPLES</strong></h3>
 	<p class="arial">Let's look at some custom <em>shape-inside</em> examples. We'll float some shapes to the left and right of basic content within standard boxes.</p>
 	
-	<div class="flex"><div class="half campfire" style="min-height: 300px;">
-		<div class="fire shape rhombus outside-l" style="width: 33%; height: 100%; float:left;"></div>
-		<div class="fire shape rhombus outside-r" style="width: 33%; height: 100%; float:right;"></div>
-		<p style="padding: 2rem; text-align:center;"><span class="flow-text"><strong>CAMPFIRE BOX!</strong></span><br />
-		In this example, we have two fire rhombus outside-l and outside-r shapes floated on the left and right, respectively, and set to 33% of the width of the box. This paragraph is padded, giving some space between the text and floated shapes.</p>
-	</div><div class="half midnight" style="min-height: 300px;">
-		<div class="fire shape triangle point-right" style="width: 25%; height: 100%; float:left;"></div>
-		<div class="fire shape hexagon outside-r" style="width: 50%; height: 100%; float:right;"></div>
-		<p style="padding: 2rem;"><span class="flow-text"><strong>MIDNIGHT BOX!</strong></span><br />
-		In this example, we have a fire point-right triangle floated left (set to 25% width), and a hexagon outside-r floated right (set to 50% width).</p>
+	<div class="flex"><div class="half campfire">
+		<div style="height: 300px;">
+			<div class="fire shape rhombus outside-l" style="width: 33%; height: 100%; float:left;"></div>
+			<div class="fire shape rhombus outside-r" style="width: 33%; height: 100%; float:right;"></div>
+			<p style="padding: 2rem; text-align:center;"><span class="flow-text"><strong>CAMPFIRE BOX 1</strong></span><br />
+			In this example, we have two fire rhombus outside-l and outside-r shapes floated on the left and right, respectively, and set to 33% of the width of the box. This paragraph is padded, giving some space between the text and floated shapes.</p>
+		</div><div style="height: 300px;">
+			<div class="fire shape heptagon outside-l" style="width: 33%; height: 100%; float:left;"></div>
+			<div class="fire shape triangle decline-flip" style="width: 33%; height: 100%; float:right;"></div>
+			<p style="padding: 2rem; text-align:center;"><span class="flow-text"><strong>CAMPFIRE BOX 2</strong></span><br />This box has two shapes at 33% width each. On the right is a heptagon outside-l shape, and on the right is a triangle decline-flip shape.</p>
+		</div>
+	</div><div class="half midnight" style="min-height: 600px;">
+		<div style="height: 50%;">
+			<div class="fire shape triangle point-right" style="width: 25%; height: 100%; float:left;"></div>
+			<div class="fire shape hexagon outside-r" style="width: 50%; height: 100%; float:right;"></div>
+			<p style="padding: 2rem;"><span class="flow-text"><strong>MIDNIGHT BOX 1</strong></span><br />
+			In this example, we have a fire point-right triangle floated left (set to 25% width), and a hexagon outside-r floated right (set to 50% width).</p>
+		</div><div style="height: 50%;">
+			<div class="fire shape cliff-left" style="width: 25%; height: 100%; float:left; margin-right: 2rem;"></div>
+			<div class="fire shape nonagon outside-r" style="width: 50%; height: 100%; float:right;"></div>
+			<p style="padding: 2rem;"><span class="flow-text"><strong>MIDNIGHT BOX 2</strong></span><br />This box has a cliff-left shape floated left with 25% width and 2rem right margin, and a nonagon outside-r shape floated right with 50% width.</p>
+		</div>
 	</div></div>
-</div>
-
-<div class="container-1200 denim">
-<!-- PolyGrid Prototype -->
-<div class="polygrid sixths circle cotton-candy">
-	<div class="shape mauve">
-		<p>Rhombus 1</p>
-	</div>
-	<div class="shape">
-		<p>Hexagon 2</p>
-	</div>
-	<a href="https://www.baroquest.com" target="_blank" class="shape mauve">
-		<p>Hexagon 3<br />LINKED</p>
-	</a>
-	<div class="shape">
-		<p>Hexagon 4</p>
-	</div>
-	<div class="shape mauve">
-		<p>Hexagon 5</p>
-	</div>
-	<div class="shape">
-		<p><strong>6</strong><br />Modern aircraft and electric car manufacturing would not be possible without them. Manufacturing integrated testing ensures process consistency and component safety.</p>
-	</div>
-	<div class="shape mauve">
-		<p>Hexagon 7</p>
-	</div>
-	<div class="shape">
-		<p>Hexagon 8</p>
-	</div>
-	<div class="shape mauve">
-		<p>Hexagon 9</p>
-	</div>
-	<div class="shape">
-		<p>Hexagon 10</p>
-	</div>
-	<div class="shape mauve">
-		<p>Hexagon 11</p>
-	</div>
-	<div class="shape">
-		<p>Hexagon 12</p>
-	</div>
-	<div class="shape mauve">
-		<p>Hexagon 13</p>
-	</div>
-	<div class="shape">
-		<p>Hexagon 14</p>
+	<p class="spacer"></p>
+	<h4 class="courier flow-text"><strong>Advanced Example: <em>Nesting Shapes</em></h4>
+	<div class="padded sky">
+		<div class="shape flower grape" style="width: 76vh; height: 76vh; margin: 0 auto; padding: 3vh;">
+			<div class="shape flower rebecca" style="width: 70vh; height: 70vh; display:flex;">
+				<div class="mold-shape circle grass" style="width: 42vh; height: 42vh; margin: auto auto; text-align:center;">
+					<div class="shape">
+						<div class="shape-left"></div>
+						<div class="shape-right"></div>
+						<p class="flow-text parchment-t times"><strong>FLOWER POWER</strong><br />I am a circle <em>mold-shape</em> centered within a nested flower shape.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
-</div>
-
 <footer class="padded center courier disabled">
 	<p><a href="https://www.brutalistframework.com" target="_blank">Brutalist Framework</a> &copy; 2024</p>
 </footer>
-<script src="core/jab/polygrid.js"></script>
 </body>
 </html>

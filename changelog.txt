@@ -1,19 +1,8 @@
 Brutalist Framework Changelog
-Version 2.5.1
-
-BFX:
-+ New "aurora" animated background
-+ New "Turbulence" SVG filter effect
-
-bIcons:
-+ 10 new icons: anger, bars, card, diameter, input-letters, input-numbers, input-symbols, fireworks, sparkler, yarn
-
-BUIX: 
-+ Added new vanilla js "B-Tabs" 
+Version 2.5.2
 
 BUTCH:
-+ Introduction of "Flex-Text"
-+ Added "layer-t" (topmost) class to layering
++ Shapes upgrade: new shapes and introduction of "mold-shapes"
 
-Flavors: 
-+ 7 new mesh gradients: chosen, dreamscape, polyamory, purgatory, purify, sunscape, & warm-winter
+GRIDS:
++ Upgrade to Blueprint Grid 2.1 - rework of PolyGrids method
