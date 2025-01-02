@@ -74,7 +74,7 @@ h6 {
 .guard-text, .guard { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
 
 /* Alignments & Floats */
-.justify-t {text-align: justify !important;}
+.justify-t, .justify {text-align: justify;}
 .left-t, .left-align {text-align: left !important;}
 .right-t, .right-align {text-align: right !important;}
 .center-t {text-align: center !important;}
