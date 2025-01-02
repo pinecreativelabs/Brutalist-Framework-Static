@@ -2,7 +2,7 @@ Brutalist Framework Changelog
 Version 2.5.2
 
 BUTCH:
-+ Shapes upgrade: new shapes and introduction of "mold-shapes"
++ Shapes upgrade: 20+ new shapes and introduction of "mold-shapes"
 + Updated text alignment classes
 
 GRIDS:
