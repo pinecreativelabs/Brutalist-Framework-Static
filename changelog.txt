@@ -3,6 +3,7 @@ Version 2.5.2
 
 BUTCH:
 + Shapes upgrade: new shapes and introduction of "mold-shapes"
++ Updated text alignment classes
 
 GRIDS:
-+ Upgrade to Blueprint Grid 2.1 - rework of PolyGrids method
++ Upgrade to Blueprint Grid 2.1 (rework of PolyGrids method)
