@@ -7,3 +7,22 @@ BUTCH:
 
 GRIDS:
 + Upgrade to Blueprint Grid 2.1 (rework of PolyGrids method)
+
+1221
+1331
+1441
+1551	110
+1661
+1771
+1881
+
+1991
+2002	11
+
+2112
+2222
+2332
+2442	110
+2552
+2662
+2772
