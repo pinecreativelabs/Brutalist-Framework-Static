@@ -18,7 +18,6 @@
 .polygrid.inline.thirds{height: 33vh;}
 .polygrid.inline.halves{height: 50vh;}
 
-
 .polygrid.inline>.shape{display:inline-block; float:left;}
 .polygrid.padded>.shape>* {padding: 2rem;}
 .polygrid.padded.circle>.shape>*{padding: 0;}
