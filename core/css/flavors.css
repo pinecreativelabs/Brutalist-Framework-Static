@@ -333,6 +333,11 @@
 .purple-t-s {text-shadow: var(--tsb) #800080 !important;}
 .purple-b {border-color: #800080 !important;}
 .purple-o {outline-color: #800080 !important;}
+.purple-basil, .purple-basil-h:hover {background-color: #5c4451 !important;}
+.purple-basil-t{color: #5c4451 !important;}
+.purple-basil-t-s{text-shadow: var(--tsb) #5c4451 !important;}
+.purple-basil-b {border-color: #5c4451 !important;}
+.purple-basil-o{outline-color: #5c4451 !important;}
 .grape, .grape-h:hover{ background-color: #4a148c !important;}
 .grape-t {color: #4a148c !important;}
 .grape-t-s {text-shadow: var(--tsb) #4a148c !important;}
@@ -507,6 +512,11 @@
 .hazelnut-t-s {text-shadow: var(--tsb) #d5bd9b !important;}
 .hazelnut-b {border-color: #d5bd9b !important;}
 .hazelnut-o {outline-color: #d5bd9b !important;}
+.mocha, .mocha-h:hover {background-color: #a47764 !important;}
+.mocha-t{color:#a47764 !important;}
+.mocha-t-s{text-shadow: var(--tsb) #a47764 !important;}
+.mocha-b{border-color: #a47764 !important;}
+.mocha-o{outline-color: #a47764 !important;}
 .peanut, .peanut-butter, .peanut-h:hover, .peanut-butter-h:hover {background-color: #c29963 !important;}
 .peanut-t, .peanut-butter-t {color: #c29963 !important;}
 .peanut-t-s, .peanut-butter-t-s {text-shadow: var(--tsb) #c29963 !important;}
