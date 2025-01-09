@@ -1,12 +1,5 @@
 Brutalist Framework Changelog
-Version 2.5.2
+Version 2.5.3
 
 BUTCH:
-+ Shapes upgrade: 20+ new shapes and introduction of "mold-shapes"
-+ Updated text alignment classes
-
-FLAVORS: 
-+ New Flavors: mocha, purple-basil
-
-GRIDS:
-+ Upgrade to Blueprint Grid 2.1 (rework of PolyGrids method)
++ Added custom fonts: bluu-next, lack / lack-line, murmure, sudo, syne
