@@ -5,6 +5,9 @@
 /* Bitstream */
 @import url('bitstream/font.css');
 
+/* Bluu-Next */
+@import url('bluu/font.css');
+
 /* Communist */
 @import url('communist/font.css');
 
@@ -14,8 +17,14 @@
 /* Monolisk */
 @import url('monolisk/font.css');
 
+/* Murmure */
+@import url('murmure/font.css');
+
 /* Sudo */
 @import url('sudo/font.css');
+
+/* Syne */
+@import url('syne/font.css');
 
 /* VCR Mono */
 @import url('vcr-mono/font.css');
