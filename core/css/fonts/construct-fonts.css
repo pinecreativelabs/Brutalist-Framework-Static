@@ -4,36 +4,29 @@
  
 /* Antidesign */
 @import url('antidesign/font.css');
-
 /* Bitstream */
 @import url('bitstream/font.css');
-
 /* Bluu-Next */
 @import url('bluu/font.css');
-
+/* BOA-CONSTRUKTOR */
+@import url('boa-construktor/font.css');
 /* Communist */
 @import url('communist/font.css');
-
 /* Depixel */
 @import url('depixel/font.css');
-
 /* Lack */
 @import url('lack/font.css');
-
 /* Monolisk */
 @import url('monolisk/font.css');
-
 /* Murmure */
 @import url('murmure/font.css');
-
 /* Sudo */
 @import url('sudo/font.css');
-
 /* Syne */
 @import url('syne/font.css');
-
+/* Tea For God */
+@import url('teaforgod/font.css');
 /* VCR Mono */
 @import url('vcr-mono/font.css');
-
 /* Writer-Duospace */
 @import url('writer-duospace/font.css');
