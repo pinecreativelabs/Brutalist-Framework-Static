@@ -2,4 +2,4 @@ Brutalist Framework Changelog
 Version 2.5.3
 
 BUTCH:
-+ Added custom fonts: antidesign, bluu-next, lack / lack-line, murmure, sudo, syne
++ Added custom fonts: antidesign, backout, bluu-next, boa-construktor, brendiva, lack / lack-line, murmure, realico, sudo, syne, tea-for-god

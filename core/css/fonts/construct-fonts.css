@@ -4,12 +4,18 @@
  
 /* Antidesign */
 @import url('antidesign/font.css');
+/* BackOut */
+@import url('backout/font.css');
+/* Bilbo INC */
+@import url('bilboinc/font.css');
 /* Bitstream */
 @import url('bitstream/font.css');
 /* Bluu-Next */
 @import url('bluu/font.css');
 /* BOA-CONSTRUKTOR */
 @import url('boa-construktor/font.css');
+/* Brendiva */
+@import url('brendiva/font.css');
 /* Communist */
 @import url('communist/font.css');
 /* Depixel */
@@ -20,6 +26,8 @@
 @import url('monolisk/font.css');
 /* Murmure */
 @import url('murmure/font.css');
+/* Realico */
+@import url('realico/font.css');
 /* Sudo */
 @import url('sudo/font.css');
 /* Syne */
