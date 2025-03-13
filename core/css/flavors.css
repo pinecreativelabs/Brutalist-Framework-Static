@@ -244,16 +244,11 @@
 .fire-t-s {text-shadow: var(--tsb) #fda50f !important;}
 .fire-b {border-color: #fda50f !important;}
 .fire-o {outline-color: #fda50f !important;}
-.squash, .squash-h:hover { background-color: #c95c0a !important;}
-.squash-t {color: #c95c0a !important;}
-.squash-t-s {text-shadow: var(--tsb) #c95c0a !important;}
-.squash-b {border-color: #c95c0a !important;}
-.squash-o {outline-color: #c95c0a !important;}
-.yam, .yam-h:hover {background-color: #cc5801 !important;}
-.yam-t {color: #cc5801 !important;}
-.yam-t-s {text-shadow: var(--tsb) #cc5801 !important;}
-.yam-b {border-color: #cc5801 !important;}
-.yam-o {outline-color: #cc5801 !important;}
+.squash, .squash-h:hover, .yam, .yam-h:hover { background-color: #c95c0a !important;}
+.squash-t, .yam-t {color: #c95c0a !important;}
+.squash-t-s, .yam-t-s {text-shadow: var(--tsb) #c95c0a !important;}
+.squash-b, .yam-b {border-color: #c95c0a !important;}
+.squash-o, .yam-o {outline-color: #c95c0a !important;}
 .rust, .rust-h:hover { background-color: #B43104 !important;}
 .rust-t {color: #B43104 !important; }
 .rust-t-s {text-shadow: var(--tsb) #b43104 !important;}
