@@ -806,6 +806,7 @@ hr.charlie:after {
 .ar-full-frame {aspect-ratio: 3/2;}
 .ar-cinemascope {aspect-ratio: 2.35/1;}
 .ar-cinema-film{aspect-ratio: 1.85/1;}
+.ar-ultrawide{aspect-ratio: 21:9;}
 img.ar-square, img.ar-widescreen, img.ar-smartphone,
 img.ar-standard, img.ar-full-frame, img.ar-cinemascope,
-img.ar-cinema-film{ object-fit:cover;}
+img.ar-cinema-film,img.ar-ultrawide{ object-fit:cover;}

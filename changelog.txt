@@ -3,3 +3,4 @@ Version 2.5.3
 
 BUTCH:
 + Added custom fonts: antidesign, backout, bluu-next, boa-construktor, brendiva, lack / lack-line, murmure, realico, sudo, sudbury / sudbury-3d, superglue, syne, tea-for-god
++ Added aspect ratio classes
