@@ -427,7 +427,7 @@ img.responsive, .responsive img, video { width: 100%; height: auto !important; }
 .circle.left,.circle.right {shape-outside: circle(50%); -webkit-shape-outside: circle(50%);}
 .sketchbox { border-radius: 2em 1em 4em / 0.5em 3em; }
 .rounded { border-radius: 0.75rem; -moz-border-radius: 0.75rem; -webkit-border-radius: 0.75rem; }
-/* additional shapes can be found in core/molds/tiles/shapes.css */
+/* additional shapes can be found in core/molds/shapes.css */
 
 /* BOX SHADOWS */
 .box-s, .box-s-k, .box-s-f, .box-s-d, .box-s-t, .box-s-q, .box-s-b, .box-s-r, .box-s-l,
@@ -797,3 +797,15 @@ hr.charlie:after {
     transform: scaleY(-1);
     filter: FlipV;-ms-filter: "FlipV";
 }
+
+/* ASPECT RATIOS */
+.ar-square {aspect-ratio: 1/1;}
+.ar-widescreen {aspect-ratio: 16/9;}
+.ar-smartphone {aspect-ratio: 9/16;}
+.ar-standard {aspect-ratio: 4/3;}
+.ar-full-frame {aspect-ratio: 3/2;}
+.ar-cinemascope {aspect-ratio: 2.35/1;}
+.ar-cinema-film{aspect-ratio: 1.85/1;}
+img.ar-square, img.ar-widescreen, img.ar-smartphone,
+img.ar-standard, img.ar-full-frame, img.ar-cinemascope,
+img.ar-cinema-film{ object-fit:cover;}

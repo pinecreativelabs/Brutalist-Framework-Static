@@ -496,34 +496,49 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			</p>
 		</div></div>
 		<p class="spacer"></p>
-		<!-- Scale Classes -->
-		<p class="white-t courier flow-text"><span class="charcoal allcaps"><strong>Scale Classes</strong></span></p>
-		<p><strong>.scale</strong> <small>[applies <em>--scalex</em> variable to element]</small><br />
-			<strong>.scale-3d</strong> <small>[applies <em>--scalex, --scaley</em>, and <em>--scalez</em> variables to 3D transformation of element]</small><br />
-			<strong>.scale-x</strong> <small>[applies <em>--scalex</em> variable to scaleX transformation of element]</small><br />
-			<strong>.scale-y</strong> <small>[applies <em>--scaley</em> variable to scaleY transformation of element]</small><br />
-			<strong>.scale-z</strong> <small>[applies <em>--scalez</em> variable to scaleZ transformation of element]</small><br />
-		</p>
-		<p class="spacer"></p>
-		<!-- Skew Classes -->
-		<p class="white-t courier flow-text" style="margin-top: 1em;"><span class="charcoal allcaps"><strong>Skew Classes</strong></span></p>
-		<p><strong>.skew</strong> <small>[skews element along X and Y axis using <em>--skewx</em> and <em>--skewy</em> variables]</small><br />
-			<strong>.skew-r</strong> <small>[same as .skew, but multiplied by -1 (reversed)]</small><br />
-			<strong>.skew-x</strong> <small>[skews element along X axis using <em>-skewx</em> variable]</small><br />
-			<strong>.skew-x-r</strong> <small>[same as .skew-x, but multiplied by -1 (reversed)]</small><br />
-			<strong>.skew-y</strong> <small>[skews element along Y axis using <em>-skewy</em> variable]</small><br />
-			<strong>.skew-y-r</strong> <small>[same as .skew-y, but multiplied by -1 (reversed)]</small><br />
-		</p>
-		<p class="spacer"></p>
-		<!-- Perspective Classes -->
-		<p class="white-t courier flow-text"><span class="charcoal allcaps"><strong>Perspective Classes</strong></span></p>
-		<p><strong>.po</strong> <small>[applies <em>--origin</em> variable (perspective origin)]</small><br />
-			<strong>.po-c</strong> <small>[centered perspective origin]</small><br />
-			<strong>.po-l</strong> <small>[left perspective origin]</small><br />
-			<strong>.po-r</strong> <small>[right perspective origin]</small><br />
-			<strong>.perspective</strong> <small>[applies <em>--perspective</em> variable]</small><br />
-		</p>
-		<p class="spacer"></p>
+		<div class="flex"><div class="half">
+			<!-- Scale Classes -->
+			<p class="white-t courier flow-text"><span class="charcoal allcaps"><strong>Scale Classes</strong></span></p>
+			<p><strong>.scale</strong> <small>[applies <em>--scalex</em> variable to element]</small><br />
+				<strong>.scale-3d</strong> <small>[applies <em>--scalex, --scaley</em>, and <em>--scalez</em> variables to 3D transformation of element]</small><br />
+				<strong>.scale-x</strong> <small>[applies <em>--scalex</em> variable to scaleX transformation of element]</small><br />
+				<strong>.scale-y</strong> <small>[applies <em>--scaley</em> variable to scaleY transformation of element]</small><br />
+				<strong>.scale-z</strong> <small>[applies <em>--scalez</em> variable to scaleZ transformation of element]</small><br />
+			</p>
+			<p class="spacer"></p>
+		</div><div class="half">
+			<!-- Skew Classes -->
+			<p class="white-t courier flow-text" style="margin-top: 1em;"><span class="charcoal allcaps"><strong>Skew Classes</strong></span></p>
+			<p><strong>.skew</strong> <small>[skews element along X and Y axis using <em>--skewx</em> and <em>--skewy</em> variables]</small><br />
+				<strong>.skew-r</strong> <small>[same as .skew, but multiplied by -1 (reversed)]</small><br />
+				<strong>.skew-x</strong> <small>[skews element along X axis using <em>-skewx</em> variable]</small><br />
+				<strong>.skew-x-r</strong> <small>[same as .skew-x, but multiplied by -1 (reversed)]</small><br />
+				<strong>.skew-y</strong> <small>[skews element along Y axis using <em>-skewy</em> variable]</small><br />
+				<strong>.skew-y-r</strong> <small>[same as .skew-y, but multiplied by -1 (reversed)]</small><br />
+			</p>
+			<p class="spacer"></p>
+		</div><div class="half">
+			<!-- Perspective Classes -->
+			<p class="white-t courier flow-text"><span class="charcoal allcaps"><strong>Perspective Classes</strong></span></p>
+			<p><strong>.po</strong> <small>[applies <em>--origin</em> variable (perspective origin)]</small><br />
+				<strong>.po-c</strong> <small>[centered perspective origin]</small><br />
+				<strong>.po-l</strong> <small>[left perspective origin]</small><br />
+				<strong>.po-r</strong> <small>[right perspective origin]</small><br />
+				<strong>.perspective</strong> <small>[applies <em>--perspective</em> variable]</small><br />
+			</p>
+			<p class="spacer"></p>
+		</div><div class="half">
+			<!-- Aspect Ratios -->
+			<p class="white-t courier flow-text"><span class="charcoal allcaps"><strong>Aspect Ratios</strong></span></p>
+			<p><strong>.ar-square</strong> <small>[1:1]</small><br />
+				<strong>.ar-standard</strong> <small>[4:3]</small><br />
+				<strong>.ar-widescreen</strong> <small>[16:9]</small><br />
+				<strong>.ar-smartphone</strong> <small>[9:16]</small><br />
+				<strong>.ar-cinemascope</strong> <small>[2.35:1]</small><br />
+				<strong>.ar-full-frame</strong> <small>[3:2]</small><br /><strong>.ar-cinema-film</strong> <small>[1:85:1]</small><br />
+			</p>
+			<p class="spacer"></p>
+		</div></div>
 		<!-- Rotation Classes -->
 		<p class="white-t courier flow-text"><span class="charcoal allcaps"><strong>Rotation Classes</strong></span></p>
 		<p><strong>.rr</strong> <small>[rotate right using <em>--rotatex</em> variable]</small><br />
