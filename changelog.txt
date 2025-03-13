@@ -8,3 +8,6 @@ BUTCH:
 FLAVORS:
 + Deprecated 'yam' (now same as 'squash')
 + Added new flavors: amaranth, aureolin, bistre, celery (celadon)
+
+ReBAR:
++ Deprecated outdated code
