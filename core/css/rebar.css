@@ -7,56 +7,56 @@ Responsive Breakpoint Assistance Reference
 .hidden { display: none; visibility: hidden; }
 /* DEVICE SIZE TYPE VISIBILITY */
 @media screen and (min-width: 1201px) {
-	.show-on-tv, .show-on-xlarge {display: flex; display: -webkit-flex; visibility: visible;}
+	.show-on-tv, .show-on-xlarge {display: flex; visibility: visible;}
 	.hide-on-tv, .hide-on-xlarge {display: none; visibility: hidden;}
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-	.show-on-desktop, .show-on-large {display: flex; display: -webkit-flex; visibility: visible;}
+	.show-on-desktop, .show-on-large {display: flex; visibility: visible;}
 	.hide-on-desktop, .hide-on-large {display: none; visibility: hidden;}
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-	.show-on-laptop, .show-on-medium {display: flex; display: -webkit-flex; visibility: visible;}
+	.show-on-laptop, .show-on-medium {display: flex; visibility: visible;}
 	.hide-on-laptop, .hide-on-medium {display: none; visibility: hidden;}
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-	.show-on-tablet, .show-on-small {display: flex; display: -webkit-flex; visibility: visible;}
+	.show-on-tablet, .show-on-small {display: flex; visibility: visible;}
 	.hide-on-tablet, .hide-on-small {display: none; visibility: hidden;}
 }
 @media screen and (max-width: 480px) {
-	.show-on-mobile, .show-on-phone, .show-on-xsmall {display: flex; display: -webkit-flex; visibility: visible;}
+	.show-on-mobile, .show-on-phone, .show-on-xsmall {display: flex; visibility: visible;}
 	.hide-on-mobile, .hide-on-phone, .hide-on-xsmall {display: none; visibility: hidden;}
 }
 @media screen and (max-width: 272px) {
-	.show-on-wearable, .show-on-watch, .show-on-xxsmall {display: flex; display: -webkit-flex; visibility: visible;}
+	.show-on-wearable, .show-on-watch, .show-on-xxsmall {display: flex; visibility: visible;}
 	.hide-on-wearable, .hide-on-watch, .hide-onxxsmall {display: none; visibility: hidden;}
 }
 /* MAX-WIDTH BREAKPOINTS */
 @media screen and (max-width: 240px) {
-	.show-under-240 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-240 { display: flex; visibility: visible; }
 	.hide-under-240 { display: none; visibility: hidden; }
 }
 @media screen and (max-width: 320px) {
-	.show-under-320 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-320 { display: flex; visibility: visible; }
 	.hide-under-320 { display: none; visibility: hidden; }
 }
 @media screen and (max-width: 360px) {
-	.show-under-360 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-360 { display: flex; visibility: visible; }
 	.hide-under-360 { display: none; visibility: hidden; }
 }
 @media screen and (max-width: 480px) {
-	.show-under-480 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-480 { display: flex; visibility: visible; }
 	.hide-under-480 { display: none; visibility: hidden; }
 }
 @media screen and (max-width: 540px) {
-	.show-under-540 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-540 { display: flex; visibility: visible; }
 	.hide-under-540 { display: none; visibility: hidden; }
 }
 @media screen and (max-width: 640px) {
-	.show-under-640 { display: flex; display: -webkit-flex; visibility: visibible; }
+	.show-under-640 { display: flex; visibility: visibible; }
 	.hide-under-640 { display: none; visibility: hidden; }
 }
 @media screen and (max-width: 768px) {
-	.show-under-768 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-768 { display: flex; visibility: visible; }
 	.hide-under-768 { display: none; visibility: hidden; }
 }
 @media screen and (max-width: 960px) {
@@ -64,184 +64,184 @@ Responsive Breakpoint Assistance Reference
 	.hide-under-960 { display: none; visibility: hidden; }
 }
 @media screen and (max-width: 1024px) {
-	.show-under-1024 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-1024 { display: flex; visibility: visible; }
 	.hide-under-1024 { display: none; visibility: hidden; }
 }
 @media screen and (max-width: 1280px) {
-	.show-under-1280 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-1280 { display: flex; visibility: visible; }
 	.hide-under-1280 { display: none; visibility: hidden; }
 }
 @media screen and (max-width: 1366px) {
-	.show-under-1366 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-1366 { display: flex; visibility: visible; }
 	.hide-under-1366 { display: none; visibility: hidden; }
 }
 @media screen and (max-width: 1600px) {
-	.show-under-1600 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-1600 { display: flex; visibility: visible; }
 	.hide-under-1600 { display: none; visibility: hidden; }
 }
 
 /* MIN-WIDTH BREAKPOINTS */
 @media screen and (min-width: 241px) {
-	.show-over-240 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-240 { display: flex; visibility: visible; }
 	.hide-over-240 { display: none; visibility: hidden; }
 }
 @media screen and (min-width: 321px) {
-	.show-over-320 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-320 { display: flex; visibility: visible; }
 	.hide-over-320 { display: none; visibility: hidden; }
 }
 @media screen and (min-width: 361px) {
-	.show-over-360 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-360 { display: flex; visibility: visible; }
 	.hide-over-360 { display: none; visibility: hidden; }
 }
 @media screen and (min-width: 481px) {
-	.show-over-480 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-480 { display: flex; visibility: visible; }
 	.hide-over-480 { display: none; visibility: hidden; }
 }
 @media screen and (min-width: 541px) {
-	.show-over-540 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-540 { display: flex; visibility: visible; }
 	.hide-over-540 { display: none; visibility: hidden; }
 }
 @media screen and (min-width: 641px) {
-	.show-over-640 { display: flex; display: -webkit-flex; visibility: visibible; }
+	.show-over-640 { display: flex; visibility: visibible; }
 	.hide-over-640 { display: none; visibility: hidden; }
 }
 @media screen and (min-width: 769px) {
-	.show-over-768 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-768 { display: flex; visibility: visible; }
 	.hide-over-768 { display: none; visibility: hidden; }
 }
 @media screen and (min-width: 961px) {
-	.show-over-960 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-960 { display: flex; visibility: visible; }
 	.hide-over-960 { display: none; visibility: hidden; }
 }
 @media screen and (min-width: 1025px) {
-	.show-over-1024 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-1024 { display: flex; visibility: visible; }
 	.hide-over-1024 { display: none; visibility: hidden; }
 }
 @media screen and (min-width: 1281px) {
-	.show-over-1280 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-1280 { display: flex; visibility: visible; }
 	.hide-over-1280 { display: none; visibility: hidden; }
 }
 @media screen and (min-width: 1367px) {
-	.show-over-1366 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-1366 { display: flex; visibility: visible; }
 	.hide-over-1366 { display: none; visibility: hidden; }
 }
 @media screen and (min-width: 1601px) {
-	.show-over-1600 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-1600 { display: flex; visibility: visible; }
 	.hide-over-1600 { display: none; visibility: hidden; }
 }
 
 /* WIDTH-BASED VISIBILITY BREAKPOINT RANGES */
 @media screen and (min-width: 240px) and (max-width: 319px) {
 	.hide-240-320 { display: none; visibility: hidden; }
-	.show-240-320 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-240-320 { display: flex; visibility: visible; }
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
 	.hide-320-480 { display: none; visibility: hidden; }
-	.show-320-480 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-320-480 { display: flex; visibility: visible; }
 }
 @media screen and (min-width: 360px) and (max-width: 479px) {
 	.hide-360-480 { display: none; visibility: hidden; }
-	.show-360-480 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-360-480 { display: flex; visibility: visible; }
 }
 @media screen and (min-width: 480px) and (max-width: 539px) {
 	.hide-480-540 { display: none; visibility: hidden; }
-	.show-480-540 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-480-540 { display: flex; visibility: visible; }
 }
 @media screen and (min-width: 540px) and (max-width: 639px) {
 	.hide-540-640 { display: none; visibility: hidden; }
-	.show-540-640 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-540-640 { display: flex; visibility: visible; }
 }
 @media screen and (min-width: 640px) and (max-width: 767px) {
 	.hide-640-768 { display: none; visibility: hidden; }
-	.show-640-768 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-640-768 { display: flex; visibility: visible; }
 }
 @media screen and (min-width: 768px) and (max-width: 959px) {
 	.hide-768-960 { display: none; visibility: hidden; }
-	.show-768-960 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-768-960 { display: flex; visibility: visible; }
 }
 @media screen and (min-width: 960px) and (max-width: 1023px) {
 	.hide-960-1024 { display: none; visibility: hidden; }
-	.show-960-1024 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-960-1024 { display: flex; visibility: visible; }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 	.hide-1024-1280 { display: none; visibility: hidden; }
-	.show-1024-1280 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-1024-1280 { display: flex; visibility: visible; }
 }
 @media screen and (min-width: 1280px) and (max-width: 1365px) {
 	.hide-1280-1366 { display: none; visibility: hidden; }
-	.show-1280-1366 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-1280-1366 { display: flex;  visibility: visible; }
 }
 @media screen and (min-width: 1366px) and (max-width: 1600px) {
 	.hide-1366-1600 { display: none; visibility: hidden; }
-	.show-1366-1600 { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-1366-1600 { display: flex; visibility: visible; }
 }
 
 /* HEIGHT-BASED VISIBILITY BREAKPOINTS */
 @media screen and (max-height: 320px) {
 	.hide-under-320h { display: none; visibility: hidden; }
-	.show-under-320h { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-320h { display: flex; visibility: visible; }
 }
 @media screen and (max-height: 480px) {
 	.hide-under-480h { display: none; visibility: hidden; }
-	.show-under-480h { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-480h { display: flex; visibility: visible; }
 }
 @media screen and (max-height: 540px) {
 	.hide-under-540h { display: none; visibility: hidden; }
-	.show-under-540h { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-540h { display: flex; visibility: visible; }
 }
 @media screen and (max-height: 640px) {
 	.hide-under-640h { display: none; visibility: hidden; }
-	.show-under-640h { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-640h { display: flex; visibility: visible; }
 }
 @media screen and (max-height: 768px) {
 	.hide-under-768h { display: none; visibility: hidden; }
-	.show-under-768h { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-768h { display: flex; visibility: visible; }
 }
 @media screen and (max-height: 960px) {
 	.hide-under-960h { display: none; visibility: hidden; }
-	.show-under-960h { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-960h { display: flex; visibility: visible; }
 }
 @media screen and (max-height: 1024px) {
 	.hide-under-1024h { display: none; visibility: hidden; }
-	.show-under-1024h { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-under-1024h { display: flex; visibility: visible; }
 }
 @media screen and (min-height: 321px) {
 	.hide-over-320h { display: none; visibility: hidden; }
-	.show-over-320h { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-320h { display: flex; visibility: visible; }
 }
 @media screen and (min-height: 481px) {
 	.hide-over-480h { display: none; visibility: hidden; }
-	.show-over-480h { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-480h { display: flex; visibility: visible; }
 }
 @media screen and (min-height: 541px) {
 	.hide-over-540h { display: none; visibility: hidden; }
-	.show-over-540h { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-540h { display: flex; visibility: visible; }
 }
 @media screen and (min-height: 641px) {
 	.hide-over-640h { display: none; visibility: hidden; }
-	.show-over-640h { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-640h { display: flex; visibility: visible; }
 }
 @media screen and (min-height: 769px) {
 	.hide-over-768h { display: none; visibility: hidden; }
-	.show-over-768h { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-768h { display: flex; visibility: visible; }
 }
 @media screen and (min-height: 961px) {
 	.hide-over-960h { display: none; visibility: hidden; }
-	.show-over-960h { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-960h { display: flex; visibility: visible; }
 }
 @media screen and (min-height: 1025px) {
 	.hide-over-1024h { display: none; visibility: hidden; }
-	.show-over-1024h { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-over-1024h { display: flex; visibility: visible; }
 }
 
 /* VIEW BY ORIENTATION */
 @media only screen and (orientation: landscape) {
-	.show-on-landscape { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-on-landscape { display: flex; visibility: visible; }
 	.show-on-portrait { display: none; visibility: hidden; }
 	.hide-on-landscape { display: none; visibility: hidden; }
 }
 @media only screen and (orientation: portrait) {
-	.show-on-portrait { display: flex; display: -webkit-flex; visibility: visible; }
+	.show-on-portrait { display: flex; visibility: visible; }
 	.show-on-landscape { display: none; visibility: hidden; }
 	.hide-on-portrait { display: none; visibility: hidden; }
 }
@@ -258,7 +258,7 @@ Responsive Breakpoint Assistance Reference
 }
 @media screen {
 	.print-only { display: none; visibility: hidden; }
-	.screen-only { display: flex; display: -webkit-flex; visibility: visible; }
+	.screen-only { display: flex; visibility: visible; }
 }
 
 /* =====================
