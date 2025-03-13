@@ -276,6 +276,11 @@
 .pink-t-s {text-shadow: var(--tsb) #e91e63 !important;}
 .pink-b {border-color: #e91e63 !important;}
 .pink-o { outline-color: #e91e63 !important;}
+.amaranth, .amaranth-h:hover {background-color: #e62c51 !important;}
+.amaranth-t {color: #e62c51 !important;}
+.amaranth-t-s {text-shadow: var(--tsb) #e62c51 !important;}
+.amaranth-b {border-color: #e62c51 !important;}
+.amaranth-o {outline-color: #e62c51 !important;}
 .flamingo {background-color: #fda4ba !important;}
 .flamingo-t{color: #fda4ba !important;}
 .flamingo-t-s{text-shadow: var(--tsb) #fda4ba !important;}
@@ -467,6 +472,11 @@
 .brown-t-s {text-shadow: var(--tsb) #795548 !important;}
 .brown-b {border-color: #795548 !important;}
 .brown-o {outline-color: #795548 !important;}
+.bistre, .bistre-h:hover {background-color: #3d2b1f !important;}
+.bistre-t {color: #3d2b1f !important;}
+.bistre-t-s {text-shadow: var(--tsb) #3d2b1f !important;}
+.bistre-b {border-color: #3d2b1f !important;}
+.bistre-o {outline-color: #3d2b1f !important;}
 .cinnamon, .cinnamon-h:hover {background-color: #622a0f !important;}
 .cinnamon-t {color: #622a0f !important;}
 .cinnamon-t-s {text-shadow: var(--tsb) #622a0f !important;}
@@ -544,7 +554,12 @@
 .spice-o {outline-color: #793802 !important;}
 
 /* Greens */
-.emerald {background-color: #016e5b !important;}
+.celery, .celadon, .celery-h:hover, .celadon-h:hover {background-color: #afdaaf !important;}
+.celery-t, .celadon-t {color: #afdaaf !important;}
+.celery-t-s, .celadon-t-s {text-shadow: var(--tsb) #afdaaf !important;}
+.celery-b, .celadon-b {border-color: #afdaaf !important; }
+.celery-o, .celadon-o {outline-color: #afdaaf !important;}
+.emerald, .emerald-h:hover {background-color: #016e5b !important;}
 .emerald-t{color: #016e5b !important;}
 .emerald-t-s{text-shadow: var(--tsb) #016e5b !important;}
 .emerald-b {border-color: #016e5b !important;}
@@ -636,6 +651,11 @@
 .yellow-t-s, .lemon-t-s {text-shadow: var(--tsb) #ffff00 !important;}
 .yellow-b, .lemon-b {border-color: #ffff00 !important;}
 .yellow-o, .lemon-o {outline-color: #ffff00 !important;}
+.aureolin, .aureolin-h:hover {background-color: #fbed10 !important;}
+.aureolin-t {color: #fbed10 !important;}
+.aureolin-t-s {text-shadow: var(--tsb) #fbed10 !important;}
+.aureolin-b {border-color: #fbed10 !important;}
+.aureolin-o {outline-color: #fbed10 !important; }
 .banana, .banana-h:hover {background-color: #F4FA58 !important;}
 .banana-t {color: #F4FA58 !important;}
 .banana-t-s {text-shadow: var(--tsb) #F4FA58 !important;}
