@@ -247,10 +247,10 @@
 	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 .shape.point-left{
-	-webkit-shape-outside: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
-	shape-outside: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
-	-webkit-clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
-	clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+	-webkit-shape-outside: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+	shape-outside: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+	-webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+	clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
 }
 .shape.arrowhead-right{
 	-webkit-shape-outside: polygon(0% 0%, 100% 50%, 0% 100%, 25% 50%);
