@@ -1,6 +1,9 @@
 Brutalist Framework Changelog
 Version 2.5.3
 
+BICONS:
++ 10 new icons: bank, basket, bikini, bookmark, construction, desert, lab-coat, om, shortcake, tea / teacup
+
 BUIX:
 + Reveal update: new "Tooltip Reveal" 
 + Reveal Toggle is now considered deprecated - use a details HTML element, instead

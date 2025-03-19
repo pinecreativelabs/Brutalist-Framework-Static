@@ -153,11 +153,13 @@
 	<bicon alt="" cat="food">pretzel</bicon>
 	<bicon alt="" cat="food">salad</bicon>
 	<bicon alt="" cat="food">sandwich</bicon>
+	<bicon alt="" cat="food">shortcake</bicon>
 	<bicon alt="" cat="food">spaghetti</bicon>
 	<bicon alt="" cat="food">steak</bicon>
 	<bicon alt="" cat="food">strawberry</bicon>
 	<bicon alt="" cat="food">sushi</bicon>
 	<bicon alt="" cat="food">taco</bicon>
+	<bicon alt="teacup" cat="food">tea</bicon>
 	<bicon alt="" cat="food">tomato</bicon>
 	<bicon alt="" cat="food">waffle</bicon>
 	<bicon alt="" cat="food">watermelon</bicon>
@@ -170,6 +172,7 @@
 	<bicon alt="" cat="nature">clover</bicon>
 	<bicon alt="" cat="nature">cactus</bicon>
 	<bicon alt="" cat="nature">daisy</bicon>
+	<bicon alt="" cat="nature">desert</bicon>
 	<bicon alt="" cat="nature">earth</bicon>
 	<bicon alt="" cat="nature">exotic</bicon>
 	<bicon alt="hot" cat="nature">fire</bicon>
@@ -255,9 +258,12 @@
 	<bicon alt="" cat="objects">award</bicon>
 	<bicon alt="" cat="objects">badge</bicon>
 	<bicon alt="" cat="objects">balloon</bicon>
+	<bicon alt="" cat="objects">basket</bicon>
 	<bicon alt="" cat="objects">battery</bicon>
 	<bicon alt="" cat="objects">bike</bicon>
+	<bicon alt="" cat="objects">bikini</bicon>
 	<bicon alt="screw" cat="objects">bolt</bicon>
+	<bicon alt="" cat="objects">bookmark</bicon>
 	<bicon alt="" cat="objects">books</bicon>
 	<bicon alt="open-book" cat="objects">book-open</bicon>
 	<bicon alt="open-book-o" cat="objects">book-open-o</bicon>
@@ -298,6 +304,7 @@
 	<bicon alt="" cat="objects">key</bicon>
 	<bicon alt="" cat="objects">keyboard</bicon>
 	<bicon alt="" cat="objects">knife</bicon>
+	<bicon alt="labcoat" cat="objects">lab-coat</bicon>
 	<bicon alt="bottle" cat="objects">lotion</bicon>
 	<bicon alt="" cat="objects">love-letter</bicon>
 	<bicon alt="baggage" cat="objects">luggage</bicon>
@@ -365,6 +372,7 @@
 	<bicon alt="" cat="other">bowtie</bicon>
 	<bicon alt="" cat="other">card</bicon>
 	<bicon alt="" cat="other">comet</bicon>
+	<bicon alt="" cat="other">construction</bicon>
 	<bicon alt="fisheye" cat="other">core</bicon>
 	<bicon alt="" cat="other">core-block</bicon>
 	<bicon alt="trident" cat="other">deploy</bicon>
@@ -448,6 +456,7 @@
 	<bicon alt="magic" cat="other">wonder</bicon>
 	
 	<!-- Places -->
+	<bicon alt="" cat="places">bank</bicon>
 	<bicon alt="" cat="places">castle</bicon>
 	<bicon alt="" cat="places">church</bicon>
 	<bicon alt="industrial" cat="places">factory</bicon>
@@ -468,6 +477,7 @@
 	<bicon alt="muslim" cat="religion">islam</bicon>
 	<bicon alt="" cat="religion">jew</bicon>
 	<bicon alt="" cat="religion">khanda</bicon>
+	<bicon alt="" cat="religion">om</bicon>
 	<bicon alt="" cat="religion">peace</bicon>
 	<bicon alt="" cat="religion">pentagram</bicon>
 	<bicon alt="" cat="religion">pentagram-i</bicon>

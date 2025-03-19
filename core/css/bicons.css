@@ -118,9 +118,12 @@
 .bi-award::before{content:"\1F3C5";}
 .bi-badge::before{content:"\1F396";}
 .bi-balloon::before{content:"\1F388";}
+.bi-basket::before{content:"\1F9FA";}
 .bi-battery::before{content:"\1F50B";}
 .bi-bike::before{content:"\1F6B2";}
+.bi-bikini::before{content:"\1F459";}
 .bi-bolt::before,.bi-screw::before{content:"\1F529";}
+.bi-bookmark::before{content:"\1F516";}
 .bi-books::before{content:"\1F4DA";}
 .bi-book-open::before,.bi-open-book::before{content:"\1F4D6";}
 .bi-book-open-o::before,.bi-open-book-o::before{content:"\1F56E";}
@@ -162,6 +165,7 @@
 .bi-key::before{content:"\1F511";}
 .bi-keyboard::before{content:"\2328";}
 .bi-knife::before{content:"\1F52A";}
+.bi-labcoat::before,.bi-lab-coat::before{content:"\1F97C";}
 .bi-lotion::before,.bi-bottle::before{content:"\1F9F4";}
 .bi-love-letter::before{content:"\1F48C";}
 .bi-luggage::before,.bi-baggage::before{content:"\1F9F3";}
@@ -217,6 +221,7 @@
 .bi-yarn::before{content:"\1F9F6";}
 
 /* Places */
+.bi-bank::before{content:"\1F3E6";}
 .bi-castle::before{content:"\1F3F0";}
 .bi-church::before{content:"\26EA";}
 .bi-factory::before,.bi-industrial::before{content:"\1F3ED";}
@@ -264,6 +269,7 @@
 .bi-islam::before{content:"\262A";}
 .bi-jew::before{content:"\2721";}
 .bi-khanda::before{content:"\262C";}
+.bi-om::before{content:"\1F549";}
 .bi-peace::before{content:"\262E";}
 .bi-pentagram::before{content:"\26E4";}
 .bi-pentagram-i::before{content:"\26E7";}
@@ -282,6 +288,7 @@
 .bi-heart-black::before{content:"\1F5A4";}
 .bi-bowtie::before{content:"\22C8";}
 .bi-celsius::before{content:"\2103";}
+.bi-construction::before{content:"\1F3D7";}
 .bi-farenheit::before{content:"\2109";}
 .bi-card::before{content:"\1F006";}
 .bi-comet::before{content:"\1F320";}
@@ -522,6 +529,7 @@
 .bi-camp::before,.bi-camping::before{content:"\26FA";}
 .bi-cloud::before{content:"\2601";}
 .bi-clover::before{content:"\1F340";}
+.bi-desert::before{content:"\1F3DC";}
 .bi-eggplant::before,.bi-dick::before{content:"\1F346";}
 .bi-daisy::before{content:"\1F33C";}
 .bi-earth::before{content:"\1F30E";}
@@ -664,11 +672,13 @@
 .bi-salad::before{content:"\1F957";}
 .bi-sandwich::before,.bi-sammich::before {content:"\1F96A";}
 .bi-salt::before{content:"\1F9C2";}
+.bi-shortcake::before{content:"\1F370";}
 .bi-spaghetti::before{content:"\1F35D";}
 .bi-steak::before{content:"\1F969";}
 .bi-strawberry::before{content:"\1F353";}
 .bi-sushi::before{content:"\1F363";}
 .bi-taco::before{content:"\1F32E";}
+.bi-tea::before,.bi-teacup::before{content: "\1F375";}
 .bi-tomato::before{content:"\1F345";}
 .bi-waffle::before{content:"\1F9C7";}
 .bi-watermelon::before{content:"\1F349";}
