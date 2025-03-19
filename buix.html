@@ -558,10 +558,10 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			<img class="ph small-thumb circle" data-src="app/files/images/blinker-fluid.jpg" alt="Blinker Fluid" src="app/files/images/blinker-fluid.jpg" /><br />
 		</div></div>
 		<p class="spacer"></p>
+		
 		<!-- REVEAL -->
-		<h4 class="flow-text bitstream charcoal white-t padded">Reveal</h4>
 		<div class="flex bitstream"><div class="padded half">
-			<h5>Reveal.hover</h5>
+			<h4 class="flow-text bitstream charcoal white-t padded">Hover Reveal</h4>
 			<p><em>Reveal.hover</em> reveals hidden content upon hovering over an element!</p>
 			<p>The reveal container starts at a maximum width of 50% of the container it is wrapped within, and enlarges to 100% width upon hover while also revealing a caption.</p>
 			<p class="info padded"><span class="heavy">.reveal</span> (wrap content within this class)<br />
@@ -578,24 +578,22 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 				</div>
 			</div></div>
 		</div><div class="padded half">
-			<h5>Reveal.toggle</h5>
-			<p><em>Reveal.toggle</em> toggles content upon clicking on a label. </p>
-			<div class="reveal toggle">
-				<input id="toggle1" class="toggle" type="checkbox"><!-- To have the toggle open by default, simply set the "checked" attribute -->
-				<label for="toggle1" class="label-toggle navy white-t tahoma heavy">Toggle Me!</label>
-				<div class="toggle-content grey navy-t">
-					<p>You will need a unique ID for each reveal toggle element. Clicking on the label either opens or closes the toggled content. Use the markup as follows:</p>
-					<code class="black lime-t lucida padding"><small>
-						&lt;div class="reveal toggle"&gt;<br />
-						&nbsp;&nbsp;&lt;input id="unique-id-1" class="toggle" type="checkbox"&gt;<br />
-						&nbsp;&nbsp;&lt;label for="unique-id-1" class="label-toggle"&gt;<br />
-						&nbsp;&nbsp;&lt;div class="toggle-content"&gt;<br />
-						&nbsp;&nbsp;...content...<br />&nbsp;&nbsp;&lt;/div&gt;<br />&lt;/div&gt;
-					</small></code>
-				</div>
-			</div>
+			<h4 class="flow-text bitstream charcoal white-t padded">Tooltip Reveal</h4>
+			<p class="requiresbox"><span class="flow-text">REQUIRES:</span><br />core/jab/buix/tooltip-reveal.js</em></p>
+			<p><em>Tooltip Reveal</em> applies a mouse-tracking tooltip to any element that uses a <em>data-tooltip</em> attribute.</p>
+			<p><span class="flow-text"><strong>DEMO:</strong></span><br />Hover over the image below to see tooltip follow your cursor around.</p>
+			
+			<img src="app/files/images/contemplate.jpg" class="responsive" alt="Contemplation" data-tooltip="Contemplation" />
+			<div id="tooltip-reveal" class="tooltip-hide"></div>
+			
+			<p><span class="flow-text"><strong>Markup</strong></span><br />Apply a <em>data-tooltip</em> attribute to any element, and include the following div element somewhere only once on a page:</p>
+			<code class="black lime-t lucida padding"><small>
+				&lt;div id="tooltip-reveal" class="tooltip-hide"&gt;&lt;/div&gt;<br />
+			</small></code>
+			
 		</div></div>
 		<p class="spacer"></p>
+		
 		<!-- DRAGGABLE ELEMENTS -->
 		<h4 class="flow-text charcoal bitstream white-t padded">Draggable Elements</h4>
 		<div class="flex bitstream">
@@ -1028,6 +1026,7 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 
 <!-- vanilla javascript -->
 <script src="core/jab/bfx/baffle.js" type="text/javascript"></script>
+<script src="core/jab/buix/tooltip-reveal.js" type="text/javascript"></script>
 <script src="core/jab/buix/modal.js" type="text/javascript"></script>
 <script src="core/jab/buix/h-scroll.js" type="text/javascript"></script>
 <script src="core/jab/buix/link-previewer.js" type="text/javascript"></script>

@@ -1,6 +1,10 @@
 Brutalist Framework Changelog
 Version 2.5.3
 
+BUIX:
++ Reveal update: new "Tooltip Reveal" 
++ Reveal Toggle is now considered deprecated - use a details HTML element, instead
+
 BUTCH:
 + Added custom fonts: antidesign, backout, bluu-next, boa-construktor, brendiva, lack / lack-line, murmure, realico, sudo, sudbury / sudbury-3d, superglue, syne, tea-for-god
 + Added aspect ratio classes

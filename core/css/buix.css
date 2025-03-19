@@ -164,30 +164,39 @@ ul.tree-list ul { padding: 0 0 0 1.2em; margin: 0; list-style-type: none; }
 }
 .reveal.hover:hover .secret, .reveal.hover:active .secret, .reveal.hover:focus .secret { display: block; }
 
-/* REVEAL (toggle) */
+/* TOOLTIP REVEAL */
+#tooltip-reveal {
+    position: absolute; padding: .4rem .6rem;
+    background-color: gray; color: #fafafa;
+    border-radius: .25rem; pointer-events: none;
+    font-size: 1rem; font-weight: 500;
+    transition: transform 0.1s ease-out;
+    -webkit-transition: transform 0.1s ease-out 0s;
+    z-index: 9999;  opacity: 1;
+}
+.tooltip-show {visibility: visible;}
+.tooltip-hide {visibility: hidden;}
+
+/* REVEAL TOGGLE (DEPRECATED) */
 .reveal.toggle { margin-bottom: 1.2rem 0;}
 .reveal.toggle input[type='checkbox'].toggle { display: none; }
 .label-toggle {
-  display: block; padding: 0.75rem;
-  cursor: pointer; transition: all 0.25s ease-out;
+  display: block; padding: 0.75rem; cursor: pointer; transition: all 0.25s ease-out;
 }
 .label-toggle:hover {}
 .label-toggle::before {
-  content: ' '; display: inline-block;
-  vertical-align: middle;
-  transform: translateY(-2px);
-  transition: transform .2s ease-out;
+  content: ' '; display: inline-block; vertical-align: middle;
+  transform: translateY(-2px); transition: transform .2s ease-out;
 }
 .toggle:checked + .label-toggle::after { position: relative; right: -20px; }
 .toggle:checked + .label-toggle::before { content: 'X'; transform: translateX(-5px); margin-right: 8px; }
 .toggle:checked + .label-toggle { padding-left: 1.25em; }
 .toggle-content {
-  max-height: 0px; overflow: hidden;
-  transition: max-height .25s ease-in-out;
+  max-height: 0px; overflow: hidden; transition: max-height .25s ease-in-out;
 }
 .toggle:checked + .label-toggle + .toggle-content { max-height: 90vh; }
 .toggle:checked + .label-toggle {
-  border-bottom-right-radius: 0; border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0; border-bottom-left-radius: 0;
 }
 
 /* REVEAL OVERLAY */
