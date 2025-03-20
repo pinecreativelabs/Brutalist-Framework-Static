@@ -2,7 +2,7 @@ Brutalist Framework Changelog
 Version 2.5.3
 
 BFX:
-+ Added "stroke-text" class to text effects
++ Added new text effect classes: "stroke-text" and "cellophane-bounce"
 
 BICONS:
 + 10 new icons: bank, basket, bikini, bookmark, construction, desert, lab-coat, om, shortcake, tea / teacup
