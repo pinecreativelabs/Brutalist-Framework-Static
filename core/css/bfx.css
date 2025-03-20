@@ -31,6 +31,13 @@ https://freefrontend.com/css-animation-examples/
 .cellophane {text-shadow: 0px 0px 2px #eee, 4px 4px 2px teal, -4px -2px 2px maroon; }
 .bitshadow{text-shadow: 0.256rem 0.128rem 0 #E79C10, -0.128rem -0.256rem 0 #D53A33;}
 .baffle-forever{font-family: Arial, Helvetica, sans-serif;}
+.stroke-text {
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--accent);
+  -moz-text-stroke-color: var(--accent);
+  color: transparent; position: relative;
+}
 
 /* DIVISIVE TEXT */
 .divisive_left>.divisive_line,.divisive_right>.divisive_line{height:100%;}
