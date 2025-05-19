@@ -1,5 +1,5 @@
 Brutalist Framework Changelog
-Version 2.5.3
+Version 2.5.4
 
 BFX:
 + Added new text effect classes: "stroke-text" and "cellophane-bounce"
@@ -16,8 +16,4 @@ BUTCH:
 + Added aspect ratio classes
 
 FLAVORS:
-+ Deprecated 'yam' (now same as 'squash')
-+ Added new flavors: amaranth, aureolin, bistre, celery (celadon)
-
-ReBAR:
-+ Deprecated outdated code
++ New pure CSS "Patterns": blueprint-grid, carbon-black, cubic, grey-rigidity, honeycomb, moss-mat, notebook-paper, pyramidal, red-bricks, strawberry-steps, weaver
