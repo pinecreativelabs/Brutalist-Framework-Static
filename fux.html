@@ -268,16 +268,24 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		<div class="flex bitstream"><div class="padded half">
 			<p class="requiresbox"><span class="flow-text">REQUIRES:</span><br /><em>core/jab/jquery.3.js<br />core/jab/fux/select-relations.js</em></span></p>
 			<p>Related Selectors is a lightweight jQuery cascading dropdown plugin that automatically filters &lt;select&gt; options based on the chosen option in the previous dropdown.</p>
-			
+			<p class="spacer"></p>
+			<p>All related selectors will need their own unique ID and use the class <em>select-relations</em>. All subsequent selectors will need the data attribute <em>data-sf-parent</em> with the unique ID of the previous selector as the value. Each option in every subsequent selector will need the data attribute <em>data-pr</em> with the value applied like so:<br />
+			<strong><em>previousID:option-value</em></strong><br />There is no limit to the number of subsequent selectors.</p>
+			<p class="spacer"></p>
 		</div><div class="padded half">
+			<h5 class="flow-text">DEMO</h5>
+			<p>In the example below, first select a continent in order to select a country, then select a city.</p>
+			
+			<!-- RELATED SELECTOR EXAMPLE -->
 			<form><div class="form-group charcoal-t">
 			<!-- level 1 -->
-			<select id="continentSelect" class="select-relations">
+			<select name="continent" id="continentSelect" class="select-relations">
+				<option value="none">[no continent selected]</option>
 				<option value="NA">North America</option>
 				<option value="Europe">Europe</option>
 			</select>
 			<!-- level 2 -->
-			<select id="countrySelect" class="select-relations" data-sf-parent="continentSelect">
+			<select name="country" id="countrySelect" class="select-relations" data-sf-parent="continentSelect">
 				<option value="USA" data-pr="continentSelect:NA">USA</option>
 				<option value="Canada" data-pr="continentSelect:NA">Canada</option>
 				<option value="Mexico" data-pr="continentSelect:NA">Mexico</option>
@@ -286,7 +294,7 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 				<option value="Italy" data-pr="continentSelect:Europe">Italy</option>
 			</select>
 			<!-- level 3 -->
-			<select id="citySelect" class="select-relations" data-sf-parent="countrySelect">
+			<select name="city" id="citySelect" class="select-relations" data-sf-parent="countrySelect">
 				<option value="Chicago" data-pr="countrySelect:USA">Chicago</option>
 				<option value="New York" data-pr="countrySelect:USA">New York</option>
 				<option value="Los Angeles" data-pr="countrySelect:USA">Los Angeles</option>
@@ -301,8 +309,9 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 				<option value="Rome" data-pr="countrySelect:Italy">Rome</option>
 				<option value="Naples" data-pr="countrySelect:Italy">Naples</option>
 			</select>
-			
 			</div></form>
+			<!-- END RELATED SELECTOR EXAMPLE -->
+			
 		</div></div>
 		<p class="spacer"></p>
 		<div class="clear-block jagged"><p class="checkerboard padding"></p></div>
