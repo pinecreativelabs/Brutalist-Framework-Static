@@ -2,18 +2,13 @@ Brutalist Framework Changelog
 Version 2.5.4
 
 BFX:
-+ Added new text effect classes: "stroke-text" and "cellophane-bounce"
 
 BICONS:
-+ 10 new icons: bank, basket, bikini, bookmark, construction, desert, lab-coat, om, shortcake, tea / teacup
++ 14 new icons: bison / buffalo, cricket, dodo, giraffe, hedgehog, hippo, mammoth, otter, oyster, parrot, scorpion, sloth, swan, zebra
 
 BUIX:
-+ New interaction: "Tooltip Reveal"
-+ Reveal Toggle is now considered deprecated - use a details HTML element, instead
 
 BUTCH:
-+ Added custom fonts: antidesign, backout, bluu-next, boa-construktor, brendiva, lack / lack-line, murmure, realico, sudo, sudbury / sudbury-3d, superglue, syne, tea-for-god
-+ Added aspect ratio classes
 
 FLAVORS:
 + New pure CSS "Patterns": blueprint-grid, bokeh, carbon-black, crossed, cubic, grey-rigidity, honeycomb, moss-mat, notebook-paper, paradox, polkadot, pyramidal, red-bricks, retro-bunch, smoke-flow, strawberry-steps, weaver, zig-zag
