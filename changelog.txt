@@ -16,4 +16,4 @@ BUTCH:
 + Added aspect ratio classes
 
 FLAVORS:
-+ New pure CSS "Patterns": blueprint-grid, carbon-black, cubic, grey-rigidity, honeycomb, moss-mat, notebook-paper, pyramidal, red-bricks, strawberry-steps, weaver
++ New pure CSS "Patterns": blueprint-grid, bokeh, carbon-black, crossed, cubic, grey-rigidity, honeycomb, moss-mat, notebook-paper, paradox, polkadot, pyramidal, red-bricks, retro-bunch, smoke-flow, strawberry-steps, weaver, zig-zag
