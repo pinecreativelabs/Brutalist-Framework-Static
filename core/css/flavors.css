@@ -1285,12 +1285,12 @@ background-color: #840b2a;
 	background-color: #131313; background-size: 20px 20px;
 }
 .checkerboard {
-	/* old 
 	background: conic-gradient(#fff 0.25turn, #000 0.25turn 0.5turn, #fff 0.5turn 0.75turn, #000 0.75turn) top left / 25% 25% repeat; 
-	*/
+	/* alternate method: 
 	background-color: #eee; background-size: 60px 60px; background-position: 0 0, 30px 30px;
 	background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
 	linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+	*/
 }
 .crossed {
 	background:
