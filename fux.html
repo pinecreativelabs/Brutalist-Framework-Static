@@ -273,10 +273,10 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			<strong><em>previousID:option-value</em></strong><br />There is no limit to the number of subsequent selectors.</p>
 			<p class="spacer"></p>
 		</div><div class="padded half">
-			<h5 class="flow-text">DEMO</h5>
+			<h5 class="flow-text">DEMO 1</h5>
 			<p>In the example below, first select a continent in order to select a country, then select a city.</p>
 			
-			<!-- RELATED SELECTOR EXAMPLE -->
+			<!-- RELATED SELECTOR EXAMPLE 1 -->
 			<form><div class="form-group charcoal-t">
 			<!-- level 1 -->
 			<select name="continent" id="continentSelect" class="select-relations">
@@ -310,8 +310,33 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 				<option value="Naples" data-pr="countrySelect:Italy">Naples</option>
 			</select>
 			</div></form>
-			<!-- END RELATED SELECTOR EXAMPLE -->
+			<!-- END RELATED SELECTOR EXAMPLE 1 -->
 			
+			<p class="spacer"></p>
+			<h5 class="flow-text">DEMO 2</h5>
+			<p>In this example, we select a group and then choose a related category.</p>
+			<p></p>
+			<!-- RELATED SELECTOR EXAMPLE 2 -->
+			<form><div class="form-group charcoal-t">
+			<!-- level 1 -->
+			<select name="group" id="groupSelect" class="select-relations">
+				<option value="designers">Designers</option>
+				<option value="photographers">Photographers</option>
+				<option value="writers">Writers</option>
+			</select>
+			<!-- level 2 -->
+			<select name="category" id="categorySelect" class="select-relations" data-sf-parent="groupSelect">
+				<option value="wedding" data-pr="groupSelect:photographers">Wedding</option>
+				<option value="interior" data-pr="groupSelect:designers">Interior</option>
+				<option value="graphic" data-pr="groupSelect:designers">Graphic</option>
+				<option value="commercial" data-pr="groupSelect:photographers">Commercial</option>
+				<option value="fantasy" data-pr="groupSelect:writers">Fantasy</option>
+				<option value="non-fiction" data-pr="groupSelect:writers">Non-Fiction</option>
+				<option value="travel" data-pr="groupSelect:writers">Travel</option>
+			</select>
+			</div></form>
+			<!-- END RELATED SELECTOR EXAMPLE 2 -->
+			<p class="spacer"></p>
 		</div></div>
 		<p class="spacer"></p>
 		<div class="clear-block jagged"><p class="checkerboard padding"></p></div>
