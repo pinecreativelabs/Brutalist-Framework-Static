@@ -7,7 +7,7 @@ BICONS:
 + 14 new icons: bison / buffalo, cricket, dodo, giraffe, hedgehog, hippo, mammoth, otter, oyster, parrot, scorpion, sloth, swan, zebra
 
 BUFF:
-[no changes] 
++ Added 4 new Fancy Filters: flat-retro, green-dream, orange-juice, purple-power
 
 BUIX:
 
