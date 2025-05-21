@@ -2,6 +2,7 @@ Brutalist Framework Changelog
 Version 2.5.4
 
 BFX:
++ New "Deconstructed Text" text effect
 
 BICONS:
 + 14 new icons: bison / buffalo, cricket, dodo, giraffe, hedgehog, hippo, mammoth, otter, oyster, parrot, scorpion, sloth, swan, zebra
