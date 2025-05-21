@@ -11,6 +11,7 @@ BUFF:
 + 4 new Fancy Filters: flat-retro, green-dream, orange-juice, purple-power
 
 BUIX:
++ Added new "Perspective-Nav" menu 
 
 BUTCH:
 + Added marked (highlighted) text classes under Typography: mark.important, mark.noted, mark.remember
