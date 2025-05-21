@@ -12,7 +12,7 @@ BUFF:
 BUIX:
 
 BUTCH:
-+ Added marked (highlighted) text classes under Typography
++ Added marked (highlighted) text classes under Typography: mark.important, mark.noted, mark.remember
 
 FLAVORS:
 + New pure CSS "Patterns": blueprint-grid, bokeh, carbon-black, crossed, cubic, grey-rigidity, honeycomb, moss-mat, notebook-paper, paradox, polkadot, pyramidal, red-bricks, retro-bunch, smoke-flow, strawberry-steps, weaver, zig-zag
