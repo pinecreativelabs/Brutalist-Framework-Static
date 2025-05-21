@@ -19,9 +19,3 @@ FLAVORS:
 
 FUX:
 + Added new "Related Selectors" UI element: a cascading chained select jQuery plugin
-
-Grids:
-[no changes]
-
-ReBAR:
-[no changes]
