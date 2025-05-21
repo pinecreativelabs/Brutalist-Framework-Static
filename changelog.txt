@@ -7,11 +7,12 @@ BICONS:
 + 14 new icons: bison / buffalo, cricket, dodo, giraffe, hedgehog, hippo, mammoth, otter, oyster, parrot, scorpion, sloth, swan, zebra
 
 BUFF:
-+ Added 4 new Fancy Filters: flat-retro, green-dream, orange-juice, purple-power
++ 4 new Fancy Filters: flat-retro, green-dream, orange-juice, purple-power
 
 BUIX:
 
 BUTCH:
++ Added marked (highlighted) text classes under Typography
 
 FLAVORS:
 + New pure CSS "Patterns": blueprint-grid, bokeh, carbon-black, crossed, cubic, grey-rigidity, honeycomb, moss-mat, notebook-paper, paradox, polkadot, pyramidal, red-bricks, retro-bunch, smoke-flow, strawberry-steps, weaver, zig-zag
