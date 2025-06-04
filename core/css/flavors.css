@@ -49,6 +49,11 @@
 .coconut-t-s,.cream-t-s{text-shadow: var(--tsb) #f7f9e0 !important;}
 .coconut-b,.cream-b{border-color: #f7f9e0 !important;}
 .coconut-o,.cream-o{outline-color: #f7f9e0 !important;}
+.cosmic-latte{background-color: #FFF8E7 !important;}
+.cosmic-latte-t{color: #FFF8E7 !important;}
+.cosmic-latte-t-s{text-shadow: var(--tsb) #FFF8E7 !important;}
+.cosmic-latte-b{border-color: #FFF8E7 !important;}
+.cosmic-latte-o{outline-color: #FFF8E7 !important;}
 .ivory,.ivory-h:hover.rice,.rice-h:hover{background-color: #fffff0 !important;}
 .ivory-t,.rice-t{color: #fffff0 !important;}
 .ivory-t-s,.rice-t-s{text-shadow: var(--tsb) #fffff0 !important;}
@@ -264,6 +269,11 @@
 .bbq-t-s {text-shadow: var(--tsb) #5a140c !important;}
 .bbq-b {border-color: #5a140c !important;}
 .bbq-o {outline-color: #5a140c !important;}
+.chipotle{background-color: #F69A52 !important;}
+.chipotle-t{color: #F69A52 !important;}
+.chipotle-t-s{text-shadow: var(--tsb) #F69A52 !important;}
+.chipotle-b{border-color: #F69A52 !important;}
+.chipotle-o{outline-color: #F69A52 !important;}
 .coral,.coral-h:hover{background-color: #f99372 !important;}
 .coral-t {color: #f99372 !important;}
 .coral-t-s {text-shadow: var(--tsb) #f99372 !important;}
@@ -301,6 +311,11 @@
 .blush-t-s {text-shadow: var(--tsb) #d986a2 !important;}
 .blush-b {border-color: #d986a2 !important;}
 .blush-o {outline-color: #d986a2 !important;}
+.melon{background-color: #f7bcac !important;}
+.melon-t{color: #f7bcac !important;}
+.melon-t-s{text-shadow: var(--tsb) #f7bcac !important;}
+.melon-b{border-color: #f7bcac !important;}
+.melon-o{outline-color: #f7bcac !important;}
 .cotton-candy, .cotton-candy-h:hover { background-color: #ff80ab !important;}
 .cotton-candy-t {color: #ff80ab !important;}
 .cotton-candy-t-s {text-shadow: var(--tsb) #ff80ab !important;}
@@ -316,6 +331,11 @@
 .raspberry-t-s {text-shadow: var(--tsb) #ad1457 !important;}
 .raspberry-b {border-color: #ad1457 !important; }
 .raspberry-o {outline-color: #ad1457 !important; }
+.rouge{background-color: #a94064 !important;}
+.rouge-t{color: #a94064 !important;}
+.rouge-t-s{text-shadow: var(--tsb) #a94064 !important;}
+.rouge-b{border-color: #a94064 !important;}
+.rouge-o{outline-color: #a94064 !important;}
 .salmon, .salmon-h:hover { background-color: #fa8072 !important;}
 .salmon-t {color: #fa8072 !important;}
 .salmon-t-s {text-shadow: var(--tsb) #fa8072 !important;}
@@ -326,6 +346,7 @@
 .taffy-t-s {text-shadow: var(--tsb) #fa86c4 !important;}
 .taffy-b {border-color: #fa86c4 !important;}
 .taffy-o {outline-color: #fa86c4 !important;}
+.tea-rose {background-color: #f4c2c2 !important;}
 
 /* Purples */ 
 .purple, .purple-h:hover {background-color: #800080 !important;}
@@ -634,11 +655,43 @@
 .spinach-t-s {text-shadow: var(--tsb) #1b5e20 !important;}
 .spinach-b {border-color: #1b5e20 !important;}
 .spinach-o {outline-color: #1b5e20 !important;}
+
+/* Teals */
+.aquamarine{background-color: #7fffd4 !important;}
+.aquamarine-t{color: #7fffd4 !important;}
+.aquamarine-t-s{text-shadow: var(--tsb) #7fffd4 !important;}
+.aquamarine-b{border-color: #7fffd4 !important;}
+.aquamarine-o{outline-color: #7fffd4 !important;}
+.baja-blast{background-color: #31ba90 !important;}
+.baja-blast-t{color: #31ba90 !important;}
+.baja-blast-t-s{text-shadow: var(--tsb) #31ba90 !important;}
+.baja-blast-b{border-color: #31ba90 !important;}
+.baja-blast-o{outline-color: #31ba90 !important;}
+.deep-teal{background-color: #01615f !important;}
+.deep-teal-t{color: #01615f !important;}
+.deep-teal-t-s{text-color: var(--tsb) #01615f !important;}
+.deep-teal-b{border-color: #01615f !important;}
+.deep-teal-o{outline-color: #01615f !important;}
+.egyptian-teal{background-color:#008b8e !important;}
+.egyptian-teal-t{color:#008b8e !important;}
+.egyptian-teal-t-s{text-shadow: var(--tsb) #008b8e !important;}
+.egyptian-teal-b{border-color:#008b8e !important;}
+.egyptian-teal-o{outline-color:#008b8e !important;}
+.olo {background-color: #00ffcc !important;}
+.olo-t{color: #00ffcc !important;}
+.olo-t-s{text-shadow: var(--tsb) #00ffcc !important;}
+.olo-b{border-color: #00ffcc !important;}
+.olo-o{outline-color: #00ffcc !important;}
 .teal {background-color: #008080 !important;}
 .teal-t {color: #008080 !important;}
 .teal-t-s {text-shadow: var(--tsb) #008080 !important;}
 .teal-b {border-color: #008080 !important;}
 .teal-o {outline-color: #008080 !important; }
+.tropical{background-color: #018695 !important;}
+.tropical-t{color: #018695 !important;}
+.tropical-t-s{text-shadow: var(--tsb) #018695 !important;}
+.tropical-b{border-color: #018695 !important;}
+.tropical-o{outline-color: #018695 !important;}
 .turquoise {background-color: #40e0d0 !important;}
 .turquoise-t {color: #40e0d0 !important;}
 .turquoise-t-s{text-shadow: var(--tsb) #40e0d0 !important;}
