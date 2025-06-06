@@ -8,6 +8,7 @@ BICONS:
 BUFF:
 
 BUIX:
++ Added new "list-grid-view" interaction 
 
 BUTCH:
 
