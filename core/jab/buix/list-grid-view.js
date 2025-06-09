@@ -1,6 +1,6 @@
 
 // Get the elements with class="gridwrap"
-var elements = document.getElementsByClassName("gridwrap");
+var elements = document.getElementsByClassName("list-grid-view");
 // Declare a loop variable
 var i;
 // List View
@@ -18,7 +18,7 @@ function gridView() {
   }
 }
 /* Optional: Add active class to the current button (highlight it) */
-var container = document.getElementById("btnContainer");
+var container = document.getElementById("ListGridViewToggler");
 var btns = container.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {

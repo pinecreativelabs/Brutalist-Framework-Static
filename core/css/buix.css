@@ -1,5 +1,5 @@
 /*************************************************
-BUIX 2.5.4 - Base User Interface Experience
+BUIX 2.5.5 - Base User Interface Experience
 **************************************************/
 @import url('variables.css');
 @font-face {
@@ -296,6 +296,15 @@ ul.tree-list ul { padding: 0 0 0 1.2em; margin: 0; list-style-type: none; }
 @keyframes overlayFadeInRight {
   0% {opacity: 0; left: 20%;}
   100% {opacity: 1; left: 0;}
+}
+
+/* List-Grid-View */
+.list-grid-view {display: grid; gap:10px; grid-template-columns: auto;}
+.list-grid-view.compacted{grid-template-columns: auto auto auto;}
+.list-grid-view>*{width: 100%; display: block;}
+#ListGridViewToggler>.active{filter:brightness(60%);}
+@media only screen and (max-width: 959px) {
+	.list-grid-view.compacted{grid-template-columns: auto auto;}
 }
 
 /* CDP: Content Display Picker */
