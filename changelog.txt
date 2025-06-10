@@ -6,6 +6,7 @@ BFX:
 BICONS:
 
 BUFF:
++ Added ability to apply Fancy Filters upon hover
 
 BUIX:
 + Added new "list-grid-view" interaction 
