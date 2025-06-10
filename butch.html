@@ -607,9 +607,9 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		<h3 class="fluid-text monolisk" id="bounds">Boundaries</h3>
 		<p>Boundaries need to be respected. This includes brutal borders and rigid rules.<br /><br /></p>
 		<p class="white-t courier flow-text"><span class="charcoal allcaps"><strong>Basic Borders</strong></span></p>
-		<p>Apply basic borders using these classes. To change the border color, see <em>Flavors</em>.<br /><br /></p>
-		<div class="flex">
-			<div class="padded">
+		<p>Apply basic borders using these classes. To change the border color, see <a href="flavors.html" class="lemonlink"><em>Flavors</em></a>.<br /><br /></p>
+		<div class="flex"><div class="padded two-thirds">
+			<div class="flex"><div class="padded">
 				<p class="b-s-t black-b" style="margin-bottom: 1em; padding: 0.5em;"><strong>.b-s-t</strong><br /><small>Solid thin border</small></p>
 				<p class="b-s-k black-b" style="margin-bottom: 1em; padding: 0.5em;"><strong>.b-s-k</strong><br /><small>Solid thick border</small></p>
 				<p class="b-s-f black-b" style="margin-bottom: 1em; padding: 0.5em;"><strong>.b-s-f</strong><br /><small>Solid fat border</small></p>
@@ -625,8 +625,16 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 				<p class="b-b-t black-b" style="margin-bottom: 1em; padding: 0.5em;"><strong>.b-b-t</strong><br /><small>Double thin border</small></p>
 				<p class="b-b-k black-b" style="margin-bottom: 1em; padding: 0.5em;"><strong>.b-b-k</strong><br /><small>Double thick border</small></p>
 				<p class="b-b-f black-b" style="margin-bottom: 1em; padding: 0.5em;"><strong>.b-b-f</strong><br /><small>Double fat border</small></p>
-			</div>
-		</div>
+			</div></div>
+		</div><div class="padded third">
+			<p class="padded info"><strong>NOTE:</strong> Border thicknesses are set using the following CSS variables:<br /><br />
+			<strong><em>--thin<br />--thick<br />--fat</em></strong><br /><br />These are also applied to outline thicknesses.</p>
+		</div></div>
+		<div class="flex"><div class="padded">
+			<p class="bs-s primary-bs" style="margin-bottom: 1em; padding: 0.5em;"><strong>.bs-s</strong><br /><small>Solid thin border</small></p>
+		</div><div class="padded">
+			<p class="be-d secondary-be" style="margin-bottom: 1em; padding: 0.5em;"><strong>.bs-d</strong><br /><small>Solid thin border</small></p>
+		</div></div>
 		<p class="spacer"></p>
 		<!-- Outlines -->
 		<p class="white-t courier flow-text"><span class="charcoal allcaps"><strong>Outlines</strong></span></p>

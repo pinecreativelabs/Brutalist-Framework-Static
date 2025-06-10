@@ -7,30 +7,42 @@
 .primary-t{color: var(--primary) !important;}
 .primary-t-s{text-shadow: var(--tsb) var(--primary) !important;}
 .primary-b{border-color: var(--primary) !important;}
+.primary-bs{border-block-start-color: var(--primary) !important;}
+.primary-be{border-block-end-color: var(--primary) !important;}
 .primary-o{outline-color: var(--primary) !important;}
 .secondary{background-color: var(--secondary) !important;}
 .secondary-t{color: var(--secondary) !important;}
 .secondary-t-s{text-shadow: var(--tsb) var(--secondary) !important}
 .secondary-b {border-color: var(--secondary) !important;}
+.secondary-bs{border-block-start-color: var(--secondary) !important;}
+.secondary-be{border-block-end-color: var(--secondary) !important;}
 .secondary-o {outline-color: var(--secondary) !important;}
 .tertiary {background-color: var(--tertiary) !important;}
 .tertiary-t{color: var(--tertiary) !important;}
 .tertiary-t-s{text-shadow: var(--tsb) var(--tertiary) !important;}
 .tertiary-b{border-color: var(--tertiary) !important;}
+.tertiary-bs{border-block-start-color: var(--tertiary) !important;}
+.tertiary-be{border-block-end-color: var(--tertiary) !important;}
 .tertiary-o{outline-color: var(--tertiary) !important;}
 .accent{background-color: var(--accent) !important;}
 .accent-t{color: var(--accent) !important;}
 .accent-t-s{text-shadow: var(--tsb) var(--accent) !important;}
 .accent-b{border-color: var(--accent) !important;}
+.accent-bs{border-block-start-color: var(--accent) !important;}
+.accent-be{border-block-end-color: var(--accent) !important;}
 .accent-o{outline-color: var(--accent) !important;}
 .auxiliary{background-color: var(--auxiliary) !important;}
 .auxiliary-t{color: var(--auxiliary) !important;}
 .auxiliary-t-s{text-shadow: var(--tsb) var(--auxiliary) !important;}
 .auxiliary-b{border-color: var(--auxiliary) !important;}
+.auxiliary-bs{border-block-start-color: var(--auxiliary) !important;}
+.auxiliary-be{border-block-end-color: var(--auxiliary) !important;}
 .auxiliary-o{outline-color: var(--auxiliary) !important;}
 .ocolor{background-color: var(--other) !important;}
 .ocolor-t{color: var(--other) !important;}
 .ocolor-b{border-color: var(--other) !important;}
+.ocolor-bs{border-block-start-color: var(--ocolor) !important;}
+.ocolor-be{border-block-end-color: var(--ocolor) !important;}
 .ocolor-o{outline-color: var(--other) !important;}
 
 /* Whites */
