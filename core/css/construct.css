@@ -17,6 +17,10 @@ Load Defaults (REQUIRED) */
 
 /* Flavors */
 @import url('flavors.css');
+@import url('flavors/concoctions.css');
+@import url('flavors/gradients.css');
+@import url('flavors/mesh-gradients.css');
+@import url('flavors/patterns.css');
 
 /* BUFF */
 @import url('buff.css');
