@@ -630,6 +630,20 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			<p class="padded info"><strong>NOTE:</strong> Border thicknesses are set using the following CSS variables:<br /><br />
 			<strong><em>--thin<br />--thick<br />--fat</em></strong><br /><br />These are also applied to outline thicknesses.</p>
 		</div></div>
+		<p class="white-t courier flow-text"><span class="charcoal allcaps"><strong>Border-Block-Start/End</strong></span></p>
+		<div class="flex"><div class="half padded">
+			<p>Depending on the writing-mode direction of the block, a border at the start and/or end can be applied. Solid, dotted, dashed, or double styles can be applied.<br /><br />
+			A combination of classes can be applied to the same element. To specify a color, simply use <a href="flavors.html" class="lemonlink">Flavors</a> classes with either an <em>-bs</em> (block-start) or <em>-be</em> (block-end) appended to the end of the class (ex: <em><strong>.lemon-bs</strong></em>).<br /><br />
+			The border-block start and end widths are set using the variables <strong><em>--bsw</em></strong> and <strong><em>--bew</em></strong>, respectively.</p>
+		</div><div class="padded half">
+			<p class="padded info"><span class="flow-text"><strong>Classes</strong></span><br />
+			<strong>.bs-s</strong> <small>[block-start solid]</small><br /><strong>.bs-d</strong> <small>[block-start dotted]</small><br />
+			<strong>.bs-a</strong> <small>[block-start dashed]</small><br /><strong>.bs-b</strong><small>[block-start double]</small><br />
+			<strong>.be-s</strong> <small>[block-end solid]</small><br /><strong>.be-d</strong> <small>[block-end dotted]</small><br />
+			<strong>.be-a</strong> <small>[block-end dashed]</small><br /><strong>.be-b</strong><small>[block-end double]</small><br /><br />
+			<strong>.<em>flavor</em>-bs</strong> <small>[block-start color]</small><br /><strong>.<em>flavor</em>-be</strong> <small>[block-end color]</small><br />
+			</p>
+		</div></div>
 		<div class="flex"><div class="padded">
 			<p class="bs-s primary-bs" style="margin-bottom: 1em; padding: 0.5em;"><strong>.bs-s</strong><br /><small>Solid thin border</small></p>
 		</div><div class="padded">
