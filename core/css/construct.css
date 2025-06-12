@@ -5,7 +5,7 @@ Load Defaults (REQUIRED) */
 @import url('default.css');
 
 /* Grids */
-@import url('quick-grid.css');
+@import url('grids/quick-grid.css');
 @import url('blueprintgrid.css');
 
 /* ReBAR */
@@ -13,7 +13,7 @@ Load Defaults (REQUIRED) */
 
 /* BUTCH */
 @import url('butch.css');
-@import url('molds/shapes.css');
+@import url('butch/shapes.css');
 
 /* Flavors */
 @import url('flavors.css');
@@ -24,11 +24,14 @@ Load Defaults (REQUIRED) */
 
 /* BUFF */
 @import url('buff.css');
+@import url('buff/fancy-filters.css');
 
 /* BUIX */
 @import url('buix.css');
-@import url('molds/multimedia.css');
-@import url('molds/presenter.css');
+@import url('buix/multimedia.css');
+@import url('buix/presenter.css');
+/* Misc UI/UX */
+@import url('buix/uiux.css');
 
 /* Give Some FUX */
 @import url('fux.css');
@@ -44,9 +47,6 @@ Load Defaults (REQUIRED) */
 
 /* Font Packs */
 @import url('fonts/construct-fonts.css');
-
-/* Misc UI/UX */
-@import url('molds/uiux.css');
 
 /* Load Animation Libraries */
 @import url('animate.css');
