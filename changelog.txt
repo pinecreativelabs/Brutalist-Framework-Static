@@ -1,6 +1,9 @@
 Brutalist Framework Changelog
 Version 2.5.5
 
+GENERAL:
++ Rearrangement and breakdown of various CSS components
+
 BFX:
 
 BICONS:
