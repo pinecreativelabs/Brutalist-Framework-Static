@@ -30,8 +30,8 @@ Load Defaults (REQUIRED) */
 @import url('buix.css');
 @import url('buix/multimedia.css');
 @import url('buix/presenter.css');
-/* Misc UI/UX */
-@import url('buix/uiux.css');
+@import url('buix/timeline.css');
+@import url('buix/popup-uiux.css');
 
 /* Give Some FUX */
 @import url('fux.css');

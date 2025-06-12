@@ -7,6 +7,9 @@ BUIX 2.5.5 - Base User Interface Experience
   src: url("fonts/icomoon.woff") format('woff'), url("fonts/icomoon.ttf") format('truetype'), url("fonts/icomoon.otf") format('opentype'), url("fonts/icomoon.eot") format('embedded-opentype');
 }
 
+/* PRINTER */
+iframe.kinzi-print { display: none !important; }
+
 /* BUTTONS */
 button, .button, .btn, input[type="submit"] {
 	text-align: center; display: inline-block; cursor: pointer;
