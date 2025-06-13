@@ -634,22 +634,33 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		<div class="flex"><div class="half padded">
 			<p>Depending on the writing-mode direction of the block, a border at the start and/or end can be applied. Solid, dotted, dashed, or double styles can be applied.<br /><br />
 			A combination of classes can be applied to the same element. To specify a color, simply use <a href="flavors.html" class="lemonlink">Flavors</a> classes with either an <em>-bs</em> (block-start) or <em>-be</em> (block-end) appended to the end of the class (ex: <em><strong>.lemon-bs</strong></em>).<br /><br />
-			The border-block start and end widths are set using the variables <strong><em>--bsw</em></strong> and <strong><em>--bew</em></strong>, respectively.</p>
+			The border-block start and end widths are set using the variables <strong><em>--bsw</em></strong> and <strong><em>--bew</em></strong>, respectively.<br /><br />
+			In the examples below, we apply various flavors to both the start and end.</p>
 		</div><div class="padded half">
 			<p class="padded info"><span class="flow-text"><strong>Classes</strong></span><br />
 			<strong>.bs-s</strong> <small>[block-start solid]</small><br /><strong>.bs-d</strong> <small>[block-start dotted]</small><br />
 			<strong>.bs-a</strong> <small>[block-start dashed]</small><br /><strong>.bs-b</strong><small>[block-start double]</small><br />
 			<strong>.be-s</strong> <small>[block-end solid]</small><br /><strong>.be-d</strong> <small>[block-end dotted]</small><br />
 			<strong>.be-a</strong> <small>[block-end dashed]</small><br /><strong>.be-b</strong><small>[block-end double]</small><br /><br />
-			<strong>.<em>flavor</em>-bs</strong> <small>[block-start color]</small><br /><strong>.<em>flavor</em>-be</strong> <small>[block-end color]</small><br />
+			<strong>.<em>flavor</em>-bs</strong> <small>[block-start color]</small><br /><strong>.<em>flavor</em>-be</strong> <small>[block-end color]</small>
 			</p>
 		</div></div>
-		<div class="flex"><div class="padded">
-			<p class="bs-s primary-bs" style="margin-bottom: 1em; padding: 0.5em;"><strong>.bs-s</strong><br /><small>Solid thin border</small></p>
-		</div><div class="padded">
-			<p class="be-d secondary-be" style="margin-bottom: 1em; padding: 0.5em;"><strong>.bs-d</strong><br /><small>Solid thin border</small></p>
+		<div class="flex"><div class="padded third">
+			<p class="bs-s smoke-bs charcoal" style="margin-bottom: 1em; padding: 0.5em;"><strong>.bs-s .smoke-bs</strong><br /><small>Solid block-start</small></p>
+			<p class="bs-a rose-bs ash" style="margin-bottom: 1em; padding: 0.5em;"><strong>.bs-a .rose-bs</strong><br /><small>Dashed block-start</small></p>
+			<p class="bs-d lavender-bs charcoal" style="margin-bottom: 1em; padding: 0.5em;"><strong>.bs-d .lavender-bs</strong><br /><small>Dotted block-start</small></p>
+			<p class="bs-b sky-bs ash" style="margin-bottom: 1em; padding: 0.5em;"><strong>.bs-b .sky-bs</strong><br /><small>Double block-start</small></p>
+		</div><div class="padded third">
+			<p class="be-s honey-be charcoal" style="margin-bottom: 1em; padding: 0.5em;"><strong>.be-s .honey-be</strong><br /><small>Solid block-end</small></p>
+			<p class="be-a lime-be ash" style="margin-bottom: 1em; padding: 0.5em;"><strong>.be-a .lime-be</strong><br /><small>Dashed block-end</small></p>
+			<p class="be-d fuchsia-be charcoal" style="margin-bottom: 1em; padding: 0.5em;"><strong>.be-d .fuchsia-be</strong><br /><small>Dotted block-end</small></p>
+			<p class="be-b fire-be ash" style="margin-bottom: 1em; padding: 0.5em;"><strong>.be-b .fire-be</strong><br /><small>Double block-end</small></p>
+		</div><div class="padded third">
+			<p class="wm-rl bs-s be-a tertiary-bs auxiliary-be ash" style="margin-bottom: 1em; padding: 0.5em;"><strong>.wm-rl .bs-s .be-a<br />.tertiary-bs .auxiliary-be</strong><br />
+			<small>Right-left writing mode, Solid block-start, dashed block-end</small></p>
 		</div></div>
 		<p class="spacer"></p>
+		
 		<!-- Outlines -->
 		<p class="white-t courier flow-text"><span class="charcoal allcaps"><strong>Outlines</strong></span></p>
 		<p style="margin-bottom: 1em;">Add an outline border around any element. You can apply both borders and outlines to the same element. Similar to the border classes above, use <strong><em>o</em></strong> in place of the first <strong><em>b</em></strong>. Example: <b><em>.o-s-t</em></b> produces a solid thin outline.</p>

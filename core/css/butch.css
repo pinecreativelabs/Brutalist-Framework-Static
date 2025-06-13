@@ -378,7 +378,7 @@ img.responsive, .responsive img, video { width: 100%; height: auto !important; }
 .be-s{border-block-end-style: solid;}
 .be-d{border-block-end-style: dotted;}
 .be-a{border-block-end-style: dashed;}
-.be-b{border-block-end-style: double; border-block-end-width: calc(var(-bew)*2);}
+.be-b{border-block-end-style: double; border-block-end-width: calc(var(--bew)*2);}
 .o-s-t, .ol-s-t, .outline-solid-thin { outline-style: solid; outline-width: var(--thin); }
 .o-s-k, .ol-s-k, .outline-solid-thick { outline-style: solid; outline-width: var(--thick); }
 .o-s-f, .ol-s-f, .outline-solid-fat { outline-style: solid; outline-width: var(--fat); }
