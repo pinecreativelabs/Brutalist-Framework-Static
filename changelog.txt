@@ -2,11 +2,7 @@ Brutalist Framework Changelog
 Version 2.5.5
 
 GENERAL:
-+ Rearrangement and breakdown of various CSS components
-
-BFX:
-
-BICONS:
++ Rearrangement and segregation of various CSS components into separate CSS files
 
 BUFF:
 + Added ability to apply Fancy Filters upon hover
