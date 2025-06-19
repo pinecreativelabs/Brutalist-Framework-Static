@@ -1,11 +1,10 @@
 /* Construct CORE CSS 
- * version 2.5.5
+ * version 2.6
  *
 Load Defaults (REQUIRED) */
 @import url('default.css');
 
 /* Grids */
-@import url('grids/quick-grid.css');
 @import url('blueprintgrid.css');
 
 /* ReBAR */
