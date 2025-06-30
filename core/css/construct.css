@@ -50,5 +50,5 @@ Load Defaults (REQUIRED) */
 /* Custom Fonts */
 @import url('fonts/construct-fonts.css');
 
-/* TPL (Third-Party Libraries */
+/* TPL (Third-Party Libraries (optional) */
 @import url('tpl/animate.css');
