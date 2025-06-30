@@ -4,7 +4,8 @@ Version 2.6
 GENERAL:
 + Rearrangement and segregation of various CSS components into separate CSS files
 
-BUFF:
+Grids:
++ Updated to Blueprint Grid 2.2
 
 BUIX:
 

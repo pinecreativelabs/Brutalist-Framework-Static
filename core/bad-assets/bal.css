@@ -2,4 +2,25 @@
  * Brutal Anti-Design Asset Library 
  */
 
-.bad {display:inline-block;}
+.bad.asset { background-color: transparent; width: 100%;
+	background-repeat: no-repeat; mask-repeat: no-repeat;
+	background-size: contain; mask-size: contain;
+}
+.bad.asset.micro {width: 5%;}
+.bad.asset.small {width: 15%;}
+.bad.asset.medium {width: 25%;}
+.bad.asset.large {width: 35%;}
+.bad.asset.xlarge {width: 45%;}
+.bad.asset.flip-x {-webkit-transform: scaleX(-1);transform: scaleX(-1);}
+.bad.asset.flip-y {-webkit-transform: scaleY(-1);transform: scaleY(-1);}
+.bad.asset.flip-xy {-webkit-transform: scale(-1,-1); transform: scale(-1,-1);}
+.accent.t-r,.accent.t-l,.accent.b-l,.accent.b-r {position: absolute;}
+.accent.t-r {top: 0; right: 0;}
+.accent.t-l {top: 0; left: 0;}
+.accent.b-l {bottom: 0; left: 0;}
+.accent.b-r {bottom: 0; right: 0;}
+.accent.attuned {
+	-webkit-mask-image: url('images/ornaments/attuned.png');
+	mask-image: url('images/ornaments/attuned.png');
+	aspect-ratio: 3.14/1;
+}
