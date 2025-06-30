@@ -37,6 +37,8 @@ Load Defaults (REQUIRED) */
 
 /* BFX */
 @import url('bfx.css');
+@import url('bfx/brutal-animations.css');
+@import url('bfx/text-fx.css');
 
 /* bIcons */
 @import url('bicons.css');
@@ -44,8 +46,8 @@ Load Defaults (REQUIRED) */
 /* Filetype Icons */
 @import url('filetypes.css');
 
-/* Font Packs */
+/* Custom Fonts */
 @import url('fonts/construct-fonts.css');
 
-/* Load Animation Libraries */
-@import url('animate.css');
+/* TPL (Third-Party Libraries */
+@import url('tpl/animate.css');
