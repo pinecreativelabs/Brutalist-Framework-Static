@@ -12,6 +12,7 @@ Load Defaults (REQUIRED) */
 
 /* BUTCH */
 @import url('butch.css');
+@import url('butch/typography.css');
 @import url('butch/shapes.css');
 
 /* Flavors */

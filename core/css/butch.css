@@ -1,8 +1,7 @@
 /* BUTCH 2.5.5 */
 @import url('variables.css');
 
-/* BODY DEFAULTS 
-========================== */
+/* BODY DEFAULTS  */
 body {font-size: var(--fontsize);}
 h1 {
 	/*font-size: 4.2rem;*/
@@ -35,125 +34,10 @@ h6 {
 	margin: 0.5rem 0 0.4rem 0;
 }
 
-/* TYPOGRAPHY 
-========================= */
-/* Font Families */
-.arial, .arial-text { font-family: arial, sans-serif; }
-.arial-black, .arial-black-text { font-family: 'Arial Black', Gadget, sans-serif; }
-.comic, .comic-sans, .comic-sans-text { font-family: 'Comic Sans MS', sans-serif; }
-.tahoma, .tahoma-text { font-family: tahoma, sans-serif; }
-.helvetica, .helvetica-text { font-family: Helvetica, sans-serif; }
-.impact, .impact-text { font-family: Impact, Charcoal, sans-serif; }
-.verdana, .verdana-text { font-family: Verdana, Geneva, sans-serif; }
-.courier, .courier-new, .courier-new-text { font-family: 'Courier New', Courier, monospace; }
-.lucida, .lucida-text { font-family: 'Lucida Console', Monaco, monospace; }
-.georgia, .georgia-text { font-family: Georgia, serif; }
-.times-new-roman, .times, .times-text { font-family: 'Times New Roman', Times, serif; }
-.palatino, .palatino-text { font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; }
-
-/* Font Sizes */
-.fineprint {font-size:65%;}
-.smaller {font-size: 80%;}
-.larger, .bigger {font-size: 160%;}
-.huge {font-size: 240%;}
-
-/* Font Weights */
-.normal {font-weight: normal;}
-.bold {font-weight: 600;}
-.heavy {font-weight: 900;}
-
-/* Font Styles & Formatting */
-.oblique {font-style: oblique;}
-.spaced-2x {line-height: 200% !important;}
-.spaced-3x {line-height: 300% !important;}
-.spaced-4x {line-height: 400% !important;}
-.allcaps {text-transform: uppercase !important;}
-.lowercase, .alllower {text-transform: lowercase !important;}
-.capitalize, .capitals {text-transform: capitalize !important;}
-.smallcaps {font-variant: small-caps !important;}
-.guard-text, .guard { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
-
-/* Alignments & Floats */
-.justify-t, .justify {text-align: justify;}
-.left-t, .left-align {text-align: left !important;}
-.right-t, .right-align {text-align: right !important;}
-.center-t {text-align: center !important;}
-.left{float:left;}
-.right{float:right;}
-
-/* Text Direction */
-.rtl {direction: rtl;}
-.wm-lr {writing-mode: vertical-lr;}
-.wm-rl {writing-mode: vertical-rl;}
-/* Whitespace */
-.nowrap {white-space: nowrap;}
-/* Word Wrapping & Spacing */
-.break{word-wrap:break-word; word-break: break-word;}
-.break-all{word-break: break-all;}
-.keep-all{word-break: keep-all;}
-.indent {text-indent: 1cm !important;}
-.wordspace{word-spacing: var(--wordspace);}
-.tal-l, .tal-left {text-align-last: left;}
-.tal-r, .tal-right {text-align-last: right;}
-.tal-c, .tal-center {text-align-last: center;}
-.tal-j, .tal-justify {text-align-last: justify;}
 /* Character Spacing */
-.letterspace {letter-spacing: var(--charspace);}
-.compress{letter-spacing: calc(var(--charspace)*-0.33);}
-.spread{letter-spacing: calc(var(--charspace)*2);}
-/* Marks (highlighting) */
-mark{background-color: yellow; color: black;}
-mark.important{background-color: red; color: yellow;}
-mark.noted{background-color: green; color: yellow;}
-mark.remember{background-color: DeepSkyBlue; color: black;}
-/* badges */
-span.badge {border-radius: 4px; -webkit-border-radius: 4px; padding: 4px; font-weight: 600; margin-left: 6px; margin-right: 6px;}
-
-/* Unordered Lists */
-ul.disc {list-style-type: disc;}
-ul.square{list-style-type: square;}
-ul.circle {list-style-type: circle;}
-ul.disc, ul.square, ul.circle {padding:0;}
-ul.diamond, ul.diamond ul, ul.triangle, ul.triangle ul, ul.brutal, ul.brutal ul, ul.check, ul.xmark, ul.xmark ul,
-ul.heart, ul.heart ul, ul.sparkle, ul.sparkle ul, ul.burst, ul.burst ul,
-ul.arrow, ul.fisheye, ul.fisheye ul, ul.bullseye, ul.bullseye ul, ul.lozenge, ul.lozenge ul { 
-	list-style-type: none; padding: 0;
-}
-ul.diamond li, ul.triangle li {list-style-position: outside;}
-ul.diamond li:before, ul.triangle li:before, ul.brutal li:before, ul.check li:before, ul.arrow li:before,
-ul.heart li:before, ul.sparkle li:before, ul.burst li:before,
-ul.fisheye li:before, ul.bullseye li:before, ul.lozenge li:before, ul.xmark li:before { 
-	margin-right: 0.5em; 
-}
-ul.diamond li:before {content: '\25C6';}
-ul.heart li:before {content:'\2764';}
-ul.lozenge li:before {content: '\25C8';}
-ul.sparkle li:before {content:'\2748';}
-ul.triangle li:before {content: '\25B6';}
-ul.brutal li {list-style-position: outside;}
-ul.brutal li:before {content: '\25B0';}
-ul.bullseye li:before {content: '\25CE';}
-ul.burst li:before {content:'\2738';}
-ul.fisheye li:before {content: '\25C9';}
-ul.arrow li:before {content: '\27A4';}
-
-/* Unordered Lists - Tags: display ul list as inline */
-ul.tags, ul.tags-hash, ul.tags-check, ul.tags-xmark { list-style: none; padding: 0; margin: 0; }
-ul.tags li, ul.tags-hash li, ul.tags-check li, ul.tags-xmark li { display: inline-block; list-style-type: none; padding: 0; margin: 0.4rem; }
-ul.tags-hash li:before, ul.tags-check li:before, ul.tags-xmark li:before { font-weight: 600; margin-right: 0.2rem; text-align: center; width: 1rem;}
-ul.tags-hash li:before {content:'#';}
-ul.tags-check li:before, ul.check li:before {content:'\2714';}
-ul.tags-xmark li:before, ul.xmark li:before {content:'\2718';}
-
-/* Ordered Lists */
-ol, ol.roman, ol.alpha, ol.none {padding: 0;}
-ol.roman {list-style-type: upper-roman;}
-ol.alpha {list-style-type: upper-alpha;}
-ol.none, ul.none {list-style-type: none;}
-
-/* Description Lists */
-dl dt {font-size: 125%;}
-dl dd:before {float: left; width: 1em; content: '\2771';}
+.char-space, .letterspace {letter-spacing: var(--charspace);}
+.char-compress{letter-spacing: calc(var(--charspace)*-0.33);}
+.char-spread{letter-spacing: calc(var(--charspace)*2);}
 
 /* Section Counters */
 .count-reset, h1.count-reset, h2.count-reset, h3.count-reset, h4.count-reset, h5.count-reset { counter-reset: section; }
@@ -181,43 +65,10 @@ dl dd:before {float: left; width: 1em; content: '\2771';}
 .gap50{ -webkit-column-gap: 50px; -moz-column-gap: 50px; column-gap: 50px; }
 .gap60{ -webkit-column-gap: 60px; -moz-column-gap: 60px; column-gap: 60px; }
 
-/* FLUID & FLEX TEXT */
-.fluid-text {font-size: calc(12px + (32 - 12) * ((100vw - 300px) / (1920 - 300))); line-height: 100%;}
-h1.fluid-text, .fluid-text-h1 {font-size: calc(28px + (128 - 28) * ((100vw - 300px) / (1920 - 300)));} 
-h2.fluid-text, .fluid-text-h2 {font-size: calc(22px + (96 - 22) * ((100vw - 300px) / (1920 - 300)));}
-h3.fluid-text, .fluid-text-h3 {font-size: calc(18px + (76 - 18) * ((100vw - 300px) / (1920 - 300)));}
-h4.fluid-text, .fluid-text-h4 {font-size: calc(16px + (64 - 16) * ((100vw - 300px) / (1920 - 300)));}
-h5.fluid-text, .fluid-text-h5 {font-size: calc(14px + (54 - 14) * ((100vw - 300px) / (1920 - 300)));}
-h6.fluid-text, .fluid-text-h6 {font-size: calc(14px + (44 - 14) * ((100vw - 300px) / (1920 - 300)));}
-
 .flex-text {
 	font-size: calc(14px + (48 - 14) * ((100vw - 300px) / (1920 - 300)));
 	font-size: clamp(var(--minflextext), var(--prefflextext), var(--maxflextext));
 }
-
-/* FLOW TEXT */
-@media only screen and (min-width: 361px) {.flow-text {font-size: 1.2rem;}}
-@media only screen and (min-width: 390px) {.flow-text {font-size: 1.224rem;}}
-@media only screen and (min-width: 420px) {.flow-text {font-size: 1.248rem;}}
-@media only screen and (min-width: 450px) {.flow-text {font-size: 1.272rem;}}
-@media only screen and (min-width: 480px) {.flow-text {font-size: 1.296rem;}}
-@media only screen and (min-width: 510px) {.flow-text {font-size: 1.32rem;}}
-@media only screen and (min-width: 540px) {.flow-text {font-size: 1.344rem;}}
-@media only screen and (min-width: 570px) {.flow-text {font-size: 1.368rem;}}
-@media only screen and (min-width: 600px) {.flow-text {font-size: 1.392rem;}}
-@media only screen and (min-width: 630px) {.flow-text {font-size: 1.416rem;}}
-@media only screen and (min-width: 660px) {.flow-text {font-size: 1.44rem;}}
-@media only screen and (min-width: 690px) {.flow-text {font-size: 1.464rem;}}
-@media only screen and (min-width: 720px) {.flow-text {font-size: 1.488rem;}}
-@media only screen and (min-width: 750px) {.flow-text {font-size: 1.512rem;}}
-@media only screen and (min-width: 780px) {.flow-text {font-size: 1.536rem;}}
-@media only screen and (min-width: 810px) {.flow-text {font-size: 1.56rem;}}
-@media only screen and (min-width: 840px) {.flow-text {font-size: 1.584rem;}}
-@media only screen and (min-width: 870px) {.flow-text {font-size: 1.608rem;}}
-@media only screen and (min-width: 900px) {.flow-text {font-size: 1.632rem;}}
-@media only screen and (min-width: 930px) {.flow-text {font-size: 1.656rem;}}
-@media only screen and (min-width: 960px) {.flow-text {font-size: 1.68rem;}}
-@media only screen and (max-width: 360px) {.flow-text {font-size: 1.2rem;}}
 
 /* LAYERING & POSITIONING */
 .layer-b, .stack-b, .stack-base {z-index: var(--base) !important;}
