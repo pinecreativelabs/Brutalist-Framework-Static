@@ -1,20 +1,16 @@
 Brutalist Framework Changelog
-Version 2.5.5
+Version 2.6
 
 GENERAL:
 + Rearrangement and segregation of various CSS components into separate CSS files
 
 BUFF:
-+ Added ability to apply Fancy Filters upon hover
 
 BUIX:
-+ Added new "list-grid-view" interaction 
 
 BUTCH:
 + Segregated Flexbox layout into a separate CSS file
 + Introduced border-block-end/start classes to Boundaries
 
 FLAVORS:
-+ New "Shades of Teal" flavors: aquamarine, baja-blast, dep-teal, egyptian-teal, olo, tropical
-+ Other flavors added: chipotle, cosmic-latte, melon, rouge, tea-rose
 
