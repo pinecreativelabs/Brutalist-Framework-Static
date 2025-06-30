@@ -2,10 +2,10 @@
  * Brutal Anti-Design Asset Library 
  */
 
-.bad.asset { background-color: transparent; width: 100%;
-	background-repeat: no-repeat; mask-repeat: no-repeat;
-	background-size: contain; mask-size: contain;
-}
+.bad.asset { background-color: transparent; width: 100%; }
+.bad.asset.bg{background-repeat: no-repeat; background-size: contain;}
+.bad.asset.masked {mask-repeat: no-repeat; mask-size: contain;}
+
 .bad.asset.micro {width: 5%;}
 .bad.asset.small {width: 15%;}
 .bad.asset.medium {width: 25%;}
