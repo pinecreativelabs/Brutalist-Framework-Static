@@ -178,13 +178,15 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			<li class="heather">.heather</li>
 			<li class="rebecca">.rebecca</li>
 			<li class="mauve">.mauve</li>
+			<li class="grapeseed">.grapeseed</li>
 			<li class="purple">.purple</li>
 			<li class="eggplant">.eggplant</li>
 			<li class="purple-basil">.purple-basil</li>
-			<li class="grape">.grape</li>
+			<li class="grape lavender-t">.grape</li>
 			<li class="raisin lavender-t">.raisin</li>
 			<li class="plum lavender-t">.plum</li>
 			<li class="blackberry lavender-t">.blackberry</li>
+			<li class="indigo">.indigo</li>
 		</ul>
 		<!-- BLUES -->
 		<h4 class="flow-text">Shades of Blue</h4>
@@ -218,6 +220,7 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			<li class="brown">.brown</li>
 			<li class="steak">.steak</li>
 			<li class="cider">.cider</li>
+			<li class="brandy">.brandy</li>
 			<li class="cinnamon">.cinnamon</li>
 			<li class="spice">.spice</li>
 			<li class="cocoa wheat-t">.cocoa</li>
@@ -233,6 +236,7 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			<li class="chipotle">.chipotle</li>
 			<li class="mango">.mango</li>
 			<li class="fire">.fire</li>
+			<li class="apricot">.apricot</li>
 			<li class="tangerine">.tangerine</li>
 			<li class="squash">.squash</li>
 			<li class="carrot">.carrot</li>
@@ -331,19 +335,22 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		
 		<!-- Variable Colors -->
 		<h3 class="fluid-text monolisk" id="vars">Variables</h3>
-		<p>Similar to Core Colors, there are CSS variables used to define a few color classes. Variables are defined in the <strong><em>core/css/variables.css</em></strong> file. See <em>CORE</em> for more details on working with CSS variables. Variable-based color classes work the same way as <em>Core Colors</em>:</p>
-		<ul class="none flow-text bold info inline-block">
-			<li>.primary <span class="primary">&nbsp;&nbsp;</span></li>
-			<li>.secondary <span class="secondary">&nbsp;&nbsp;</span></li>
-			<li>.tertiary <span class="tertiary">&nbsp;&nbsp;</span></li>
-			<li>.accent <span class="accent">&nbsp;&nbsp;</span></li>
-			<li>.auxiliary <span class="auxiliary">&nbsp;&nbsp;</span></li>
-			<li>.ocolor <span class="ocolor">&nbsp;&nbsp;</span> <small>(other)</small></li>
-		</ul>
-		<p class="inline-block padded info">
-			<span class="bold flow-text">Examples:</span><br /><span class="secondary-t">.secondary-t</span><br /><span class="tertiary primary-t">.tertiary.primary-t</span><br />
-			<span class="b-s-t ocolor-b auxiliary ocolor-t">.auxiliary.ocolor-b.ocolor-t</span>
-		</p>
+		<div class="flex"><div class="padded half flow-text">
+			<p>Similar to Core Colors, there are CSS variables used to define a few color classes. Variables are defined in the <strong><em>core/css/variables.css</em></strong> file. See <em>CORE</em> for more details on working with CSS variables. Variable-based color classes work the same way as <em>Core Colors</em>:</p>
+		</div><div class="padded half">
+			<ul class="none flow-text bold info inline-block">
+				<li>.primary <span class="primary">&nbsp;&nbsp;</span></li>
+				<li>.secondary <span class="secondary">&nbsp;&nbsp;</span></li>
+				<li>.tertiary <span class="tertiary">&nbsp;&nbsp;</span></li>
+				<li>.accent <span class="accent">&nbsp;&nbsp;</span></li>
+				<li>.auxiliary <span class="auxiliary">&nbsp;&nbsp;</span></li>
+				<li>.ocolor <span class="ocolor">&nbsp;&nbsp;</span> <small>(other)</small></li>
+			</ul>
+			<p class="inline-block padded info">
+				<span class="bold flow-text">Examples:</span><br /><span class="secondary-t">.secondary-t</span><br /><span class="tertiary primary-t">.tertiary.primary-t</span><br />
+				<span class="b-s-t ocolor-b auxiliary ocolor-t">.auxiliary.ocolor-b.ocolor-t</span>
+			</p>
+		</div></div>
 		<p class="spacer"></p>
 		<div class="clear-block jagged"><p class="checkerboard padding"></p></div>
 		
@@ -372,6 +379,8 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			<li class="orange-cream ccbo"><span class="flow-text">.orange-cream</span><br />Lorem ipsum filler text.<br /><a href="#">Link Example</a></li>
 			<li class="plush ccbo"><span class="flow-text">.plush</span><br />Lorem ipsum filler text.<br /><a href="#">Link Example</a></li>
 			<li class="pool-party ccbo"><span class="flow-text">.pool-party</span><br />Lorem ipsum filler text.<br /><a href="#">Link Example</a></li>
+			<li class="raspberry-honey ccbo"><span class="flow-text">.raspberry-honey</span><br />Lorem ipsum filler text.<br /><a href="#">Link Example</a></li>
+			<li class="roadway ccbo"><span class="flow-text">.roadway</span><br />Lorem ipsum filler text.<br /><a href="#">Link Example</a></li>
 			<li class="slimeball ccbo"><span class="flow-text">.slimeball</span><br />Lorem ipsum filler text.<br /><a href="#">Link Example</a></li>
 			<li class="strawnana ccbo"><span class="flow-text">.strawnana</span><br />Lorem ipsum filler text.<br /><a href="#">Link Example</a></li>
 			<li class="steakhouse ccbo"><span class="flow-text">.steakhouse</span><br />Lorem ipsum filler text.<br /><a href="#">Link Example</a></li>
@@ -382,6 +391,7 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		<h4 class="flow-text">Gradient Concoctions</h4>
 		<ul class="brixlist">
 			<li class="barbie ccbo"><span class="flow-text">.barbie</span><br />Lorem ipsum filler text.<br /><a href="#">Link Example</a></li>
+			<li class="canary-lilac ccbo"><span class="flow-text">.canary-lilac</span><br />Lorem ipsum filler text.<br /><a href="#">Link Example</a></li>
 			<li class="dune ccbo"><span class="flow-text">.dune</span><br />Lorem ipsum filler text.<br /><a href="#">Link Example</a></li>
 			<li class="gourd ccbo"><span class="flow-text">.gourd</span><br />Lorem ipsum filler text.<br /><a href="#">Link Example</a></li>
 			<li class="grapejuice ccbo"><span class="flow-text">.grapejuice</span><br />Lorem ipsum filler text.<br /><a href="#">Link Example</a></li>

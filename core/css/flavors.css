@@ -1,4 +1,4 @@
-/* FLAVORS Library 2.5.5
+/* FLAVORS Library 2.6
 ======================== */
 @import url('variables.css');
 
@@ -310,6 +310,13 @@
 .pumpkin-bs{border-block-start-color: #e65100 !important;}
 .pumpkin-be{border-block-end-color: #e65100 !important;}
 .pumpkin-o {outline-color: #e65100 !important;}
+.apricot {background-color: #D0944D !important;}
+.apricot-t {color: #D0944D !important;}
+.apricot-t-s{text-shadow: var(--tsb) #D0944D !important;}
+.apricot-b {border-color: #D0944D !important;}
+.apricot-bs {border-block-start-color: #D0944D !important;}
+.apricot-be {border-block-end-color: #D0944D !important;}
+.apricot-o {outline-color: #D0944D !important;}
 .mango, .mango-h:hover { background-color: #ffab40 !important;}
 .mango-t {color: #ffab40 !important}
 .mango-t-s {text-shadow: var(--tsb) #ffab40 !important;}
@@ -504,6 +511,20 @@
 .grape-bs{border-block-start-color: #4a148c !important;}
 .grape-be{border-block-end-color: #4a148c !important;}
 .grape-o { outline-color: #4a148c !important;}
+.grapeseed {background-color: #6061A8 !important;}
+.grapeseed-t{color: #6061A8 !important;}
+.grapeseed-t-s{text-shadow: var(--tsb) #6061A8 !important;}
+.grapeseed-b{border-color: #6061A8 !important;}
+.grapeseed-bs{border-block-start-color: #6061A8 !important;}
+.grapeseed-be{border-block-end-color: #6061A8 !important;}
+.grapeseed-o{outline-color: #6061A8 !important;}
+.indigo {background-color: #2A2E74 !important;}
+.indigo-t {color: #2A2E74 !important;}
+.indigo-t-s {text-shadow: var(--tsb) #2A2E74 !important;}
+.indigo-b {border-color: #2A2E74 !important;}
+.indigo-bs {border-block-start-color: #2A2E74 !important;}
+.indigo-be {border-block-end-color: #2A2E74 !important;}
+.indigo-o {outline-color: #2A2E74 !important;}
 .raisin, .rasin, .raisin-h:hover, .rasin-h:hover {background-color: #290916 !important;}
 .raisin-t, .rasin-t{color: #290916 !important;}
 .raisin-t-s, .rasin-t-s{text-shadow: var(--tsb) #290916 !important;}
@@ -690,6 +711,13 @@
 .bistre-bs{border-block-start-color: #3d2b1f !important;}
 .bistre-be{border-block-end-color: #3d2b1f !important;}
 .bistre-o {outline-color: #3d2b1f !important;}
+.brandy {background-color: #802621 !important;}
+.brandy-t{color: #802621 !important;}
+.brandy-t-s{text-shadow: var(--tsb) #802621 !important;}
+.brandy-b {border-color: #802621 !important;}
+.brandy-bs {border-block-start-color: #802621 !important;}
+.brandy-be {border-block-end-color: #802621 !important;}
+.brandy-o {outline-color: #802621 !important;}
 .cinnamon, .cinnamon-h:hover {background-color: #622a0f !important;}
 .cinnamon-t {color: #622a0f !important;}
 .cinnamon-t-s {text-shadow: var(--tsb) #622a0f !important;}
