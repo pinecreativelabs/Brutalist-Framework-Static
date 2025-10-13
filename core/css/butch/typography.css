@@ -98,6 +98,9 @@ ul.bullseye li:before {content: '\25CE';}
 ul.burst li:before {content:'\2738';}
 ul.fisheye li:before {content: '\25C9';}
 ul.arrow li:before {content: '\27A4';}
+ul.check, ul.checklist{list-style:none;}
+ul.check li, ul.checklist li{padding-left:1.3em;}
+ul.check li:before, ul.checklist li:before{content:"\2714";display:inline-block;margin-left:-1.3em;width:1.3em;}
 
 /* Unordered Lists - Tags: display ul list as inline */
 ul.tags, ul.tags-hash, ul.tags-check, ul.tags-xmark { list-style: none; padding: 0; margin: 0; }
