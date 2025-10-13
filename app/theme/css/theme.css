@@ -15,7 +15,7 @@ body {overflow-x:hidden;}
 /* blonky blonks */
 .blonk-wrap{position: fixed; z-index: 99; right: 0; top: 0; }
 .blonk-wrap .label-toggle {padding: 0; text-align: center; margin-right: -1em;}
-.blonk-tr {width: 5rem; height: 5rem; right: 0; position: fixed;}
+.blonk-tr {width: 5rem; height: 5rem; right: 0; position: fixed; z-index: 10002; top:0;}
 .blonk-br, .blonk-cr {width: 6rem; height: 6rem; right: 0; position: fixed; z-index: 97; font-weight: 600; text-align: right;}
 .blonk-br {bottom: 0; font-size: 18px; padding: 10px 8px 0 0; text-transform: uppercase;}
 .blonk-cr {line-height: 100%; top: 48%; font-size: 18px; padding-top: 1.2em; letter-spacing: 2px; padding-right: 6px;}
