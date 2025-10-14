@@ -13,6 +13,6 @@ BUTCH:
 + Segregated Flexbox layout into a separate CSS file
 + Introduced border-block-end/start classes to Boundaries
 
-FLAVORS:
+FLAVORS: https://looka.com/blog/color-combinations/
 + New flavors: apricot, brandy, grapeseed, indigo
 + New concoctions: canary-lilac, raspberry-honey, roadway
