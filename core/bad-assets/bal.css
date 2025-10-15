@@ -45,20 +45,40 @@
 	mask-image: url('chaos/group-chaos.png');
 	aspect-ratio: 0.79/1;
 }
+.bad.asset.leaking-chaos {
+	-webkit-mask-image: url('chaos/leaking-chaos.png');
+	mask-image: url('chaos/leaking-chaos.png');
+	aspect-ratio: 1.04/1;
+}
 .bad.asset.middle-chaos {
 	-webkit-mask-image: url('chaos/middle-chaos.png');
 	mask-image: url('chaos/middle-chaos.png');
 	aspect-ratio: 3.26/1;
+}
+.bad.asset.peak-chaos {
+	-webkit-mask-image: url('chaos/peak-chaos.png');
+	mask-image: url('chaos/peak-chaos.png');
+	aspect-ratio: 0.92/1;
 }
 .bad.asset.perforated-chaos {
 	-webkit-mask-image: url('chaos/perforated-chaos.png');
 	mask-image: url('chaos/perforated-chaos.png');
 	aspect-ratio: 15.06/1;
 }
+.bad.asset.pixelated-up {
+	-webkit-mask-image: url('chaos/pixelated-up.png');
+	mask-image: url('chaos/pixelated-up.png');
+	aspect-ratio: 0.57/1;
+}
 .bad.asset.screen-chaos {
 	-webkit-mask-image: url('chaos/screen-chaos.png');
 	mask-image: url('chaos/screen-chaos.png');
 	aspect-ratio: 1.61/1;
+}
+.bad.asset.sparking-chaos {
+	-webkit-mask-image: url('chaos/sparking-chaos.png');
+	mask-image: url('chaos/sparking-chaos.png');
+	aspect-ratio: 1.37/1;
 }
 .bad.asset.splat-chaos {
 	-webkit-mask-image: url('chaos/splat-chaos.png');
@@ -75,10 +95,10 @@
 	mask-image: url('chaos/stroke-chaos.png');
 	aspect-ratio: 1.46/1;
 }
-.bad.asset.x-chaos {
-	-webkit-mask-image: url('chaos/x-chaos.png');
-	mask-image: url('chaos/x-chaos.png');
-	aspect-ratio: 0.99/1;
+.bad.asset.turning-point {
+	-webkit-mask-image: url('chaos/turning-point.png');
+	mask-image: url('chaos/turning-point.png');
+	aspect-ratio: 1.06/1;
 }
 
 /* GRUNGE */
@@ -96,6 +116,11 @@
 	-webkit-mask-image: url('grunge/grunge-bar-alt.png');
 	mask-image: url('grunge/grunge-bar-alt.png');
 	aspect-ratio: 3.92/1;
+}
+.bad.asset.grunge-frame {
+	-webkit-mask-image: url('grunge/grunge-frame.png');
+	mask-image: url('grunge/grunge-frame.png');
+	aspect-ratio: 1.45/1;
 }
 .bad.asset.grunge-mess {
 	-webkit-mask-image: url('grunge/grunge-mess.png');
@@ -121,6 +146,11 @@
 	-webkit-mask-image: url('grunge/grunge-yield.png');
 	mask-image: url('grunge/grunge-yield.png');
 	aspect-ratio: 1.07/1;
+}
+.bad.asset.x-grunge {
+	-webkit-mask-image: url('grunge/x-grunge.png');
+	mask-image: url('grunge/x-grunge.png');
+	aspect-ratio: 0.99/1;
 }
 
 /* HALFTONES */
@@ -171,25 +201,45 @@
 	mask-image: url('scribbles/love-scribble.png');
 	aspect-ratio: 0.94/1;
 }
+.bad.asset.new-directions {
+	-webkit-mask-image: url('scribbles/new-directions.png');
+	mask-image: url('scribbles/new-directions.png');
+	aspect-ratio: 0.95/1;
+}
 .bad.asset.scribble-chaos {
 	-webkit-mask-image: url('scribbles/scribble-chaos.png');
 	mask-image: url('scribbles/scribble-chaos.png');
 	aspect-ratio: 1.3/1;
-}
-.bad.asset.scribble-strike {
-	-webkit-mask-image: url('scribbles/scribble-strike.png');
-	mask-image: url('scribbles/scribble-strike.png');
-	aspect-ratio: 1.91/1;
 }
 .bad.asset.scribble-grid {
 	-webkit-mask-image: url('scribbles/scribble-grid.png');
 	mask-image: url('scribbles/scribble-grid.png');
 	aspect-ratio: 1.22/1;
 }
+.bad.asset.scribble-strike {
+	-webkit-mask-image: url('scribbles/scribble-strike.png');
+	mask-image: url('scribbles/scribble-strike.png');
+	aspect-ratio: 1.91/1;
+}
+.bad.asset.scribble-vibes {
+	-webkit-mask-image: url('scribbles/scribble-vibes.png');
+	mask-image: url('scribbles/scribble-vibes.png');
+	aspect-ratio: 1.14/1;
+}
 .bad.asset.spiral-scare {
 	-webkit-mask-image: url('scribbles/spiral-scare.png');
 	mask-image: url('scribbles/spiral-scare.png');
 	aspect-ratio: 1.04/1;
+}
+.bad.asset.star-scribble {
+	-webkit-mask-image: url('scribbles/star-scribble.png');
+	mask-image: url('scribbles/star-scribble.png');
+	aspect-ratio: 1.12/1;
+}
+.bad.asset.whirly-scribble {
+	-webkit-mask-image: url('scribbles/whirly-scribble.png');
+	mask-image: url('scribbles/whirly-scribble.png');
+	aspect-ratio: 0.92/1;
 }
 
 /* TECH */
