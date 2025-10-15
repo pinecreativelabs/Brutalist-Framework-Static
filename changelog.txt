@@ -3,11 +3,10 @@ Version 2.6
 
 GENERAL:
 + Rearrangement and segregation of various CSS components into separate CSS files
++ Introduction of "BAD-Assets" library, including 50 transparent PNG images
 
 Grids:
 + Updated to Blueprint Grid 2.2
-
-BUIX:
 
 BUTCH:
 + Segregated Flexbox layout into a separate CSS file
@@ -15,4 +14,4 @@ BUTCH:
 
 FLAVORS: https://looka.com/blog/color-combinations/
 + New flavors: apricot, brandy, grapeseed, indigo
-+ New concoctions: canary-lilac, raspberry-honey, roadway
++ New Concoctions: canary-lilac, raspberry-honey, roadway
