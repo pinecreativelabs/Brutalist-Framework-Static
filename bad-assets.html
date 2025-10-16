@@ -89,7 +89,7 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 
 <div class="fossil smoke-t padded">
 	<div class="wrap-1200">
-		<p class="flow-text bitstream" style="margin-bottom: 1rem;">Create dynamic and responsive layouts using multiple methods. Built with CSS grid, Flexbox, and vanilla javascript.</p>
+		<p class="flow-text bitstream" style="margin-bottom: 1rem;">BAD-Assets is a library of digital assets ideal for use in anti-designs.</p>
 		<div class="clear-block jagged"><p class="checkerboard padding"></p></div>
 		
 		<!-- STICKY PAGE SANDBAR NAV -->
@@ -97,30 +97,51 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			<ul>
 				<li><a href="#overview">BAD Overview</a></li>
 				<li><a href="#assets">Assets</a></li>
-				<li><a href="#examples">Examples</a></li>
+				<li><a href="#masking">Masking Examples</a></li>
 			</ul>
 		</nav>
 		
 		<!-- OVERVIEW -->
 		<h3 class="fluid-text monolisk" id="overview">BAD Overview</h3>
-		<p class="bitstream">The CORE includes <a href="https://www.blueprintgrid.com" target="_blank" class="lemonlink">Blueprint Grid</a>, a multi-method layout library built with Flexbox and CSS Grid. You'll only need to include the following CSS file:</p>
-		<p class="requiresbox bitstream"><span class="flow-text bold"><em>core/css/blueprintgrid.css</em></span></p>
-		<p class="bitstream" style="margin-top: 1.5rem;">This imports all necessary CSS components from the following directory:<br />
-			<strong><span class="terminal">core/css/grids/</span></strong></p>
-		<p class="bitstream" style="margin-top: 1.5rem;">There are six layout methods included:</p>
-		<ul class="square bitstream col2">
-			<li>B3Grid</li>
-			<li>CSS Grid</li>
-			<li>Print Grid</li>
-			<li>Bento Grid</li>
-			<li>Chaos Grid</li>
-			<li>PolyGrids</li>
+		<p class="bitstream">This library contains <strong>50</strong> digital assets in the form of PNG images with transparent backgrounds. Each are 1024px on the longest edge, at 200 DPI. All images are flat black, and are useful for masking (see examples below), or for use in any of your own custom graphics.</p>
+		<p class="bitstream" style="margin-top: 1.5rem;">The asset image files are found in the following directories:</p>
+		<ul class="none bitstream bold">
+			<li>core/bad-assets/chaos</li>
+			<li>core/bad-assets/grunge</li>
+			<li>core/bad-assets/halftones</li>
+			<li>core/bad-assets/scribbles</li>
+			<li>core/bad-assets/tech</li>
 		</ul>
+		<p class="bitstream">The library includes a utility classes CSS library, which is found at:</p>
+		<p class="requiresbox bitstream"><span class="flow-text bold"><em>core/bad-assets/bal.css</em></span></p>
+		<h4 class="sand padded charcoal-t box-s charcoal-b b-s-k flow-text communist"><strong>BAD-Asset Library Utility Classes</strong></h4>
+		<p class="bitstream">We can reserve space on a page for each asset by using the <em>aspect-ratio</em> property, like so:<br />
+		<span class="flow-text terminal">.bad.asset.<em>asset-name</em></span><br />
+		Where <em>asset-name</em> is any of the classes listed in the <em><strong>Assets</strong></em> section below.<br /><br />
+		By default, bad-asset elements are 100% of the width of their containers. However, we can scale down the size of the asset ranging from 10% to 75% of the width of the container by applying any of these classes:</p>
+		<ul class="none bitstream bold">
+			<li>.micro (10%)</li><li>.small (25%)</li><li>.medium (33%)</li><li>.large (50%)</li><li>.xlarge (75%)</li>
+		</ul>
+		<p class="bitstream">For example, if we want to create a bad asset that is one-third the width of it's container, we would have:<br />
+		<span class="terminal flow-text">.bad.asset.<em>asset-name</em>.medium</span><br /><br />
+		We can also flip bad-asset elements on either the x, y, or both axis:</p>
+		<ul class="none bitstream bold">
+			<li>.flip-x (horizontal flip)</li><li>.flip-y (vertical flip)</li><li>.flip-xy (flips both horizontally and vertically)</li>
+		</ul>
+		<p class="bitstream">If we wanted to flip a medium bad-asset on both the x and y axis, we would have:<br />
+		<span class="terminal flow-text">.bad.asset.<em>asset-name</em>.medium.flip-xy</span></p>
+		
+		<div class="flex bitstream"><div class="padded half"><p class="flow-text charcoal smoke-t">.medium</p>
+			<div class="bad asset medium pixelated-up"><img src="core/bad-assets/chaos/pixelated-up.png" alt="Pixelated Up" /></div>
+		</div><div class="padded half"><p class="flow-text charcoal smoke-t">.medium.flip-xy</p>
+			<div class="bad asset medium flip-xy pixelated-up"><img src="core/bad-assets/chaos/pixelated-up.png" alt="Pixelated Up" /></div>
+		</div></div>
 		<p class="spacer"></p>
 		<div class="clear-block jagged"><p class="checkerboard padding"></p></div>
 		
 		<!-- ASSETS -->
 		<h3 class="fluid-text monolisk" id="assets">Assets</h3>
+		<p class="bitstream">In the basic rendering examples below, we display the PNG image over gradient backgrounds.</p>
 		<h4 class="sand padded charcoal-t box-s charcoal-b b-s-k flow-text communist"><strong>Chaos Components</strong></h4>
 		<div class="flex"><div class="padded half"><p class="flow-text charcoal smoke-t">.basic-chaos</p>
 			<div class="bad asset basic-chaos hottie"><img src="core/bad-assets/chaos/basic-chaos.png" alt="Basic Chaos" /></div>
@@ -247,84 +268,21 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			<div class="bad asset tech-hexbar clean"><img src="core/bad-assets/tech/tech-hexbar.png" alt="Tech Hexbar" /></div>
 		</div></div>
 		<p class="spacer"></p>
-		
-
-		<!-- CHaOs grId -->
-		<h4 class="blueprint padded box-s charcoal-b b-s-k flow-text communist"><strong>Chaos Grid:</strong> Anti-Grid Grid</h4>
-		<div class="flex bitstream"><div class="padded third"><img src="https://www.blueprintgrid.com/core/files/images/chaosgrid-randomized.jpg" alt="chaos grid" class="box-s responsive" />
-		</div><div class="third padded">
-			<p class="requiresbox"><strong><em>core/jab/chaos-grid.js</em></strong></p>
-			<p style="margin-top: 1rem;">Elements are rendered as inline-blocks that are either relative- or absolute-positioned, and can be offset in various directions. Using vanilla javascript (optional), elements can be randomly positioned, skewed, and rotated.</p>
-			<p class="center" style="margin-top: 1.5rem;"><a href="https://github.com/pinecreativelabs/Blueprint-Grid/wiki/Chaos-Grid" target="_blank" class="nb-btn">Documentation &raquo;</a></p>
-		</div><div class="padded third">
-			<h5 class="center">DEMOS</h5>
-			<p class="center">
-				<a href="https://www.blueprintgrid.com/chaos-grid.html" target="_blank" class="btn tiny-btn">Standard Chaos</a><br /><br />
-				<a href="https://www.blueprintgrid.com/chaos-grid-randomize.html" target="_blank" class="btn tiny-btn">Randomized Chaos</a>
-			</p>
-		</div></div>
-		<p class="spacer"></p>
-		<!-- Polygrids -->
-		<h4 class="blueprint padded box-s charcoal-b b-s-k flow-text communist"><strong>PolyGrids:</strong> Polygon Shapes Grid System</h4>
-		<div class="flex bitstream"><div class="padded third"><img src="https://www.blueprintgrid.com/core/files/images/polygrid-demo.jpg" alt="poly grids" class="box-s responsive" />
-		</div><div class="third padded">
-			<p class="requiresbox"><strong><em>core/jab/poly-grid.js</em></strong></p>
-			<p style="margin-top: 1rem;">PolyGrids are Flexbox-based grids that form items into shapes using CSS polygon paths. Content wraps within a shape items.</p>
-			<p class="center" style="margin-top: 1.5rem;"><a href="https://github.com/pinecreativelabs/Blueprint-Grid/wiki/PolyGrids" target="_blank" class="nb-btn">Documentation &raquo;</a></p>
-		</div><div class="padded third">
-			<h5 class="center">DEMO</h5>
-			<p class="center">
-				<a href="polygrids.html" target="_blank" class="btn tiny-btn">PolyGrids DEMO</a><br /><br />
-				<a href="polygrids-bonus.html" target="_blank" class="btn tiny-btn">IsoGrid Demo (BONUS)</a>
-			</p>
-		</div></div>
 		<p class="spacer"></p>
 		<div class="clear-block jagged"><p class="checkerboard padding"></p></div>
 		
-		<!-- NESTING -->
-		<h3 class="fluid-text monolisk" id="nesting">Nesting</h3>
-		<p class="bitstream">We can combine several methods by nesting elements, with one exception:</p>
-		<p class="padded warning bitstream" style="margin: 1.5rem 0 1.5rem 0;"><strong>REMEMBER:</strong> It is <em>NOT</em> possible to nest CSS Grid items within Flexbox (B3Grid) elements! <em>However</em>... it <strong>is</strong> possible to nest Flexbox elements within CSS Grid items.</p>
-		<p class="bitstream">In the example below, we create a two-column Flexbox layout within two 2x1 Bento boxes (Flexbox nested within a dynamic CSS Grid layout). We also include a full-width block with a nested two-column text content area with double gap spacing (using Print Grid).<br /><br /></p>
-
-		<div class="bentogrid smoke-t lucida">
-			<div class="charcoal b-s-t white-b padded" data-bento="2x1">
-				<h4 class="flow-text">Bento Box 1</h4>
-				<div class="block-wrap">
-					<div class="block bw50 xs-100 sm-100 md-100 b-s-t fossil-b">
-						<h5>Block Left</h5>
-					</div>
-					<div class="block bw50 xs-100 sm-100 md-100 b-s-t fossil-b">
-						<h5>Block Right</h5>
-					</div>
-					<div class="block bw100 fossil-b b-s-t">
-						<h5>Full Block</h5>
-						<div class="cc2 cg-2x smaller">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="charcoal b-s-t white-b padded" data-bento="2x1">
-				<h4 class="flow-text">Bento Box 2</h4>
-				<div class="block-wrap">
-					<div class="block bw50 xs-100 sm-100 md-100 b-s-t fossil-b">
-						<h5>Block Left</h5>
-					</div>
-					<div class="block bw50 xs-100 sm-100 md-100 b-s-t fossil-b">
-						<h5>Block Right</h5>
-					</div>
-					<div class="block bw100 fossil-b b-s-t">
-						<h5>Full Block</h5>
-						<div class="cc2 cg-2x smaller">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<!-- MASKING -->
+		<h3 class="fluid-text monolisk" id="masking">Masking</h3>
+		<p class="bitstream">We can mask bad-asset elements to create complex and chaotic designs. We only need to add the class <strong><em>.masked</em></strong> to a bad-asset element:<br />
+		<span class="flow-text terminal">.bad.asset.<em>asset-name</em>.masked</span>.<br /><br />
+		Masked bad-asset elements already contain the asset as the mask image, so nothing else is needed.</p>
+		<p class="padded warning bitstream" style="margin: 1.5rem 0 1.5rem 0;"><strong>NOTE:</strong> Due to browser security, masked elements can only be viewed on a live site. If working offline on a local machine, a masked element will not render.</p>
+		
+		<div class="flex"><div class="padded half">
+			<div class="bad asset masked hive-tech heat"></div>
+		</div><div class="padded half">
+		
+		</div></div>
 		<p class="spacer"></p>
 		<p class="spacer"></p>
 	</div>

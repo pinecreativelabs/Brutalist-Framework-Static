@@ -6,11 +6,11 @@
 .bad.asset>img{width: 100%; height: 100%;}
 .bad.asset.bg{background-repeat: no-repeat; background-size: contain;}
 .bad.asset.masked {mask-repeat: no-repeat; mask-size: contain;}
-.bad.asset.micro {width: 5%;}
-.bad.asset.small {width: 15%;}
-.bad.asset.medium {width: 25%;}
-.bad.asset.large {width: 35%;}
-.bad.asset.xlarge {width: 45%;}
+.bad.asset.micro {width: 10%;}
+.bad.asset.small {width: 25%;}
+.bad.asset.medium {width: 33%;}
+.bad.asset.large {width: 50%;}
+.bad.asset.xlarge {width: 75%;}
 .bad.asset.flip-x {-webkit-transform: scaleX(-1);transform: scaleX(-1);}
 .bad.asset.flip-y {-webkit-transform: scaleY(-1);transform: scaleY(-1);}
 .bad.asset.flip-xy {-webkit-transform: scale(-1,-1); transform: scale(-1,-1);}
