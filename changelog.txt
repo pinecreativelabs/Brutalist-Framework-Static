@@ -2,16 +2,10 @@ Brutalist Framework Changelog
 Version 2.7
 
 GENERAL:
-+ Rearrangement and segregation of various CSS components into separate CSS files
-+ Introduction of "BAD-Assets" library, including 50 transparent PNG images
++ 
 
-Grids:
-+ Updated to Blueprint Grid 2.2
-
-BUTCH:
-+ Segregated Flexbox layout into a separate CSS file
-+ Introduced border-block-end/start classes to Boundaries
+BUIX:
++ Re-added Megamenu
 
 FLAVORS: 
-+ New flavors: apricot, brandy, grapeseed, indigo
-+ New Concoctions: canary-lilac, raspberry-honey, roadway
++ New gradients: agent, crystal-ice, goldenrod, lemon-mint, spring-meadow
