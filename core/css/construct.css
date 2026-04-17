@@ -39,6 +39,7 @@ Load Defaults (REQUIRED) */
 
 /* BFX */
 @import url('bfx.css');
+@import url('bfx/animated-backgrounds.css');
 @import url('bfx/brutal-animations.css');
 @import url('bfx/text-fx.css');
 
