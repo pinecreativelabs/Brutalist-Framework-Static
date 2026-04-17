@@ -319,3 +319,13 @@ background: linear-gradient(55deg, #305ca8, #2f673b, #2f673b, #2f673b, #305ca8, 
   100% {background-position:-9% 50%,109% 50%,52% 51%}
 }*/
 
+.whitenoise { background-color: #fff !important;
+  background: 
+    repeating-radial-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 0/2500px 2500px,
+    repeating-conic-gradient(#000 0 0.0001%,#fff 0 0.0002%) 60% 60%/2500px 2500px;
+  background-blend-mode: difference;
+  animation: static .2s infinite alternate;
+}
+@keyframes static{
+  100% {background-position: 50% 0, 60% 50%}
+}

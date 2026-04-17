@@ -24,7 +24,14 @@
 	<link href="core/css/construct.css" type="text/css" rel="stylesheet" media="all"/>
 	<!-- Theme CSS -->
 	<link href="app/theme/css/theme.css" type="text/css" rel="stylesheet" media="all" />
-	
+	<style>
+	.spazz-demo { display: flex; justify-content: center;
+		width: 80%; height: 300px; align-items: center; margin: 0 auto;
+		background-size: cover; background-position: center center; background-repeat: no-repeat;
+		background-image: url('app/files/images/contemplate.jpg');
+	}
+	.spazz-demo>p {display:inline-block; border-radius: 0.75rem; background: rgba(0,0,0,0.5); padding: 6px;}
+	</style>
 </head>
 <body>
 <!-- MAIN MENU -->
@@ -352,6 +359,37 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			<p class="center"><strong>NOTE:</strong> <em>.glitchtext</em> works only on text.<br />You can also add <em><strong>-h</strong></em> to apply the effect upon hover.</p>
 		</div></div>
 		<p class="spacer"></p>
+		
+		<!-- Spazz Glitch Effect -->
+		<h4 class="flow-text charcoal white-t padded">Spazz Glitch Effect</h4>
+		<p>Apply a popping glitch effect to any element. Simply apply the class <strong>.spazz</strong>. To increase the speed add the class <strong>.speedy</strong>, and to reduce the speed, add the class <strong>.sluggish</strong>.<br /><br />
+		<strong>DEMO:</strong> In the first example below, the effect is applied directly to an image, as well as it's paragraph parent element.<br /><br /></p>
+		<div class="flex"><div class="padded half">
+			<p class="spacer"></p>
+			<!-- spazz example 1 -->
+			<p class="center spazz sluggish padded inline-block" style="margin-left: 3rem;">
+				<img src="app/files/images/contemplate.jpg" alt="spazzed" class="spazz xlarge-thumb" />
+			</p>
+			<p class="spacer"></p>
+			<!-- sluggish (slow) spazz -->
+			<div class="spazz sluggish spazz-demo">
+				<p class="flow-text monolisk heavy red-t lemon-t-s">.spazz.sluggish</p>
+			</div>
+		</div><div class="padded half">
+			<p class="spacer"></p>
+			<!-- standard spazz -->
+			<div class="spazz spazz-demo">
+				<p class="flow-text monolisk heavy red-t lemon-t-s">.spazz</p>
+			</div>
+			<p class="spacer"></p>
+			<!-- speedy (fast) spazz -->
+			<div class="spazz speedy spazz-demo">
+				<p class="flow-text monolisk heavy red-t lemon-t-s">.spazz.speedy</p>
+			</div>
+			<p class="spacer"></p>
+		</div></div>
+		<p class="spacer"></p>
+		
 		<!-- Blinky 'n Bouncy -->
 		<div class="flex"><div class="padded half">
 			<h4 class="flow-text charcoal white-t padded">Blink</h4>
@@ -502,6 +540,9 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		</div>
 		<div class="flex middle swede-split padded" style="min-height: 30vh;">
 			<h3 class="sweden padded yellow-b b-b-k inline-block">.swede-split</h3>
+		</div>
+		<div class="flex middle whitenoise padded" style="min-height: 30vh;">
+			<h3 class="black padded lime-b b-b-k lime-t inline-block">.whitenoise / .static</h3>
 		</div>
 		<p class="spacer"></p>
 		<div class="clear-block jagged"><p class="checkerboard padding"></p></div>

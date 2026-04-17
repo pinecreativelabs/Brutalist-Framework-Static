@@ -6,6 +6,7 @@ GENERAL:
 
 BFX: 
 + New "color-shift" animated background
++ New "spazz" animation glitch effect
 
 BUFF:
 + 4 new basic filters: deep-sea, dreamy, vibrant, vintage
