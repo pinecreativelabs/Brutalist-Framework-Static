@@ -95,17 +95,17 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		<!-- STICKY PAGE SANDBAR NAV -->
 		<nav class="sandbar sand monolisk flow-text">
 			<ul>
-				<li><a href="#buttons">Buttons</a></li>
-				<li><a href="#nav">Navigation</a></li>
+				<li><a href="#buttons-nav">Buttons &amp; Navigation</a></li>
 				<li><a href="#media">Multimedia</a></li>
 				<li><a href="#interactions">Interactions</a></li>
 				<li><a href="#modals">Modals</a></li>
 				<li><a href="#tabs">Tabs</a></li>
+				<li><a href="#livesearch">Instant Search</a></li>
 			</ul>
 		</nav>
 		
 		<!-- BUTTONS -->
-		<h3 class="fluid-text monolisk" id="buttons">Buttons</h3>
+		<h3 class="fluid-text monolisk" id="buttons-nav">Buttons</h3>
 		<p class="bitstream" style="margin-bottom: 1.1em;">To create a button, simply use the <strong>button</strong> tag, or apply <strong>.btn</strong> class to a link. Buttons are displayed as an inline block, by default.</p>
 		<div class="smoke-b b-d-t padded bold center bitstream">
 			<h4 class="flow-text">Default Buttons</h4>
@@ -139,14 +139,12 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			<p class="center"><a href="#" class="nba-btn pill">.nba-btn.pill</a></p>
 		</div></div>
 		<p class="spacer"></p>
-		<div class="clear-block jagged"><p class="checkerboard padding"></p></div>
-		
 		
 		<!-- NAVIGATION -->
 		<h3 class="fluid-text monolisk" id="nav">Navigation</h3>
 		<div class="flex bitstream"><div class="half padded">
 			<!-- Simple Menu -->
-			<h4 class="charcoal flow-text bitstream">Simple Menu</h4>
+			<h4 class="charcoal padded flow-text bitstream">Simple Menu</h4>
 			<p>A pure CSS menu that displays an optional description upon hover over each item.</p>
 			<h4>Markup</h4>
 			<code class="black lime-t lucida padded smaller">
@@ -177,7 +175,7 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			</ul>
 		</div><div class="padded half">
 			<!-- Perspective Nav -->
-			<h4 class="charcoal flow-text bitstream">Perspective-Nav</h4>
+			<h4 class="charcoal padded flow-text bitstream">Perspective-Nav</h4>
 			<p>A pure CSS simple menu with a little perspective! Simple markup with a creative style. By default, the nav item background gradient uses the <em>--primary</em> and <em>--secondary</em> variables.</p>
 			<h4>Markup</h4>
 			<code class="black lime-t lucida padded smaller">
@@ -198,9 +196,9 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		<p class="spacer"></p>
 
 		<!-- MEGAMENU -->
-		<h4 class="charcoal flow-text">Megamenu</h4>
+		<h4 class="charcoal bitstream padded flow-text">Megamenu</h4>
 		<div class="flex bitstream"><div class="half padded">
-			<p><em>Megamenu</em> is a responsive dropdown menu that supports multiple columns.</p>
+			<p><em>Megamenu</em> is a responsive dropdown menu that supports multiple columns.<br /><br />See page source for markup.</p>
 		</div><div class="half padded">
 			<p class="requiresbox"><span class="flow-text">REQUIRES:</span><br /><em>core/jab/jquery.3.js<br />core/jab/plugins/megamenu.js</em></p>
 		</div></div>
@@ -260,7 +258,7 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 			<p class="spacer"></p>
 			
 		<!-- Tree List -->
-		<h4 class="charcoal flow-text bitstream">Tree List</h4>
+		<h4 class="charcoal padded flow-text bitstream">Tree List</h4>
 		<div class="flex bitstream"><div class="padded half">
 			<p class="requiresbox"><span class="flow-text">REQUIRES:</span><br /><em>core/jab/buix/tree-list.js</em></p>
 			<p>Create a nested tree list menu for unordered lists. Child items can be toggled. Each parent item will need to be wrapped in a span with class of <strong><em>parent</em></strong>. Unlimited child levels are supported.</p>
@@ -304,7 +302,7 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		</div></div>
 		<p class="spacer"></p>
 		<!-- Pagination -->
-		<h4 class="flow-text white-t charcoal bitstream">Pagination</h4>
+		<h4 class="flow-text padded white-t charcoal bitstream">Pagination</h4>
 		<div class="flex bitstream">
 			<div class="padded half">
 				<p class="requiresbox"><span class="flow-text">REQUIRES:</span><br /><em>core/jab/jquery.3.js</em><br /><em>core/jab/plugins/pagination.js</em></p>
@@ -881,7 +879,7 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		<!-- MODALS -->
 		<h3 class="fluid-text monolisk" id="modals">Modals</h3>
 		<p class="bitstream">Modals are popup boxes that open when a user clicks on a link. There are two types of Modals: <em>Vanilla</em> and <em>Lite</em>.</p>
-		<h4 class="flow-text bitstream white-t charcoal">Vanilla Modals</h4>
+		<h4 class="flow-text bitstream white-t charcoal padded">Vanilla Modals</h4>
 		<p class="requiresbox"><span class="flow-text">REQUIRES:</span><br /><em>core/jab/buix/modal.js</em></p>
 		<p class="bitstream">Vanilla modals use plain vanilla javascript (no dependencies). Display a modal with any type of content. Users can close the modal either by clicking anywhere outside of it, or the X in the top right corner. There are three components that are needed.</p>
 		<div class="flex bitstream"><div class="half padded">
@@ -940,7 +938,7 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		<p class="spacer"></p>
 		
 		<!-- LITE MODALS -->
-		<h4 class="charcoal bitstream flow-text white-t" id="modals-lite">Lite Modals</h4>
+		<h4 class="charcoal bitstream padded flow-text white-t" id="modals-lite">Lite Modals</h4>
 		<p class="bitstream">Pure CSS modals for simple and lightweight content!</p>
 		<div class="flex bitstream"><div class="padded half">
 			<h4 class="flow-text">Create Modal Content</h4>
@@ -1135,6 +1133,18 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 				</li>
 			</ul>
 		</div></div>
+		<p class="spacer"></p>
+		<div class="clear-block jagged"><p class="checkerboard padding"></p></div>
+		
+		
+		<!-- INSTANT SEARCH -->
+		<h3 class="fluid-text monolisk" id="livesearch">Instant Search</h3>
+		<div class="flex bitstream"><div class="padded half">
+			
+		</div><div class="padded half">
+			<p class="requiresbox"><span class="flow-text">REQUIRES:</span><br /><em>core/jab/buix/instant-search.js</em></p>
+		</div></div>
+		
 		<p class="spacer"></p>
 		<p class="spacer"></p>
 	</div>
