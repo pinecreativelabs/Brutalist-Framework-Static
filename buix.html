@@ -1140,9 +1140,26 @@ document.querySelector("#reveal-nav").addEventListener("click", function() {
 		<!-- INSTANT SEARCH -->
 		<h3 class="fluid-text monolisk" id="livesearch">Instant Search</h3>
 		<div class="flex bitstream"><div class="padded half">
+			<p><em>Instant Search</em> is an in-page filtered search interface using vanilla javascript. Upon typing keywords in a search box, results are displayed.<br /><br />
+			Results are based on text content within a <em>.searchable</em> list item. There is also support for an optional "fuzzy" search, where hidden keywords are factored in.<br /><br /></p>
+			<p class="padded warning"><strong>CAVEAT:</strong> Since Instant Search filters a list of DOM elements, very long lists (i.e. hundreds of items) are not advised, as this could affect the performance.</p>
 			
+			<p class="center">&nbsp;<br />
+				<a href="quick-search.html" target="_blank" class="pill nba-btn sepia allcaps vcr-mono">Quick Search Demo &raquo;</a>
+			</p>
+			<p class="spacer"></p>
 		</div><div class="padded half">
 			<p class="requiresbox"><span class="flow-text">REQUIRES:</span><br /><em>core/jab/buix/instant-search.js</em></p>
+			<p class="flow-text">Markup:</p>
+			<code class="padded smaller">
+			&lt;label for="instant-search"&gt;Search&lt;/label&gt;<br />
+			&lt;input type="search" id="instant-search" placeholder="search keyword..."&gt;<br />
+			<br />
+			&lt;div class="searchable"&gt;<br />
+			&nbsp;&nbsp;...search result content...<br />
+			&nbsp;&nbsp;&lt;p class="keywords"&gt;keyword list...&lt;/p&gt;<span class="azure-t"> <em>(optional)</em></span><br />
+			&lt;/div&gt;
+			</code>
 		</div></div>
 		
 		<p class="spacer"></p>

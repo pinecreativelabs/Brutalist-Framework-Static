@@ -13,6 +13,7 @@ BUFF:
 
 BUIX:
 + Re-added Megamenu
++ Added new "Instant Search"
 
 FLAVORS: 
 + New gradients: agent, crystal-ice, goldenrod, lemon-mint, spring-meadow
