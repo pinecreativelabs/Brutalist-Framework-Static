@@ -94,11 +94,17 @@
 	<bicon alt="" cat="astrology">vesta</bicon>
 	
 	<!-- Currency -->
+	<bicon alt="" cat="currency">austral</bicon>
 	<bicon alt="" cat="currency">bitcoin</bicon>
 	<bicon alt="" cat="currency">euro</bicon>
+	<bicon alt="" cat="currency">euro-currency</bicon>
+	<bicon alt="" cat="currency">franc</bicon>
 	<bicon alt="" cat="currency">kip</bicon>
 	<bicon alt="" cat="currency">lira</bicon>
+	<bicon alt="" cat="currency">naira</bicon>
+	<bicon alt="" cat="currency">nordic-mark</bicon>
 	<bicon alt="" cat="currency">peso</bicon>
+	<bicon alt="" cat="currency">rupee</bicon>
 	<bicon alt="" cat="currency">won</bicon>
 
 	<!-- Danger Zone -->

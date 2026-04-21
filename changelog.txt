@@ -3,10 +3,15 @@ Version 2.7
 
 GENERAL:
 + animated-backgrounds.css added to core/css/bfx directory
++ Updated top-corner navigation menu panel
++ New 'Boilerplates' page
 
 BFX: 
 + New "color-shift" animated background
 + New "spazz" animation glitch effect
+
+BICONS:
++ 6 new currency icons: austral, euro-currency, franc, naira, nordic-mark, rupee 
 
 BUFF:
 + 4 new basic filters: deep-sea, dreamy, vibrant, vintage
@@ -16,4 +21,4 @@ BUIX:
 + Added new "Instant Search"
 
 FLAVORS: 
-+ New gradients: agent, crystal-ice, goldenrod, lemon-mint, spring-meadow
++ 5 new gradients: agent, crystal-ice, goldenrod, lemon-mint, spring-meadow
