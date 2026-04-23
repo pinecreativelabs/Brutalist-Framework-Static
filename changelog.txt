@@ -21,7 +21,7 @@ BUIX:
 + Added new "Instant Search"
 
 BUTCH:
-+ New custom fonts: Mupen, Riosark
++ New custom fonts: lewatur, mupen, riosark
 
 FLAVORS: 
 + 5 new gradients: agent, crystal-ice, goldenrod, lemon-mint, spring-meadow

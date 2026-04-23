@@ -1,6 +1,5 @@
-.riosark strong, .riosark b, .riosark.heavy, .riosark.bold,
-strong .riosark, b .riosark {
-    font-family: 'Riosark';
+@font-face {
+    font-family: 'Riosark Regular';
     src: url('Riosark-Regular.eot');
     src: url('Riosark-Regular.eot?#iefix') format('embedded-opentype'),
         url('Riosark-Regular.woff2') format('woff2'),
@@ -9,8 +8,8 @@ strong .riosark, b .riosark {
     font-style: normal;
     font-display: swap;
 }
-.riosark {
-    font-family: 'Riosark';
+@font-face {
+    font-family: 'Riosark Light';
     src: url('Riosark-Light.eot');
     src: url('Riosark-Light.eot?#iefix') format('embedded-opentype'),
         url('Riosark-Light.woff2') format('woff2'),
@@ -19,3 +18,6 @@ strong .riosark, b .riosark {
     font-style: normal;
     font-display: swap;
 }
+.riosark {font-family: 'Riosark Light';}
+.riosark strong, .riosark b, .riosark.heavy, .riosark.bold,
+strong .riosark, b .riosark {font-family: 'Riosark Regular';}

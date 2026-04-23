@@ -1,4 +1,4 @@
-.mupen {
+@font-face {
     font-family: 'Mupen';
     src: url('Mupen.eot');
     src: url('Mupen.eot?#iefix') format('embedded-opentype'),
@@ -8,4 +8,4 @@
     font-style: normal;
     font-display: swap;
 }
-
+.mupen {font-family: 'Mupen';}
