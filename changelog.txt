@@ -20,5 +20,8 @@ BUIX:
 + Re-added Megamenu
 + Added new "Instant Search"
 
+BUTCH:
++ New custom fonts: Mupen, Riosark
+
 FLAVORS: 
 + 5 new gradients: agent, crystal-ice, goldenrod, lemon-mint, spring-meadow
