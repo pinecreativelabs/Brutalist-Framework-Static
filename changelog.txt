@@ -21,7 +21,7 @@ BUIX:
 + Added new "Instant Search"
 
 BUTCH:
-+ New custom fonts: biorhyme, lewatur, mupen, riosark
++ 4 new custom fonts: biorhyme, lewatur, mupen, riosark
 
 FLAVORS: 
 + 5 new gradients: agent, crystal-ice, goldenrod, lemon-mint, spring-meadow
