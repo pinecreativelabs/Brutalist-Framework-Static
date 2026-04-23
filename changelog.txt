@@ -4,7 +4,7 @@ Version 2.7
 GENERAL:
 + animated-backgrounds.css added to core/css/bfx directory
 + Updated top-corner navigation menu panel
-+ New 'Boilerplates' page
++ Re-introduction of Boilerplates
 
 BFX: 
 + New "color-shift" animated background
