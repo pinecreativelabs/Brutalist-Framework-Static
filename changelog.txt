@@ -22,6 +22,7 @@ BUIX:
 
 BUTCH:
 + 4 new custom fonts: biorhyme, lewatur, mupen, riosark
++ Added Bar Graphs under 'Tables & Media'
 
 FLAVORS: 
 + 5 new gradients: agent, crystal-ice, goldenrod, lemon-mint, spring-meadow
