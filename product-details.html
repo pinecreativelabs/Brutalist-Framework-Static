@@ -12,10 +12,14 @@
 	
 	<style>
 	header h1, header h2 {padding: 0; margin: 0;}
+	.menu>ul>li>a:hover {text-decoration: none; font-weight: 900;}
+	.menu>ul>li>a .badge {background: #333; color: #eee;}
 	.price-tag {
 		display: inline-block; margin: 1em 0 1em 0;
-		font-size: 2.25rem;
+		padding: 0.75rem; -webkit-border-radius: 0.75rem;
+		border-radius: 0.75rem;
 	}
+	.model-no {font-size: 1.25rem;}
 	</style>
 	
 </head>
@@ -25,15 +29,7 @@
 	<div class="menu">
 		<ul>
 			<li><a href="#">Home</a></li>
-			<li><a href="#">Dropdown</a>
-				<ul>
-					<li><a href="#">Page 1</a></li>
-					<li><a href="#">Page 2</a></li>
-					<li><a href="#">Page 3</a></li>
-					<li><a href="#">Page 4</a></li>
-				</ul>
-			</li>
-			<li><a href="#">Multi-Columns</a>
+			<li><a href="#"><i class="bi bi-down"></i> Categories</a>
 				<ul>
 					<li><a href="#">Category 1</a>
 						<ul>
@@ -65,7 +61,14 @@
 					</li>
 				</ul>
 			</li>
-			<li><a href="#">Single Page</a></li>
+			<li><a href="#"><i class="bi bi-down"></i> My Stuff</a>
+				<ul>
+					<li><a href="#">View Orders</a></li>
+					<li><a href="#">Edit Account</a></li>
+					<li><a href="#">Rewards</a></li>
+				</ul>
+			</li>
+			<li><a href="#view-cart" data-modal-open><i class="bi bi-cart"></i> Cart <span class="badge">2</span></a></li>
 		</ul>
 	</div>
 </div>
@@ -84,16 +87,52 @@
 				<h2 class="flow-text">A Product Details Boilerplate</h2>
 				<p class="model-no"><strong>Model #22-4-1985</strong></p>
 			</div>
-			<p class="price-tag smoke fossil-t fluid-text"><span>$</span>27,000,000,000</p>
+			<p class="price-tag smoke fossil-t fluid-text"><span>$</span>27,000,000,000.95</p>
 		</div>
 	</header>
 	<!-- page body -->
-	<div class="block-wrap bh100">
-		<div class="block bw33 xs-100 sm-100">
-		
-		</div>
+	<div class="block-wrap bh100 padded">
 		<div class="block bw67 xs-100 sm-100">
-		
+			<div class="tabs">
+				<!-- General Description Tab -->
+				<input type="radio" name="details" checked="checked" id="desc">
+				<label for="desc">Description</label>
+				<div class="tab">
+					<h4 class="flow-text">Tab Group #2</h4>
+					<p>This is the 2nd set of tabs on this page. Below is a 2-column justified paragraph:</p>
+				</div>
+				
+				<!-- Showcase Gallery Tab -->
+				<input type="radio" name="details" id="showcase">
+				<label for="showcase">Showcase</label>
+				<div class="tab">
+					<p>Users who bought this item also bought:</p>
+				</div>
+				
+				<!-- Technical Specifications Tab -->
+				<input type="radio" name="details" id="specs">
+				<label for="specs">Specifications</label>
+				<div class="tab">
+					<h4 class="flow-text">Customized Tabs</h4>
+					<p>When applying custom CSS to a specific group of tabs, specify styles according to their group name:</p>
+				</div>
+				
+				<!-- Related Products Tab -->
+				<input type="radio" name="details" id="related">
+				<label for="related">Related Products</label>
+				<div class="tab">
+					<p>Users who bought this item also bought:</p>
+				</div>
+			</div>
+		</div>
+		<!-- Add to Cart Form Block -->
+		<div class="block bw33 xs-100 sm-100 padded">
+			<form name="orderform" action="" method="post">
+				<div class="form-group">
+					<label class="heavy">Quantity</label>
+					<input type="number" name="quantity" min="1" max="50" value="1">
+				</div>
+			</form>
 		</div>
 	</div>
 	
@@ -133,5 +172,6 @@
 <!-- jQuery Plugins -->
 <script src="core/jab/jquery.3.js"></script>
 <script src="core/jab/plugins/megamenu.js" type="text/javascript"></script>
+<script src="core/jab/plugins/presenter.js" type="text/javascript"></script>
 </body>
 </html>
