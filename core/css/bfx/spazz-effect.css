@@ -1,15 +1,15 @@
 /* SPAZZ Glitch Effect */
-.spazz {
+.spazz, .spazz-h:hover {
 	background-color: black; overflow: hidden !important;
 	background-blend-mode: multiply;
 	-webkit-animation: spazz 8s steps(1) infinite;
     animation: spazz 8s steps(1) infinite;
 }
-.spazz.sluggish{
+.spazz.sluggish, .spazz-h:hover.sluggish{
 	-webkit-animation-duration: 16s;
 	animation-duration: 16s;
 }
-.spazz.speedy{
+.spazz.speedy, .spazz-h:hover.speedy{
 	-webkit-animation-duration: 4s;
 	animation-duration: 4s;
 }
