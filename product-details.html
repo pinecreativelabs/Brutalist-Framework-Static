@@ -20,6 +20,8 @@
 		border-radius: 0.75rem;
 	}
 	.model-no {font-size: 1.25rem;}
+	.modal-content .tiles li {border-bottom: 1px solid #333;}
+	.modal-content .tiles li a img {margin-right: 6px !important;}
 	</style>
 	
 </head>
@@ -91,7 +93,7 @@
 		</div>
 	</header>
 	<!-- page body -->
-	<div class="block-wrap bh100 padded">
+	<div class="block-wrap padded">
 		<div class="block bw67 xs-100 sm-100 md-100">
 			<div class="tabs">
 				<!-- General Description Tab -->
@@ -123,10 +125,13 @@
 						<a href="#" class="slide-prev charcoal smoke-t">&laquo;</a>
 						<div class="slides">
 							<div class="slide padded center">
-								<img src="app/files/images/dune.jpg" alt="pain" style="height: 100%; height: auto;" />
+								<img src="app/files/images/dune.jpg" alt="dune-code" style="height: 100%; height: auto;" />
 							</div>
 							<div class="slide padded center">
-								<img src="app/files/images/edgespace.jpg" alt="pain" style="height: 100%; height: auto;" />
+								<img src="app/files/images/cubik-modular.jpg" alt="module-crete" style="height: 100%; height: auto;" />
+							</div>
+							<div class="slide padded center">
+								<img src="app/files/images/edgespace.jpg" alt="edge-space" style="height: 100%; height: auto;" />
 							</div>
 						</div>
 						<a href="#" class="slide-next charcoal smoke-t">&raquo;</a>
@@ -217,11 +222,6 @@
 			</form>
 		</div>
 	</div>
-	
-
-
-	<p class="spacer"></p>
-	<p class="center flow-text padded lucida"><a href="#vanilla" data-modal-open class="btn rounded large-btn box-s pool-party hue-h">Vanilla MODAL</a></p>
 	<p class="spacer"></p>
 </div>
 
@@ -231,11 +231,21 @@
 
 
 <!-- Vanilla Modal -->
-<div id="vanilla" style="display:none;">
-	<div class="wrap-960 info padded" style="max-width: 468px;">
-		<h4 class="flow-text lucida"><i class="bi bi-cone bi-4x"></i> <strong>Vanilla Modal</strong></h4>
+<div id="view-cart" style="display:none;">
+	<div class="wrap-960 smoke rounded padded bitstream charcoal-t" style="width: 90vw; height: 90vh; max-width: 600px;">
+		<h4 class="flow-text center"><i class="bi bi-cart bi-2x greyscale charcoal-t-s"></i> <strong>My Cart</strong></h4>
 		<hr class="charlie" />
-		<p class="flow-text bitstream">I am a simple draggable vanilla modal that requires <em>buix.js</em> to function.</p>
+		<ul class="tiles full">
+			<li><a href="#">
+				<img src="app/files/images/blinker-fluid.jpg" alt="blinker-fluid" class="tiny-thumb crop left"/>
+				<strong>Blinker Fluid</strong><br />$995.95
+			</a></li>
+			<li><a href="#">
+				<img src="app/files/images/cubik-modular.jpg" alt="blinker-fluid" class="tiny-thumb crop left"/>
+				<strong>Brut Module Pack</strong><br />$99,985.85
+			</a></li>
+		</ul>
+		<p class="right-align padded"><a href="order-form.html" class="nb-btn">Checkout &raquo;</a></p>
 	</div>
 </div>
 <!-- Initiate and display modal itself -->
@@ -249,7 +259,6 @@
 
 <!-- Vanilla Javascript -->
 <script src="core/jab/buix/modal.js"></script>
-<script src="core/jab/bfx/baffle.js"></script>
 
 <!-- jQuery Plugins -->
 <script src="core/jab/jquery.3.js"></script>
