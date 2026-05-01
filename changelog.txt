@@ -2,6 +2,7 @@ Brutalist Framework Changelog
 Version 2.7
 
 GENERAL:
++ Added jQuery 4.0.0 to JAB
 + animated-backgrounds.css added to core/css/bfx directory
 + Updated top-corner navigation menu panel
 + Re-introduction of Boilerplates

@@ -177,13 +177,14 @@
 					<div class="tab red-b b-s-t monochrome">
 						<h3 class="flow-text">Javascript Application Base (<em>JAB</em>)</h3>
 						<p>All javascript files are found in the <span class="terminal"><em>core/jab/</em></span> directory. Some are vanilla javascript, while others are jQuery plugins. Certain BFX, BUIX, and FUX elements require javascript files.</p>
-						<p class="indent">If you are using jQuery, BF includes all 3 versions of jQuery in the <span class="terminal"><em>core/jab/</em></span> directory:</p>
+						<p class="indent">If you are using jQuery, BF includes all 4 versions of jQuery in the <span class="terminal"><em>core/jab/</em></span> directory:</p>
 						<ul class="grey-t triangle">
 							<li>core/jab/jquery.1.js</li>
 							<li>core/jab/jquery.2.js</li>
 							<li class="black-t">core/jab/jquery.3.js</li>
+							<li>core/jab/jquery.4.js</li>
 						</ul>
-						<p>It's advised to use jQuery 3, as versions 1 and 2 are no longer supported. Certain core BF elements don't work with jQuery 1 and 2.</p>
+						<p><strong>NOTE:</strong> Certain core elements don't work with jQuery 1 and 2, so version 3 is the recommended version to use.  Version 4 has NOT been tested.</p>
 					</div>
 					
 					<!-- TAB 4 -->
@@ -192,6 +193,7 @@
 					<div class="tab red-b b-s-t glassmorph">
 						<h4 class="courier red-t white-t-s bold">What's New in 2.7?</h4>
 						<p>GENERAL:<br />
+						+ Added jQuery 4.0.0 to JAB<br />
 						+ animated-backgrounds.css added to core/css/bfx directory<br />
 						+ Updated top-corner navigation menu panel<br />
 						+ Re-introduction of Boilerplates<br /><br />
