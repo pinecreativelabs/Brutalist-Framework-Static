@@ -70,7 +70,7 @@
 					<li><a href="#">Rewards</a></li>
 				</ul>
 			</li>
-			<li><a href="#view-cart" data-modal-open><i class="bi bi-cart"></i> Cart <span class="badge">2</span></a></li>
+			<li><a href="#view-cart" data-modal-open><i class="bi bi-cart"></i> Cart <span class="badge total-count">2</span></a></li>
 		</ul>
 	</div>
 </div>
@@ -230,7 +230,7 @@
 </footer>
 
 
-<!-- Vanilla Modal -->
+<!-- View Cart Modal -->
 <div id="view-cart" style="display:none;">
 	<div class="wrap-960 smoke rounded padded bitstream charcoal-t" style="width: 90vw; height: 90vh; max-width: 600px;">
 		<h4 class="flow-text center"><i class="bi bi-cart bi-2x greyscale charcoal-t-s"></i> <strong>My Cart</strong></h4>
@@ -248,6 +248,23 @@
 		<p class="right-align padded"><a href="order-form.html" class="nb-btn">Checkout &raquo;</a></p>
 	</div>
 </div>
+
+<!--
+<div id="my-cart" style="display:none;">
+	<div class="clean azure-b b-s-k padded rounded" style="width: 80vw; height: 80vh; max-width: 600px;">
+		<h3 class="flow-text azure ivory-t padded rounded">My Cart</h3>
+		<table class="show-cart">
+        
+        </table>
+        <div class="grand-total">Total: $<span class="total-cart"></span></div>
+		<p class="right-align padded">
+			<button style="margin: 0 8px 0 0;" class="clear-cart nb-btn-small sharp">Clear Cart</button>
+			<a href="order-form.html" class="nb-btn">Checkout &raquo;</a>
+		</p>
+	</div>
+</div>
+-->
+
 <!-- Initiate and display modal itself -->
 <div class="modal">
 	<div class="modal-inner draggable"><!-- Remove "draggable" class to prevent modals from being moveable -->
@@ -262,6 +279,7 @@
 
 <!-- jQuery Plugins -->
 <script src="core/jab/jquery.3.js"></script>
+<!--<script  src="core/jab/plugins/b-cart.js"></script>-->
 <script src="core/jab/plugins/megamenu.js" type="text/javascript"></script>
 <script src="core/jab/plugins/presenter.js" type="text/javascript"></script>
 </body>

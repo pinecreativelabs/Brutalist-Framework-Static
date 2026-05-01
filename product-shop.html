@@ -22,11 +22,21 @@
 	.model-no {font-size: 1.25rem;}
 	.modal-content .tiles li {border-bottom: 1px solid #333;}
 	.modal-content .tiles li a img {margin-right: 6px !important;}
+	.modal-content .grand-total {
+		margin-top: 0.5rem;
+		border-top: 2px solid #333;
+		font-size: 1.5rem; font-weight: 900;
+	}
+	.modal-content .show-cart input[type=number] {
+		max-width: 90px; font-size: 1.25rem; font-weight: 600;
+	}
 	.product {padding: 0.75em;
 		background: #fffff0;
 		-webkit-border-radius: 0.5em; border-radius: 0.5em;
 	}
 	.product a img {width: 100%; height: 220px; object-fit:cover;}
+	.product h4 {padding: 0; margin: 0;}
+	.product p {margin: 0.75rem 0 0.75rem 0;}
 	</style>
 </head>
 <body class="carbon-black">
@@ -86,6 +96,7 @@
 			<div class="product">
 				<a href="#"><img src="app/files/images/brut-thumbdrive.jpg" alt="Brut Thumbdrive" /></a>
 				<h4 class="flow-text">Brut Thumbdrive</h4>
+				<p><strong>$185.15</strong></p>
 				<button type="button" data-name="Brut Thumbdrive" data-price="185.15" class="nb-btn add-to-cart">Add to cart</button>
 			</div>
 		</div>
@@ -93,6 +104,7 @@
 			<div class="product">
 				<a href="#"><img src="app/files/images/brut-watch.jpg" alt="Brut Watch" /></a>
 				<h4 class="flow-text">Brut Watch</h4>
+				<p><strong>$422.85</strong></p>
 				<button type="button" data-name="Brut Watch" data-price="422.85" class="nb-btn add-to-cart">Add to cart</button>
 			</div>
 		</div>
@@ -100,6 +112,7 @@
 			<div class="product">
 				<a href="#"><img src="app/files/images/blinker-fluid.jpg" alt="Blinker Fluid" /></a>
 				<h4 class="flow-text">Blinker Fluid</h4>
+				<p><strong>$19.85</strong></p>
 				<button type="button" data-name="Blinker Fluid" data-price="19.85" class="nb-btn add-to-cart">Add to cart</button>
 			</div>
 		</div>
@@ -107,6 +120,7 @@
 			<div class="product">
 				<a href="#"><img src="app/files/images/brut-floppy.jpg" alt="Brut Floppy" /></a>
 				<h4 class="flow-text">Brut Floppy</h4>
+				<p><strong>$44.85</strong></p>
 				<button type="button" data-name="Brut Floppy" data-price="44.85" class="nb-btn add-to-cart">Add to cart</button>
 			</div>
 		</div>
@@ -114,6 +128,7 @@
 			<div class="product">
 				<a href="#"><img src="app/files/images/cubik-modular.jpg" alt="Cubik Modules" /></a>
 				<h4 class="flow-text">Cubik Modules</h4>
+				<p><strong>$789</strong></p>
 				<button type="button" data-name="Cubik Modules" data-price="789" class="nb-btn add-to-cart">Add to cart</button>
 			</div>
 		</div>
@@ -121,6 +136,7 @@
 			<div class="product">
 				<a href="#"><img src="app/files/images/brut-terminal.jpg" alt="Brut Terminal" /></a>
 				<h4 class="flow-text">Brut Terminal</h4>
+				<p><strong>$27,000,000</strong></p>
 				<button type="button" data-name="Cubik Modules" data-price="27000000" class="nb-btn add-to-cart">Add to cart</button>
 			</div>
 		</div>
@@ -128,10 +144,20 @@
 			<div class="product">
 				<a href="#"><img src="app/files/images/brut-loud-speaker.jpg" alt="Brut Loud Speaker" /></a>
 				<h4 class="flow-text">Brut Loud Speaker</h4>
+				<p><strong>$33.15</strong></p>
 				<button type="button" data-name="Brut Loud Speaker" data-price="33.15" class="nb-btn add-to-cart">Add to cart</button>
 			</div>
 		</div>
+		<div class="block bw25 xs-100 sm-100 md-50 padded">
+			<div class="product">
+				<a href="#"><img src="app/files/images/vintage-brut-tv.jpg" alt="Vintage Brut TV" /></a>
+				<h4 class="flow-text">Vintage Brut TV</h4>
+				<p><strong>$420.85</strong></p>
+				<button type="button" data-name="Vintage Brut TV" data-price="420.85" class="nb-btn add-to-cart">Add to cart</button>
+			</div>
+		</div>
 	</div>
+	<p class="spacer"></p>
 </div>
 <footer class="padded center bitstream disabled">
 	<p><a href="https://www.brutalistframework.com" target="_blank">Brutalist Framework</a> &copy; 2026</p>
@@ -139,12 +165,16 @@
    
 <!-- My Cart Modal -->
 <div id="my-cart" style="display:none;">
-	<div class="blueprint padded rounded" style="width: 80vw; height: 80vw; max-width: 600px;">
+	<div class="clean azure-b b-s-k padded rounded" style="width: 80vw; height: 80vh; max-width: 600px;">
+		<h3 class="flow-text azure ivory-t padded rounded">My Cart</h3>
 		<table class="show-cart">
         
         </table>
         <div class="grand-total">Total: $<span class="total-cart"></span></div>
-		<p class="center"><button style="margin-left:8px;" class="clear-cart nb-btn-small sharp">Clear Cart</button></p>
+		<p class="right-align padded">
+			<button style="margin: 0 8px 0 0;" class="clear-cart nb-btn-small sharp">Clear Cart</button>
+			<a href="order-form.html" class="nb-btn">Checkout &raquo;</a>
+		</p>
 	</div>
 </div>
 

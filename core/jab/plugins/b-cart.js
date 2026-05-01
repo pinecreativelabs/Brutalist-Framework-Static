@@ -135,11 +135,10 @@ function displayCart() {
     var output = "";
     for (var i in cartArray) {
       output += "<tr>"
-        + "<td>" + cartArray[i].name + "</td>"
-        + "<td>(" + cartArray[i].price + ")</td>"
-        + "<td><div class='input-group'>"
+        + "<td>" + cartArray[i].name + "&nbsp;<small>(" + cartArray[i].price +")</small></td>"
+        + "<td>"
         + "<input type='number' class='item-count form-control' data-name='" + cartArray[i].name + "' value='" + cartArray[i].count + "'>"
-        + "</div></td>"
+        + "</td>"
         + "<td><button class='delete-item btn btn-danger' data-name='" + cartArray[i].name + "'>X</button></td>"
         + " = "
         + "<td>" + cartArray[i].total + "</td>"
