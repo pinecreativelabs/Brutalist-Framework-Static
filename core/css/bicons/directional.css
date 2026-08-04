@@ -1,0 +1,53 @@
+/* Directional bIcons */
+.bi-converge-right::before{content:"\269E";}
+.bi-converge-left::before{content:"\269F";}
+.bi-left::before{content:"\2794";-webkit-transform: scaleX(-1); transform: scaleX(-1);}
+.bi-right::before{content:"\2794";}
+.bi-up::before{content:"\25B4";}
+.bi-down::before{content:"\25BE";}
+.bi-charrow::before{content:"\27B2";}
+.bi-farrow::before{content:"\27A0";}
+.bi-point-left::before{content:"\261A";}
+.bi-point-right::before{content:"\261B";}
+.bi-two-way::before{content:"\26D6";}
+.bi-two-way-o::before{content:"\26D7";}
+.bi-down-right::before{content:"\27A5";}
+.bi-up-right::before{content:"\27A6";}
+.bi-next::before{content:"\2771";}
+.bi-prev::before{content:"\2770";}
+.bi-warrow-left::before{content:"\219C";}
+.bi-warrow-right::before{content:"\219D";}
+
+/* directional ui */
+.bi-download::before{content:"\1F4E5";}
+.bi-upload::before{content:"\1F4E4";}
+.bi-increase::before{content:"\1F53C";}
+.bi-decrease::before{content:"\1F53D";}
+.bi-top::before{content:"\1F51D";}
+.bi-back::before{content:"\1F519";}
+.bi-migrate::before{content:"\21B9";}
+.bi-pull-left::before{content:"\219A";}
+.bi-push-right::before{content:"\219B";}
+.bi-scale-up::before,.bi-expand::before{content:"\21F1";-webkit-transform: scaleX(-1); transform: scaleX(-1);}
+.bi-scale-down::before,.bi-condense::before{content:"\21F2";}
+.bi-undo::before{content:"\21B6";}
+.bi-redo::before{content:"\21B7";}
+.bi-up-down::before{content:"\21F3";}
+.bi-zoom-left::before{content:"\1F50D";}
+.bi-zoom-right::before{content:"\1F50E";}
+
+/* shapes */
+.bi-cusp::before{content:"\2BCE";}
+.bi-ellipse::before{content:"\2B2E";}
+.bi-ellipse-o::before{content:"\2B2F";}
+.bi-hexagon-o::before{content:"\2B21";}
+.bi-hexagon::before{content:"\2B22";}
+.bi-intersect::before{content:"\2BD0";}
+.bi-pentagon::before{content:"\2B1F";}
+.bi-pentagon-o::before{content:"\2B20";}
+.bi-saltire::before{content:"\2B59";}
+.bi-segments::before{content:"\2BBC";}
+.bi-segments-o::before{content:"\2BBA";}
+.bi-segments-overlap::before{content:"\2BBB";}
+.bi-target-round::before{content:"\1F78B";}
+.bi-target-square::before{content:"\1F796";}

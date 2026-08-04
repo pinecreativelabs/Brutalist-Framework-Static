@@ -46,6 +46,14 @@ Load Defaults (REQUIRED) */
 
 /* bIcons */
 @import url('bicons.css');
+@import url('bicons/directional.css');
+@import url('bicons/emoticons.css');
+@import url('bicons/food-drink.css');
+@import url('bicons/misc-symbols.css');
+@import url('bicons/nature-zoo.css');
+@import url('bicons/objects-places.css');
+@import url('bicons/sports-rec.css');
+@import url('bicons/uiux.css');
 
 /* Filetype Icons */
 @import url('filetypes.css');

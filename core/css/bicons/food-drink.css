@@ -1,0 +1,67 @@
+/* Food & Drink */
+.bi-apple::before{content:"\1F34E";}
+.bi-avocado::before{content:"\1F951";}
+.bi-bacon::before{content:"\1F953";}
+.bi-baguette::before{content:"\1F956";}
+.bi-banana::before{content:"\1F34C";}
+.bi-beer::before{content:"\1F37A";}
+.bi-bento-box::before{content:"\1F371";}
+.bi-bread::before{content:"\1F35E";}
+.bi-broccoli::before{content:"\1F966";}
+.bi-burger::before, .bi-hamburger::before{content:"\1F354";}
+.bi-burrito::before{content:"\1F32F";}
+.bi-butter::before{content:"\1F9C8";}
+.bi-carrot::before{content:"\1F955";}
+.bi-cheese::before{content:"\1F9C0";}
+.bi-cherry::before{content:"\1F352";}
+.bi-coconut::before{content:"\1F965";}
+.bi-coffee::before, .bi-covfefe::before { content: "\2615";}
+.bi-cone::before{content:"\1F366";}
+.bi-corn::before{content:"\1F33D";}
+.bi-cookie::before{content:"\1F36A";}
+.bi-croissant::before{content:"\1F950";}
+.bi-cupcake::before{content:"\1F9C1";}
+.bi-custard::before{content:"\1F36E";}
+.bi-donut::before{content:"\1F369";}
+.bi-drink::before{content:"\1F964";}
+.bi-drumstick::before{content:"\1F357";}
+.bi-fortune-cookie::before{content:"\1F960";}
+.bi-french-fry::before, .bi-french-fries::before{content:"\1F35F";}
+.bi-garlic::before{content:"\1F9C4";}
+.bi-grape::before,.bi-grapes::before{content:"\1F347";}
+.bi-honey::before{content:"\1F36F";}
+.bi-hotdog::before{content:"\1F32D";}
+.bi-ice::before{content:"\1F9CA";}
+.bi-ice-cream::before{content:"\1F368";}
+.bi-juice-box::before{content:"\1F9C3";}
+.bi-kiwi::before{content:"\1F95D";}
+.bi-lemon::before{content:"\1F34B";}
+.bi-lolipop::before{content:"\1F36D";}
+.bi-mango::before{content:"\1F96D";}
+.bi-martini::before{content:"\1F378";}
+.bi-mushroom::before{content:"\1F344";}
+.bi-onion::before{content:"\1F9C5";}
+.bi-orange::before{content:"\1F34A";}
+.bi-pancake::before,.bi-pancakes::before{content:"\1F95E";}
+.bi-peanut::before, .bi-peanuts::before{content:"\1F95C";}
+.bi-pear::before{content:"\1F350";}
+.bi-pickle::before{content:"\1F952";}
+.bi-pie::before{content:"\1F967";}
+.bi-pineapple::before{content:"\1F34D";}
+.bi-pizza::before{content:"\1F355";}
+.bi-potato::before{content:"\1F954";}
+.bi-pretzel::before{content:"\1F968";}
+.bi-salad::before{content:"\1F957";}
+.bi-sandwich::before,.bi-sammich::before {content:"\1F96A";}
+.bi-salt::before{content:"\1F9C2";}
+.bi-shortcake::before{content:"\1F370";}
+.bi-spaghetti::before{content:"\1F35D";}
+.bi-steak::before{content:"\1F969";}
+.bi-strawberry::before{content:"\1F353";}
+.bi-sushi::before{content:"\1F363";}
+.bi-taco::before{content:"\1F32E";}
+.bi-tea::before,.bi-teacup::before{content: "\1F375";}
+.bi-tomato::before{content:"\1F345";}
+.bi-waffle::before{content:"\1F9C7";}
+.bi-watermelon::before{content:"\1F349";}
+.bi-wine::before{content:"\1F377";}
